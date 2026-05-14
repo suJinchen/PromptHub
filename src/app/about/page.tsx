@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 import { Card } from "@/components/ui/Card";
 import { getAllCategories } from "@/lib/categories";
@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { title: "高质量案例", description: "精选案例图片与提示词结构，方便快速判断风格和用途。", icon: "✦" },
+  { title: "高质量案例", description: "精选案例图片与提示词结构，方便快速判断风格和用途。", icon: "★" },
   { title: "中英双语提示词", description: "同时保留中文整理版本和 English Prompt，适合学习与复制。", icon: "文" },
-  { title: "分类搜索", description: "根据分类、标签和关键词快速找到合适的创作方向。", icon: "⌕" },
-  { title: "一键复制", description: "详情页支持复制中文提示词、English Prompt 和完整参数。", icon: "⧉" },
+  { title: "分类搜索", description: "根据分类、标签和关键词快速找到合适的创作方向。", icon: "搜" },
+  { title: "一键复制", description: "详情页支持复制中文提示词、English Prompt 和完整参数。", icon: "取" },
 ];
 
 export default function AboutPage() {
@@ -67,6 +67,14 @@ export default function AboutPage() {
           <p>本站部分提示词案例基于公开资料整理与二次编辑，仅用于学习、参考与灵感收集。如有版权或授权问题，请联系处理。</p>
           <p>PromptHub 当前不提供在线生图服务；收藏功能为本地浏览器体验，投稿与社区功能仍在规划中。</p>
         </div>
+      </Card>
+
+      <Card className="mt-5 p-7">
+        <h2 className="text-xl font-black text-zinc-950">内容来源与版权说明</h2>
+        <p className="mt-4 text-sm leading-7 text-gray-600">
+          PromptHub 当前部分提示词案例整理自公开开源项目与人工整理数据，主要用于 AI 图像提示词学习、检索和参考。部分案例来源于
+          EvoLinkAI/awesome-gpt-image-2-API-and-Prompts，并保留内部来源字段用于署名与追溯。如相关内容涉及版权或授权问题，请联系我们处理。
+        </p>
       </Card>
     </section>
   );

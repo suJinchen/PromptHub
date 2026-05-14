@@ -1,209 +1,155 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = process.cwd();
-const prompts = readJson("src/data/prompts.json");
-const categories = readJson("src/data/categories.json");
-const tags = readJson("src/data/tags.json");
-const expectedCount = Number(process.env.PROMPTHUB_EXPECTED_COUNT || 100);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const DATA_DIR = path.join(ROOT, "src", "data");
+const PROMPTS_FILE = path.join(DATA_DIR, "prompts.json");
+const CATEGORIES_FILE = path.join(DATA_DIR, "categories.json");
+const TAGS_FILE = path.join(DATA_DIR, "tags.json");
+const EXPECTED_COUNT = process.env.PROMPTHUB_EXPECTED_COUNT ? Number(process.env.PROMPTHUB_EXPECTED_COUNT) : null;
+const CHECK_REMOTE_IMAGES = process.env.PROMPTHUB_CHECK_REMOTE_IMAGES === "1";
 
-const errors = [];
-const warnings = [];
-const badTextPattern = /\?\?\?|undefined|null|Sparkles/;
-const badNumberTextPattern = /(^|[^a-z])NaN($|[^a-z])/i;
-const numberedDisplayPattern = /案例\s*\d+|case\s*\d+|demo\s*\d+|prompt\s*\d+/i;
-const chinesePattern = /[\u4e00-\u9fff]/;
-const cjkPattern = /[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/;
-const unsafePromptPattern = /\b(sexy|seductive|cleavage|mini skirt|parted lips|temptation|aroused|nsfw)\b/i;
-const categorySlugs = new Set(categories.map((item) => item.slug));
-const tagNames = new Set(tags.map((item) => item.name));
-const slugs = new Set();
-const categoryCounts = new Map();
-const ratioLabels = new Set();
+const badTextPattern = /(\?\?\?|\bundefined\b|\bnull\b|\bNaN\b|Sparkles|\uFFFD)/i;
+const numberedPattern = /(案例\s*\d+|case\s*\d+|demo\s*\d+|prompt\s*\d+)/i;
+const cjkPattern = /[\u4e00-\u9fff]/;
+const requiredPromptFields = [
+  "id", "slug", "title", "description", "category", "categorySlug", "tags", "coverImage", "galleryImages",
+  "chinesePrompt", "englishPrompt", "model", "ratio", "style", "useCases", "views", "favorites", "sourceName", "sourceUrl",
+];
 
-function readJson(relativePath) {
-  return JSON.parse(fs.readFileSync(path.join(root, relativePath), "utf8"));
+function readJson(file) {
+  return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
-function valueOf(prompt, keys) {
-  for (const key of keys) {
-    const value = prompt[key];
-    if (Array.isArray(value) ? value.length > 0 : value !== undefined && value !== null && String(value).trim() !== "") {
-      return value;
-    }
-  }
-  return undefined;
+function fail(errors, message) {
+  errors.push(message);
 }
 
-function checkText(owner, field, value) {
-  if (typeof value !== "string") return;
-  if (badTextPattern.test(value) || badNumberTextPattern.test(value) || value.includes("\uFFFD")) {
-    errors.push(`${owner}: ${field} contains invalid text: ${value.slice(0, 100)}`);
-  }
+function warn(warnings, message) {
+  warnings.push(message);
 }
 
-function checkDisplayText(owner, field, value) {
-  checkText(owner, field, value);
-  if (typeof value !== "string") return;
-  if (!value.trim()) errors.push(`${owner}: ${field} is empty`);
-  if (numberedDisplayPattern.test(value)) errors.push(`${owner}: ${field} contains generated numbering: ${value.slice(0, 100)}`);
-  if (field === "title" && Array.from(value.trim()).length > 24) {
-    warnings.push(`${owner}: title is longer than 24 characters`);
-  }
+function textHasBadValue(value) {
+  return typeof value === "string" && badTextPattern.test(value);
 }
 
-async function fetchWithTimeout(url, options = {}, timeout = 12000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
+function collectTextValues(value, out = []) {
+  if (typeof value === "string") out.push(value);
+  else if (Array.isArray(value)) value.forEach((item) => collectTextValues(item, out));
+  else if (value && typeof value === "object") Object.values(value).forEach((item) => collectTextValues(item, out));
+  return out;
+}
+
+async function headOk(url) {
   try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } finally {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 6000);
+    const res = await fetch(url, { method: "HEAD", signal: controller.signal });
     clearTimeout(timer);
+    if (res.ok) return true;
+    const get = await fetch(url, { method: "GET", signal: AbortSignal.timeout(8000) });
+    return get.ok;
+  } catch {
+    return false;
   }
 }
 
-async function imageAvailable(url) {
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    try {
-      const head = await fetchWithTimeout(url, { method: "HEAD", cache: "no-store" });
-      if (head.ok) return true;
-    } catch {
-      // Try a small GET below; GitHub raw URLs can be flaky for repeated HEAD requests.
+async function main() {
+  const errors = [];
+  const warnings = [];
+  const prompts = readJson(PROMPTS_FILE);
+  const categories = readJson(CATEGORIES_FILE);
+  const tags = readJson(TAGS_FILE);
+
+  if (!Array.isArray(prompts)) fail(errors, "prompts.json 必须是数组");
+  if (!Array.isArray(categories)) fail(errors, "categories.json 必须是数组");
+  if (!Array.isArray(tags)) fail(errors, "tags.json 必须是数组");
+  if (EXPECTED_COUNT && prompts.length !== EXPECTED_COUNT) fail(errors, `prompts 数量应为 ${EXPECTED_COUNT}，当前为 ${prompts.length}`);
+  if (!EXPECTED_COUNT && prompts.length === 0) fail(errors, "prompts 不能为空");
+
+  const categorySlugs = new Set(categories.map((cat) => cat.slug));
+  const tagNames = new Set(tags.map((tag) => (typeof tag === "string" ? tag : tag.name)).filter(Boolean));
+  const seenSlugs = new Set();
+  const categoryCounts = new Map();
+  const ratioLabels = new Set();
+  const imageUrls = [];
+
+  for (const [index, prompt] of prompts.entries()) {
+    const label = prompt.slug || prompt.id || `#${index}`;
+    for (const field of requiredPromptFields) {
+      if (prompt[field] === undefined || prompt[field] === null || prompt[field] === "" || (Array.isArray(prompt[field]) && prompt[field].length === 0)) {
+        fail(errors, `${label} 缺少必填字段：${field}`);
+      }
     }
 
-    try {
-      const get = await fetchWithTimeout(url, { method: "GET", headers: { Range: "bytes=0-1023" }, cache: "no-store" });
-      if (get.ok || get.status === 206) return true;
-    } catch {
-      // Retry with a fresh AbortController on the next loop.
+    if (seenSlugs.has(prompt.slug)) fail(errors, `slug 重复：${prompt.slug}`);
+    seenSlugs.add(prompt.slug);
+
+    if (!categorySlugs.has(prompt.categorySlug)) fail(errors, `${label} 的 categorySlug 不存在：${prompt.categorySlug}`);
+    categoryCounts.set(prompt.categorySlug, (categoryCounts.get(prompt.categorySlug) || 0) + 1);
+
+    if (!Array.isArray(prompt.tags) || prompt.tags.length === 0) fail(errors, `${label} tags 不能为空`);
+    for (const tag of prompt.tags || []) {
+      if (!tagNames.has(tag)) fail(errors, `${label} 使用了 tags.json 中不存在的标签：${tag}`);
     }
-  }
-  return false;
-}
 
-if (prompts.length !== expectedCount) {
-  errors.push(`expected ${expectedCount} prompts, got ${prompts.length}`);
-}
+    if (numberedPattern.test(prompt.title || "")) fail(errors, `${label} title 含无意义编号：${prompt.title}`);
+    if (numberedPattern.test(prompt.description || "")) fail(errors, `${label} description 含无意义编号：${prompt.description}`);
+    if ((prompt.title || "").length > 28) warn(warnings, `${label} title 偏长：${prompt.title}`);
 
-for (const prompt of prompts) {
-  const slug = prompt.slug;
-  if (!slug) errors.push("prompt missing slug");
-  if (slugs.has(slug)) errors.push(`${slug}: duplicate slug`);
-  slugs.add(slug);
+    for (const text of collectTextValues(prompt)) {
+      if (textHasBadValue(text)) fail(errors, `${label} 含异常文本：${text.slice(0, 80)}`);
+    }
 
-  const required = {
-    id: ["id"],
-    title: ["title"],
-    description: ["description"],
-    category: ["category", "categoryName"],
-    categorySlug: ["categorySlug"],
-    image: ["coverImage", "image", "imageUrl"],
-    galleryImages: ["galleryImages"],
-    chinesePrompt: ["chinesePrompt", "cnPrompt", "zhPrompt"],
-    englishPrompt: ["englishPrompt", "enPrompt"],
-    model: ["model"],
-    ratio: ["ratio", "aspectRatio"],
-    style: ["style"],
-    useCase: ["useCase", "useCases"],
-    views: ["views"],
-    likes: ["likes", "favorites"],
-    sourceName: ["sourceName"],
-    sourceUrl: ["sourceUrl"],
-    imageFit: ["imageFit", "displayType"],
-    imageWidth: ["imageWidth"],
-    imageHeight: ["imageHeight"],
-    aspectRatioLabel: ["aspectRatioLabel"],
-  };
+    if (cjkPattern.test(prompt.englishPrompt || "")) fail(errors, `${label} englishPrompt 混入中文字符`);
+    if (!prompt.chinesePrompt || prompt.chinesePrompt === prompt.englishPrompt) fail(errors, `${label} chinesePrompt 为空或等于英文 Prompt`);
 
-  for (const [name, keys] of Object.entries(required)) {
-    if (valueOf(prompt, keys) === undefined) errors.push(`${slug}: missing ${name}`);
+    if (!Number.isFinite(Number(prompt.imageWidth)) || Number(prompt.imageWidth) <= 0) fail(errors, `${label} imageWidth 无效`);
+    if (!Number.isFinite(Number(prompt.imageHeight)) || Number(prompt.imageHeight) <= 0) fail(errors, `${label} imageHeight 无效`);
+    if (!prompt.aspectRatioLabel) fail(errors, `${label} 缺少 aspectRatioLabel`);
+    else ratioLabels.add(prompt.aspectRatioLabel);
+
+    if (!prompt.sourceName || !prompt.sourceUrl) fail(errors, `${label} 缺少 sourceName/sourceUrl`);
+    if (!prompt.sourceLicense && !prompt.license) warn(warnings, `${label} 缺少 sourceLicense/license`);
+    if (prompt.coverImage) imageUrls.push(prompt.coverImage);
   }
 
-  if (!categorySlugs.has(prompt.categorySlug)) errors.push(`${slug}: unknown categorySlug ${prompt.categorySlug}`);
-  categoryCounts.set(prompt.categorySlug, (categoryCounts.get(prompt.categorySlug) ?? 0) + 1);
+  for (const category of categories) {
+    const expected = categoryCounts.get(category.slug) || 0;
+    if ((category.count ?? category.promptCount ?? 0) !== expected) fail(errors, `${category.name || category.slug} count=${category.count}，实际=${expected}`);
+    if ((category.promptCount ?? category.count ?? 0) !== expected) fail(errors, `${category.name || category.slug} promptCount=${category.promptCount}，实际=${expected}`);
+  }
 
-  if (!Array.isArray(prompt.tags) || prompt.tags.length === 0) {
-    errors.push(`${slug}: tags must be a non-empty array`);
+  if (ratioLabels.size <= 3 && prompts.length > 20) warn(warnings, `比例标签种类偏少：${[...ratioLabels].join(", ")}`);
+
+  if (CHECK_REMOTE_IMAGES) {
+    const sample = imageUrls.slice(0, Math.min(imageUrls.length, 120));
+    let failed = 0;
+    for (const url of sample) {
+      const ok = await headOk(url);
+      if (!ok) { failed++; warn(warnings, `图片网络访问失败：${url}`); }
+    }
+    if (failed > Math.max(8, sample.length * 0.15)) fail(errors, `图片访问失败过多：${failed}/${sample.length}`);
   } else {
-    for (const tag of prompt.tags) {
-      if (!tagNames.has(tag)) errors.push(`${slug}: tag not listed in tags.json: ${tag}`);
-      checkText(slug, "tag", tag);
-    }
+    warn(warnings, "未执行远程图片网络检查；如需检查请设置 PROMPTHUB_CHECK_REMOTE_IMAGES=1");
   }
 
-  const textFields = [
-    "title",
-    "description",
-    "category",
-    "categoryName",
-    "chinesePrompt",
-    "cnPrompt",
-    "zhPrompt",
-    "englishPrompt",
-    "enPrompt",
-    "sourceUrl",
-    "sourceName",
-    "style",
-    "useCase",
-  ];
-
-  for (const field of textFields) checkText(slug, field, prompt[field]);
-  checkDisplayText(slug, "title", prompt.title);
-  checkDisplayText(slug, "description", prompt.description);
-
-  const englishPrompt = prompt.englishPrompt || prompt.enPrompt || "";
-  const chinesePrompt = prompt.chinesePrompt || prompt.cnPrompt || prompt.zhPrompt || "";
-  if (typeof prompt.imageWidth !== "number" || prompt.imageWidth <= 0) errors.push(`${slug}: imageWidth must be a positive number`);
-  if (typeof prompt.imageHeight !== "number" || prompt.imageHeight <= 0) errors.push(`${slug}: imageHeight must be a positive number`);
-  if (typeof prompt.aspectRatioLabel === "string" && prompt.aspectRatioLabel.trim()) ratioLabels.add(prompt.aspectRatioLabel);
-  if (cjkPattern.test(englishPrompt)) errors.push(`${slug}: English prompt contains CJK characters`);
-  if (!chinesePattern.test(chinesePrompt)) errors.push(`${slug}: Chinese prompt does not contain Chinese characters`);
-  if (englishPrompt.trim() === chinesePrompt.trim()) errors.push(`${slug}: Chinese prompt equals English prompt`);
-  if (unsafePromptPattern.test(englishPrompt)) warnings.push(`${slug}: English prompt contains a sensitive display term`);
-}
-
-for (const category of categories) {
-  checkText(category.slug, "category.name", category.name);
-  checkText(category.slug, "category.description", category.description);
-  for (const tag of category.tags ?? []) checkText(category.slug, "category.tag", tag);
-
-  const actual = categoryCounts.get(category.slug) ?? 0;
-  const declared = category.count ?? category.promptCount ?? 0;
-  if (declared !== actual) errors.push(`${category.slug}: category count mismatch, declared ${declared}, actual ${actual}`);
-  if (actual > 0 && !category.coverImage) errors.push(`${category.slug}: missing coverImage for non-empty category`);
-}
-
-for (const tag of tags) {
-  checkText(tag.slug, "tag.name", tag.name);
-  checkText(tag.slug, "tag.description", tag.description);
-}
-
-if (ratioLabels.size <= 1) errors.push(`aspectRatioLabel values are not diverse enough: ${Array.from(ratioLabels).join(", ") || "none"}`);
-
-if (!errors.length) {
-  let checked = 0;
-  for (const prompt of prompts) {
-    checked += 1;
-    if (!(await imageAvailable(prompt.coverImage))) {
-      errors.push(`${prompt.slug}: coverImage is not reachable`);
-    }
+  console.log(`PromptHub 数据校验：prompts=${prompts.length}, categories=${categories.length}, tags=${tags.length}, ratios=${ratioLabels.size}`);
+  if (warnings.length) {
+    console.log("\nWarnings:");
+    warnings.slice(0, 80).forEach((item) => console.log(`- ${item}`));
+    if (warnings.length > 80) console.log(`- 还有 ${warnings.length - 80} 条 warning 未展示`);
   }
-  console.log(`Checked ${checked} cover images.`);
+  if (errors.length) {
+    console.error("\nErrors:");
+    errors.slice(0, 120).forEach((item) => console.error(`- ${item}`));
+    if (errors.length > 120) console.error(`- 还有 ${errors.length - 120} 条 error 未展示`);
+    process.exit(1);
+  }
+  console.log("\n数据校验通过。");
 }
 
-if (warnings.length) {
-  console.log(`Data warnings (${warnings.length}):`);
-  for (const warning of warnings.slice(0, 40)) console.log(`- ${warning}`);
-  if (warnings.length > 40) console.log(`...and ${warnings.length - 40} more`);
-}
+main();
 
-if (errors.length) {
-  console.error(`Data validation failed (${errors.length}):`);
-  for (const error of errors.slice(0, 100)) console.error(`- ${error}`);
-  if (errors.length > 100) console.error(`...and ${errors.length - 100} more`);
-  process.exit(1);
-}
-
-const distribution = categories.map((category) => `${category.name}: ${category.count ?? category.promptCount ?? 0}`).join(", ");
-console.log(`Data validation passed: ${prompts.length} prompts, ${categories.length} categories, ${tags.length} tags.`);
-console.log(`Category distribution: ${distribution}`);

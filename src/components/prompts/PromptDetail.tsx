@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
@@ -21,15 +21,20 @@ function computedRatioLabel(prompt: PromptItem) {
     const ratio = prompt.imageWidth / prompt.imageHeight;
     return `约 ${ratio.toFixed(2)}:1`;
   }
-  return prompt.aspectRatio || prompt.ratio || "未指定";
+  return prompt.aspectRatio || prompt.ratio || "自定义比例";
+}
+
+function getDisplayImages(prompt: PromptItem) {
+  const images = prompt.galleryImages?.filter(Boolean).length ? prompt.galleryImages.filter(Boolean) : [prompt.coverImage].filter(Boolean);
+  return Array.from(new Set(images));
 }
 
 export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
   const tags = prompt.tags ?? [];
   const useCases = useMemo(() => (prompt.useCases?.length ? prompt.useCases : prompt.useCase ? [prompt.useCase] : []), [prompt.useCase, prompt.useCases]);
-  const images = prompt.galleryImages?.filter(Boolean).length ? prompt.galleryImages.filter(Boolean) : [prompt.coverImage].filter(Boolean);
+  const images = useMemo(() => getDisplayImages(prompt), [prompt]);
   const showThumbnails = images.length > 1;
-  const [selectedImage, setSelectedImage] = useState(images[0] ?? "");
+  const [selectedImage, setSelectedImage] = useState(images[0] ?? prompt.coverImage ?? "");
   const title = prompt.title || "未命名提示词";
   const category = prompt.category || prompt.categoryName || "未分类";
   const chinesePrompt = prompt.chinesePrompt || prompt.cnPrompt || prompt.zhPrompt || "中文提示词待补充。";
@@ -37,8 +42,28 @@ export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
   const model = prompt.model || "GPT Image 2";
   const ratio = computedRatioLabel(prompt);
   const style = prompt.style || "未指定";
+  const sourceName = prompt.sourceName || prompt.sourceRepo || "公开资料";
+  const sourceUrl = prompt.sourceUrl;
+  const sourceLicense = prompt.sourceLicense || prompt.license || "未标注";
   const baseFavorites = prompt.favorites ?? prompt.likes ?? 0;
   const [favoriteCount, setFavoriteCount] = useState(baseFavorites);
+
+  useEffect(() => {
+    const syncFromStorage = () => setFavoriteCount(Math.max(0, baseFavorites + (readFavorites().has(prompt.slug) ? 1 : 0)));
+    syncFromStorage();
+
+    function handleFavoriteChange(event: Event) {
+      const detail = (event as CustomEvent<{ slug: string; active: boolean }>).detail;
+      if (detail?.slug === prompt.slug) syncFromStorage();
+    }
+
+    window.addEventListener(FAVORITE_CHANGE_EVENT, handleFavoriteChange);
+    window.addEventListener("storage", syncFromStorage);
+    return () => {
+      window.removeEventListener(FAVORITE_CHANGE_EVENT, handleFavoriteChange);
+      window.removeEventListener("storage", syncFromStorage);
+    };
+  }, [baseFavorites, prompt.slug]);
 
   const allText = useMemo(
     () =>
@@ -57,23 +82,6 @@ export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
     { label: "风格", value: style },
     { label: "适用场景", value: useCases.slice(0, 3).join("、") || "未指定" },
   ];
-
-  useEffect(() => {
-    const syncFromStorage = () => setFavoriteCount(Math.max(0, baseFavorites + (readFavorites().has(prompt.slug) ? 1 : 0)));
-    syncFromStorage();
-
-    function handleFavoriteChange(event: Event) {
-      const detail = (event as CustomEvent<{ slug: string; active: boolean }>).detail;
-      if (detail?.slug === prompt.slug) syncFromStorage();
-    }
-
-    window.addEventListener(FAVORITE_CHANGE_EVENT, handleFavoriteChange);
-    window.addEventListener("storage", syncFromStorage);
-    return () => {
-      window.removeEventListener(FAVORITE_CHANGE_EVENT, handleFavoriteChange);
-      window.removeEventListener("storage", syncFromStorage);
-    };
-  }, [baseFavorites, prompt.slug]);
 
   return (
     <>
@@ -101,7 +109,7 @@ export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
 
         <div className="space-y-4">
           <div className="text-sm font-semibold text-gray-500">
-            <Link href="/prompts">提示词库</Link> / <Link href={`/categories/${prompt.categorySlug}`}>{category}</Link> / {title}
+            <Link className="hover:text-violet-700" href="/prompts">提示词库</Link> / <Link className="hover:text-violet-700" href={`/categories/${prompt.categorySlug}`}>{category}</Link> / {title}
           </div>
           <Card className="p-6">
             <div className="flex flex-wrap items-center gap-2">
@@ -116,8 +124,8 @@ export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
             <h1 className="mt-5 text-3xl font-black tracking-tight text-zinc-950 sm:text-4xl">{title}</h1>
             <p className="mt-4 text-sm leading-7 text-gray-600">{prompt.description || "这个提示词案例正在补充简介。"}</p>
             <div className="mt-4 flex gap-5 text-sm font-semibold text-gray-500">
-              <span>♥ {formatNumber(favoriteCount)}</span>
-              <span>👁 {formatNumber(prompt.views)}</span>
+              <span>收藏 {formatNumber(favoriteCount)}</span>
+              <span>浏览 {formatNumber(prompt.views ?? 0)}</span>
             </div>
           </Card>
 
@@ -136,6 +144,20 @@ export function PromptDetail({ prompt, relatedPrompts }: PromptDetailProps) {
               ))}
             </div>
           </Card>
+
+          <details className="rounded-[18px] border border-[#eeeaf5] bg-white/80 p-4 text-sm text-gray-500 shadow-sm">
+            <summary className="cursor-pointer select-none text-sm font-bold text-gray-600 transition hover:text-violet-700">来源与署名</summary>
+            <div className="mt-3 space-y-2 text-xs leading-6 text-gray-500">
+              <p>来源项目：{sourceName}</p>
+              <p>许可协议：{sourceLicense}</p>
+              {sourceUrl ? (
+                <Link className="font-semibold text-violet-700 hover:text-violet-500" href={sourceUrl} target="_blank" rel="noreferrer">
+                  查看 GitHub 来源
+                </Link>
+              ) : null}
+              <p>本案例整理自公开开源资料，仅供提示词学习与参考。</p>
+            </div>
+          </details>
         </div>
       </section>
       <RelatedPrompts prompts={relatedPrompts} />

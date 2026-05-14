@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 
@@ -78,11 +78,8 @@ export function FavoriteButton({
     const favorites = readFavorites();
     const nextActive = !favorites.has(promptSlug);
 
-    if (nextActive) {
-      favorites.add(promptSlug);
-    } else {
-      favorites.delete(promptSlug);
-    }
+    if (nextActive) favorites.add(promptSlug);
+    else favorites.delete(promptSlug);
 
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(favorites)));
     setActive(nextActive);

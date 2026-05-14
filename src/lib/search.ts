@@ -1,4 +1,4 @@
-import type { PromptItem, PromptSort } from "@/types/prompt";
+﻿import type { PromptItem, PromptSort } from "@/types/prompt";
 import { sortPrompts } from "@/lib/prompts";
 
 type PromptSearchOptions = {
@@ -12,13 +12,15 @@ const weakSuffixes = ["提示词", "案例", "模板", "风格", "生成", "设�
 
 const aliasGroups = [
   ["电商图", "电商", "主图", "商品图", "商品主图", "卖点图", "电商主图", "商品", "卖点"],
-  ["产品图", "产品海报", "商品海报", "广告图", "产品", "海报", "广告", "护肤品", "香水"],
-  ["人像图", "头像", "写真", "人物照", "肖像", "人像", "摄影", "照片"],
-  ["海报", "封面", "小红书图", "小红书封面", "复古海报", "旅行海报", "版式"],
+  ["产品图", "产品海报", "商品海报", "广告图", "产品", "海报", "广告", "护肤品", "香水", "包装"],
+  ["人像图", "头像", "写真", "人物照", "肖像", "人像", "摄影", "照片", "电影感"],
+  ["海报", "封面", "小红书图", "小红书封面", "小红书", "复古海报", "旅行海报", "版式"],
   ["ui", "界面", "app", "app界面", "网页", "web", "仪表盘", "看板", "设计系统"],
-  ["3d", "3d图标", "图标", "icon", "立体图标", "圆润"],
+  ["3d", "3d图标", "图标", "icon", "立体图标", "圆润", "拟物"],
   ["游戏", "场景", "概念图", "赛博朋克", "科幻", "奇幻", "角色"],
-  ["国风", "古风", "水墨", "东方美学", "插画", "山水", "文旅"],
+  ["国风", "古风", "水墨", "东方美学", "插画", "山水", "文旅", "国潮"],
+  ["复古", "怀旧", "报纸", "电影海报", "杂志", "经典"],
+  ["角色", "二次元", "IP", "立绘", "吉祥物", "动漫"],
 ];
 
 function normalize(value: string) {
@@ -43,11 +45,7 @@ function queryTerms(rawQuery: string) {
 
   for (const group of aliasGroups) {
     const normalizedGroup = group.map(normalize);
-    if (
-      normalizedGroup.some(
-        (alias) => normalized.includes(alias) || alias.includes(normalized) || Boolean(stripped && alias.includes(stripped)),
-      )
-    ) {
+    if (normalizedGroup.some((alias) => normalized.includes(alias) || alias.includes(normalized) || Boolean(stripped && alias.includes(stripped)))) {
       normalizedGroup.forEach((alias) => terms.add(alias));
     }
   }

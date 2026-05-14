@@ -1,0 +1,222 @@
+[
+  {
+    "id": "cat-01",
+    "name": "人像写真",
+    "slug": "portrait",
+    "description": "适合头像、写真、电影感肖像和社交媒体人物视觉的提示词案例。",
+    "icon": "portrait",
+    "accent": "from-violet-500 to-fuchsia-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case13/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case13/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case13/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 13,
+    "count": 13,
+    "tags": [
+      "人像",
+      "摄影",
+      "写真",
+      "杂志感",
+      "柔光",
+      "霓虹"
+    ]
+  },
+  {
+    "id": "cat-02",
+    "name": "产品海报",
+    "slug": "product-poster",
+    "description": "适合广告视觉、品牌宣传、产品大片和商业海报的提示词案例。",
+    "icon": "poster",
+    "accent": "from-purple-500 to-sky-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case131/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case131/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case131/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 17,
+    "count": 17,
+    "tags": [
+      "产品",
+      "海报",
+      "广告",
+      "高级",
+      "杂志感",
+      "霓虹"
+    ]
+  },
+  {
+    "id": "cat-03",
+    "name": "电商主图",
+    "slug": "ecommerce-main-image",
+    "description": "适合商品展示、卖点表达、电商首图和平台详情视觉的提示词案例。",
+    "icon": "shopping",
+    "accent": "from-blue-500 to-violet-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case155/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case155/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case155/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 15,
+    "count": 15,
+    "tags": [
+      "电商",
+      "主图",
+      "产品",
+      "海报",
+      "高级",
+      "极简"
+    ]
+  },
+  {
+    "id": "cat-04",
+    "name": "国风插画",
+    "slug": "chinese-illustration",
+    "description": "适合东方美学、水墨、城市文化和国风插画创作的提示词案例。",
+    "icon": "brush",
+    "accent": "from-rose-400 to-violet-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case166/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case166/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case166/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "国风",
+      "插画",
+      "东方美学",
+      "海报",
+      "人像",
+      "产品"
+    ]
+  },
+  {
+    "id": "cat-05",
+    "name": "3D 图标",
+    "slug": "3d-icon",
+    "description": "适合圆润立体图标、应用图标和轻量 3D 视觉资产的提示词案例。",
+    "icon": "box",
+    "accent": "from-indigo-500 to-purple-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case150/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case150/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case150/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 5,
+    "count": 5,
+    "tags": [
+      "3D",
+      "图标",
+      "拟物",
+      "角色",
+      "人像",
+      "产品"
+    ]
+  },
+  {
+    "id": "cat-06",
+    "name": "UI 设计",
+    "slug": "ui-design",
+    "description": "适合 App、网页、组件系统、仪表盘和界面概念设计的提示词案例。",
+    "icon": "layout",
+    "accent": "from-cyan-500 to-violet-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case170/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case170/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/poster_case170/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 12,
+    "count": 12,
+    "tags": [
+      "UI",
+      "界面",
+      "App",
+      "人像",
+      "封面",
+      "城市"
+    ]
+  },
+  {
+    "id": "cat-07",
+    "name": "游戏概念图",
+    "slug": "game-concept",
+    "description": "适合奇幻场景、科幻城市、世界观设定和游戏气氛图的提示词案例。",
+    "icon": "gamepad",
+    "accent": "from-sky-500 to-fuchsia-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case100/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case100/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case100/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "游戏",
+      "场景",
+      "概念图",
+      "霓虹",
+      "人像",
+      "杂志感"
+    ]
+  },
+  {
+    "id": "cat-08",
+    "name": "小红书封面",
+    "slug": "xiaohongshu-cover",
+    "description": "适合生活方式封面、种草图、旅行封面和社交媒体首图的提示词案例。",
+    "icon": "cover",
+    "accent": "from-pink-500 to-violet-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case125/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case125/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case125/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 6,
+    "count": 6,
+    "tags": [
+      "小红书",
+      "封面",
+      "生活方式",
+      "人像",
+      "高级",
+      "电商"
+    ]
+  },
+  {
+    "id": "cat-09",
+    "name": "复古海报",
+    "slug": "vintage-poster",
+    "description": "适合旅行海报、怀旧广告、复古电影和老派印刷质感的提示词案例。",
+    "icon": "ticket",
+    "accent": "from-amber-400 to-violet-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case83/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case83/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/portrait_case83/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "复古",
+      "海报",
+      "印刷感",
+      "人像",
+      "电影感",
+      "产品"
+    ]
+  },
+  {
+    "id": "cat-10",
+    "name": "角色设定",
+    "slug": "character-design",
+    "description": "适合人物设定、角色卡、IP 形象和二次元角色视觉的提示词案例。",
+    "icon": "user-round",
+    "accent": "from-violet-500 to-pink-500",
+    "coverImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case96/output.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case96/output.jpg",
+    "accentImage": "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/images/ui_case96/output.jpg",
+    "dailyImageMode": "top-prompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "角色",
+      "设定",
+      "二次元",
+      "人像",
+      "包装",
+      "封面"
+    ]
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "sourceRoot": "C:\\Users\\张文源\\AppData\\Local\\Temp\\prompthub-evolinkai-source",
+  "backupDir": "D:\\codex项目\\PromptHub\\src\\data\\backups\\20260515-0149-before-full-import",
+  "totalCases": 483,
+  "imported": 366,
+  "skipped": 117,
+  "distribution": {
+    "人像写真": 49,
+    "产品海报": 44,
+    "电商主图": 4,
+    "国风插画": 24,
+    "3D 图标": 4,
+    "UI 设计": 137,
+    "游戏概念图": 19,
+    "小红书封面": 15,
+    "复古海报": 13,
+    "角色设定": 57
+  },
+  "skippedSamples": [
+    {
+      "file": "poster.md",
+      "caseId": "195",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "196",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "197",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "198",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "199",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "200",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "201",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "202",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "203",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "204",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "205",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "206",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "207",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "208",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "209",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "210",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "211",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "212",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "213",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "214",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "215",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "216",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "217",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "218",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "219",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "220",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "221",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "222",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "223",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "224",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "225",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "226",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "227",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "228",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "229",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "230",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "231",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "232",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "233",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "234",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "235",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "236",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "237",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "238",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "239",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "240",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "241",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "242",
+      "reason": "missing prompt"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "243",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "244",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "245",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "246",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "247",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "248",
+      "reason": "missing local image"
+    },
+    {
+      "file": "poster.md",
+      "caseId": "249",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "119",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "120",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "121",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "122",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "123",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "124",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "125",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "126",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "127",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "128",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "129",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "130",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "131",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "132",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "133",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "134",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "135",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "136",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "137",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "138",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "139",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "140",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "141",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "142",
+      "reason": "missing local image"
+    },
+    {
+      "file": "portrait.md",
+      "caseId": "143",
+      "reason": "missing local image"
+    }
+  ]
+}

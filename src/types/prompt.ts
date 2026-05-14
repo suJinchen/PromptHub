@@ -1,4 +1,4 @@
-export type PromptItem = {
+﻿export type PromptItem = {
   id: string;
   title: string;
   slug: string;
@@ -20,6 +20,10 @@ export type PromptItem = {
   description: string;
   sourceUrl: string;
   sourceName?: string;
+  sourceRepo?: string;
+  sourceLicense?: string;
+  license?: string;
+  originalSourceUrl?: string;
   aspectRatio?: string;
   aspectRatioLabel?: string;
   imageWidth?: number;

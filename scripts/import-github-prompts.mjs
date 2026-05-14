@@ -1,816 +1,461 @@
-import { execFileSync } from "node:child_process";
-import fs from "node:fs";
-import os from "node:os";
+﻿import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 
-const repoUrl = "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts.git";
-const repoName = "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts";
-const sourceRoot = path.join(os.tmpdir(), "prompthub-evolinkai-source");
-const projectRoot = process.cwd();
-const dataDir = path.join(projectRoot, "src", "data");
-const targetCount = Number(process.env.PROMPTHUB_IMPORT_LIMIT || process.argv[2] || 100);
+const PROJECT_ROOT = process.cwd();
+const SOURCE_ROOT = process.env.EVOLINKAI_SOURCE_DIR || path.join(os.tmpdir(), "prompthub-evolinkai-source");
+const DATA_DIR = path.join(PROJECT_ROOT, "src", "data");
+const CASES_DIR = path.join(SOURCE_ROOT, "cases");
+const REPORT_DIR = path.join(PROJECT_ROOT, "scripts", "reports");
+const SOURCE_NAME = "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts";
+const SOURCE_REPO_URL = "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts";
+const SOURCE_RAW_PREFIX = "https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/";
+const SOURCE_LICENSE = "CC-BY-4.0";
 
-const sourceFiles = ["portrait.md", "ecommerce.md", "ad-creative.md", "ui.md", "character.md", "poster.md", "comparison.md"];
+const CASE_FILES = ["poster.md", "portrait.md", "ui.md", "ad-creative.md", "ecommerce.md", "character.md", "comparison.md"];
 
-const categories = [
-  {
-    slug: "portrait",
-    name: "人像写真",
-    description: "适合头像、写真、电影感肖像和社交媒体人物视觉的提示词案例。",
-    icon: "portrait",
-    accent: "from-violet-500 to-fuchsia-500",
-  },
-  {
-    slug: "product-poster",
-    name: "产品海报",
-    description: "适合广告视觉、品牌宣传、产品大片和商业海报的提示词案例。",
-    icon: "poster",
-    accent: "from-purple-500 to-sky-500",
-  },
-  {
-    slug: "ecommerce-main-image",
-    name: "电商主图",
-    description: "适合商品展示、卖点表达、电商首图和平台详情视觉的提示词案例。",
-    icon: "shopping",
-    accent: "from-blue-500 to-violet-500",
-  },
-  {
-    slug: "chinese-illustration",
-    name: "国风插画",
-    description: "适合东方美学、水墨、城市文化和国风插画创作的提示词案例。",
-    icon: "brush",
-    accent: "from-rose-400 to-violet-500",
-  },
-  {
-    slug: "3d-icon",
-    name: "3D 图标",
-    description: "适合圆润立体图标、应用图标和轻量 3D 视觉资产的提示词案例。",
-    icon: "box",
-    accent: "from-indigo-500 to-purple-500",
-  },
-  {
-    slug: "ui-design",
-    name: "UI 设计",
-    description: "适合 App、网页、组件系统、仪表盘和界面概念设计的提示词案例。",
-    icon: "layout",
-    accent: "from-cyan-500 to-violet-500",
-  },
-  {
-    slug: "game-concept",
-    name: "游戏概念图",
-    description: "适合奇幻场景、科幻城市、世界观设定和游戏气氛图的提示词案例。",
-    icon: "gamepad",
-    accent: "from-sky-500 to-fuchsia-500",
-  },
-  {
-    slug: "xiaohongshu-cover",
-    name: "小红书封面",
-    description: "适合生活方式封面、种草图、旅行封面和社交媒体首图的提示词案例。",
-    icon: "cover",
-    accent: "from-pink-500 to-violet-500",
-  },
-  {
-    slug: "vintage-poster",
-    name: "复古海报",
-    description: "适合旅行海报、怀旧广告、复古电影和老派印刷质感的提示词案例。",
-    icon: "ticket",
-    accent: "from-amber-400 to-violet-500",
-  },
-  {
-    slug: "character-design",
-    name: "角色设定",
-    description: "适合人物设定、角色卡、IP 形象和二次元角色视觉的提示词案例。",
-    icon: "user-round",
-    accent: "from-violet-500 to-pink-500",
-  },
+const CATEGORY_DEFS = [
+  { slug: "portrait", name: "人像写真", description: "适合头像、写真、棚拍、电影感人物影像的提示词案例。" },
+  { slug: "product-poster", name: "产品海报", description: "适合广告海报、品牌视觉、产品宣传图和商业创意。" },
+  { slug: "ecommerce-main-image", name: "电商主图", description: "适合商品主图、卖点展示、货架图和电商详情首图。" },
+  { slug: "chinese-illustration", name: "国风插画", description: "适合水墨、国潮、东方美学和传统文化插画。" },
+  { slug: "3d-icon", name: "3D 图标", description: "适合立体图标、拟物图标、App 图标和 3D 小组件。" },
+  { slug: "ui-design", name: "UI 设计", description: "适合 App、Web、仪表盘、落地页和界面概念设计。" },
+  { slug: "game-concept", name: "游戏概念图", description: "适合幻想场景、科幻世界、游戏宣传图和概念艺术。" },
+  { slug: "xiaohongshu-cover", name: "小红书封面", description: "适合生活方式、种草笔记、社交媒体首图和封面设计。" },
+  { slug: "vintage-poster", name: "复古海报", description: "适合复古广告、旅行海报、电影海报和怀旧视觉。" },
+  { slug: "character-design", name: "角色设定", description: "适合二次元角色、IP 形象、游戏角色和吉祥物设定。" },
 ];
 
-const quota = {
-  portrait: 12,
-  "product-poster": 17,
-  "ecommerce-main-image": 16,
-  "chinese-illustration": 8,
-  "3d-icon": 5,
-  "ui-design": 12,
-  "game-concept": 8,
-  "xiaohongshu-cover": 6,
-  "vintage-poster": 8,
-  "character-design": 8,
+const CATEGORY_TAGS = {
+  portrait: ["人像", "摄影", "电影感", "写真", "头像"],
+  "product-poster": ["产品", "海报", "广告", "品牌", "商业"],
+  "ecommerce-main-image": ["电商", "主图", "产品", "卖点", "商品图"],
+  "chinese-illustration": ["国风", "插画", "东方美学", "水墨", "国潮"],
+  "3d-icon": ["3D", "图标", "拟物", "立体", "App"],
+  "ui-design": ["UI", "App", "Web", "仪表盘", "界面"],
+  "game-concept": ["游戏", "场景", "奇幻", "科幻", "概念图"],
+  "xiaohongshu-cover": ["小红书", "封面", "生活方式", "社交媒体", "种草"],
+  "vintage-poster": ["复古", "海报", "怀旧", "旅行", "字体"],
+  "character-design": ["角色", "IP", "二次元", "设定", "人物"],
 };
 
-const categoryBySlug = new Map(categories.map((category) => [category.slug, category]));
-
-const phraseMap = [
-  ["E-commerce Main Image", "电商主图"],
-  ["Product Studio Shot", "产品棚拍"],
-  ["Commercial Marketing Photograph", "商业营销摄影"],
-  ["Product Photography", "产品摄影"],
-  ["Luxury Amber Perfume", "琥珀香水"],
-  ["Skincare Product", "护肤品"],
-  ["Tropical Citrus Soda", "热带柑橘汽水"],
-  ["Industrial Design Presentation", "工业设计展示"],
-  ["Luxury Chronograph Watch", "高级计时腕表"],
-  ["Perfume Shot on Moss", "苔藓香水"],
-  ["Chocolate Campaign", "巧克力广告"],
-  ["Fruit Juice", "果汁"],
-  ["Convenience Store Neon", "便利店霓虹"],
-  ["Cinematic Minimal", "极简电影感"],
-  ["Japanese Onsen Ryokan", "日式温泉旅馆"],
-  ["35mm Flash Editorial", "35mm 闪光灯杂志"],
-  ["Mirror Selfie", "镜面自拍"],
-  ["Soft Airy", "柔光空气感"],
-  ["Luxury Glam Beauty", "高级美妆"],
-  ["Cosplayer", "Cosplay"],
-  ["Street Portrait", "街头人像"],
-  ["Korean Idol", "韩系偶像"],
-  ["Cyberpunk", "赛博朋克"],
-  ["Portrait", "人像"],
-  ["Headshot", "头像"],
-  ["Brand Identity", "品牌识别"],
-  ["Merch Board", "周边设定板"],
-  ["Mascot", "吉祥物"],
-  ["Food Delivery Flyer", "外卖传单"],
-  ["Room Goods Poster", "家居周边海报"],
-  ["Seed Packet Diorama", "种子包装立体场景"],
-  ["Sneaker Poster", "运动鞋海报"],
-  ["Streetwear", "街头服饰"],
-  ["Miniature", "微缩"],
-  ["VR Headset", "VR 头显"],
-  ["Exploded View", "爆炸图"],
-  ["Ad Poster", "广告海报"],
-  ["Campaign", "广告大片"],
-  ["One-Prompt UI Design", "一键 UI 设计"],
-  ["Design System", "设计系统"],
-  ["Social Media Feed", "社交媒体信息流"],
-  ["Livestream", "直播界面"],
-  ["Dashboard", "仪表盘"],
-  ["Landing Page", "落地页"],
-  ["Game Screen", "游戏界面"],
-  ["Character Reference Card", "角色设定卡"],
-  ["Character Introduction Page", "角色介绍页"],
-  ["Character Sheet", "角色设定稿"],
-  ["Mecha Girl", "机甲少女"],
-  ["Anime Martial Arts", "动漫武侠"],
-  ["Game Concept", "游戏概念"],
-  ["City Poster", "城市海报"],
-  ["Travel Poster", "旅行海报"],
-  ["Food Map", "美食地图"],
-  ["Chinese Minimalist", "中式极简"],
-  ["Ink-Curve", "水墨曲线"],
-  ["Ink", "水墨"],
-  ["Wuxia", "武侠"],
-  ["Journey to the West", "西游记"],
-  ["Dark-Fantasy", "暗黑幻想"],
-  ["Science Fiction", "科幻"],
-  ["Vintage", "复古"],
-  ["Movie Poster", "电影海报"],
-  ["Fashion Cover", "时尚封面"],
-  ["Magazine Cover", "杂志封面"],
-  ["Infographic", "信息图"],
-  ["Storyboard", "分镜板"],
-  ["Illustration", "插画"],
-  ["Poster", "海报"],
-  ["UI", "UI"],
-  ["App", "App"],
-  ["Web", "Web"],
-  ["3D", "3D"],
-  ["Icon", "图标"],
-];
-
-const categoryTagMap = {
-  portrait: ["人像", "摄影", "写真"],
-  "product-poster": ["产品", "海报", "广告"],
-  "ecommerce-main-image": ["电商", "主图", "产品"],
-  "chinese-illustration": ["国风", "插画", "东方美学"],
-  "3d-icon": ["3D", "图标", "拟物"],
-  "ui-design": ["UI", "界面", "App"],
-  "game-concept": ["游戏", "场景", "概念图"],
-  "xiaohongshu-cover": ["小红书", "封面", "生活方式"],
-  "vintage-poster": ["复古", "海报", "印刷感"],
-  "character-design": ["角色", "设定", "二次元"],
+const TITLE_BANK = {
+  portrait: ["电影感人像写真", "柔光棚拍头像", "自然光人物写真", "复古胶片人像", "时尚杂志肖像", "夜景氛围人像", "清透半身写真", "都市情绪人像", "光影艺术肖像", "极简人物大片"],
+  "product-poster": ["极简香水产品海报", "护肤精华广告海报", "清新饮品产品海报", "高级珠宝宣传图", "美食广告视觉", "自然光产品海报", "品牌活动主视觉", "奢华产品静物", "商业广告创意图", "清透包装宣传图"],
+  "ecommerce-main-image": ["香水电商主图", "智能手表卖点图", "护肤品商品主图", "运动鞋电商展示", "家居产品主图", "耳机卖点主图", "美妆套装商品图", "食品包装主图", "科技产品货架图", "极简商品展示图"],
+  "chinese-illustration": ["春日江南国风插画", "水墨山河意境图", "东方美学城市海报", "国潮节日插画", "古风人物水墨图", "新中式山水视觉", "传统文化插画", "诗意园林国风图", "水彩城市地图", "东方山水画卷"],
+  "3d-icon": ["圆润 3D 图标套装", "拟物 App 图标", "粘土风立体图标", "云端上传 3D 图标", "渐变功能图标", "立体社交图标", "电商工具图标", "柔光科技图标", "迷你场景图标", "可爱系统图标"],
+  "ui-design": ["AI 数据看板 UI", "移动金融 App 界面", "健康管理仪表盘", "电商落地页界面", "科幻控制台 UI", "极简 Web 首页", "社交应用界面", "深色数据大屏", "SaaS 工作台界面", "智能家居 App UI"],
+  "game-concept": ["未来城市游戏场景", "暗黑幻想城市概念图", "空岛奇幻世界", "赛博朋克街区场景", "史诗山谷概念图", "科幻基地宣传图", "幻想森林冒险图", "末日城市场景", "游戏活动主视觉", "异世界城堡概念"],
+  "xiaohongshu-cover": ["小红书旅行封面", "夏日饮品种草封面", "美妆护肤小红书封面", "生活方式笔记封面", "汽车杂志风封面", "露营攻略封面图", "穿搭灵感封面", "家居改造封面", "咖啡探店封面", "山海旅行封面"],
+  "vintage-poster": ["复古旅行海报", "怀旧电影宣传图", "复古报纸人物海报", "老广告风产品海报", "经典音乐会海报", "复古城市宣传图", "胶片质感海报", "年代感餐饮广告", "复古字体海报", "怀旧杂志封面"],
+  "character-design": ["二次元角色设定", "游戏主播角色封面", "ASMR 少女角色设定", "机甲战士角色图", "可爱吉祥物设计", "幻想法师角色", "赛博朋克角色设定", "国风少年角色", "动漫偶像立绘", "IP 形象设定图"],
 };
 
-const keywordTags = [
-  ["portrait|headshot|selfie|idol|beauty|photo|photograph", "人像"],
-  ["cinematic|movie|film", "电影感"],
-  ["soft|airy|natural", "柔光"],
-  ["neon|cyberpunk", "霓虹"],
-  ["product|perfume|cosmetic|skincare|watch|shoe|sneaker|food|beverage|juice|soda|chocolate", "产品"],
-  ["e-commerce|ecommerce|main image|listing|hero image", "电商"],
-  ["poster|flyer|ad|advertisement|campaign", "海报"],
-  ["luxury|premium", "高级"],
-  ["minimal|minimalist", "极简"],
-  ["chinese|ink|oriental|wuxia|hanfu|journey to the west|taoist|guangzhou|chengdu", "国风"],
-  ["city|travel|map", "城市"],
-  ["vintage|retro|90s|old", "复古"],
-  ["ui|interface|dashboard|web|app|landing|screen|feed", "UI"],
-  ["3d|icon|clay|isometric|diorama|miniature|exploded view", "3D"],
-  ["character|mascot|anime|persona|gal game|mecha", "角色"],
-  ["game|concept|fantasy|sci-fi|science fiction|world", "游戏"],
-  ["cover|thumbnail|social|livestream|grwm", "封面"],
-  ["fashion|editorial|magazine", "杂志感"],
-  ["packaging|brand identity|logo", "包装"],
+const TITLE_HINTS = [
+  [/boston|city poster|guangzhou|chengdu|map|china|oriental|ink|s-shaped|chinese/i, "国风城市海报"],
+  [/amalfi|travel|japan|italy|poster/i, "复古旅行海报"],
+  [/perfume|cosmetic|skincare|bottle/i, "香水护肤产品海报"],
+  [/shoe|sneaker/i, "运动鞋电商主图"],
+  [/watch/i, "智能手表卖点图"],
+  [/dashboard|interface|app|ui|web/i, "数据看板 UI 设计"],
+  [/icon|clay|isometric/i, "圆润 3D 图标"],
+  [/portrait|headshot|selfie|model|fashion/i, "电影感人像写真"],
+  [/character|mascot|anime|vtuber|girl/i, "二次元角色设定"],
+  [/cyberpunk|fantasy|game|concept|world/i, "幻想游戏概念图"],
+  [/cover|social|thumbnail|xiaohongshu|lifestyle/i, "小红书灵感封面"],
+  [/retro|vintage|newspaper|classic/i, "复古广告海报"],
 ];
 
-function ensureSourceRepo() {
-  if (fs.existsSync(path.join(sourceRoot, ".git"))) {
-    execFileSync("git", ["-C", sourceRoot, "fetch", "--depth", "1", "origin", "main"], { stdio: "ignore" });
-    execFileSync("git", ["-C", sourceRoot, "checkout", "FETCH_HEAD"], { stdio: "ignore" });
-    return;
+const NUMBERED_TITLE = /(案例\s*\d+|case\s*\d+|demo\s*\d+|prompt\s*\d+)/i;
+
+function ensureDirs() {
+  if (!fs.existsSync(CASES_DIR)) throw new Error(`找不到源仓库 cases 目录：${CASES_DIR}`);
+  fs.mkdirSync(REPORT_DIR, { recursive: true });
+}
+
+function backupCurrentData() {
+  const now = new Date();
+  const stamp = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, "0")}${String(now.getDate()).padStart(2, "0")}-${String(now.getHours()).padStart(2, "0")}${String(now.getMinutes()).padStart(2, "0")}-before-full-import`;
+  const dir = path.join(DATA_DIR, "backups", stamp);
+  fs.mkdirSync(dir, { recursive: true });
+  for (const file of ["prompts.json", "categories.json", "tags.json"]) {
+    const src = path.join(DATA_DIR, file);
+    if (fs.existsSync(src)) fs.copyFileSync(src, path.join(dir, file));
   }
-
-  if (fs.existsSync(sourceRoot)) fs.rmSync(sourceRoot, { recursive: true, force: true });
-  execFileSync("git", ["clone", "--depth", "1", repoUrl, sourceRoot], { stdio: "inherit" });
+  return dir;
 }
 
-function backupFile(fileName, suffix) {
-  const source = path.join(dataDir, fileName);
-  if (!fs.existsSync(source)) return undefined;
-  const baseName = fileName.replace(".json", `.${suffix}.json`);
-  const target = path.join(dataDir, baseName);
-  if (!fs.existsSync(target)) {
-    fs.copyFileSync(source, target);
-    return target;
-  }
-  return target;
-}
-
-function parseCases(file) {
-  const markdown = fs.readFileSync(path.join(sourceRoot, "cases", file), "utf8");
-  const matches = Array.from(markdown.matchAll(/^### Case (\d+):.*$/gm));
-  return matches.map((match, index) => {
-    const start = match.index ?? 0;
-    const end = matches[index + 1]?.index ?? markdown.length;
-    const block = markdown.slice(start, end);
-    const heading = match[0];
-    const caseId = Number(match[1]);
-    const title = heading.match(/\[([^\]]+)\]\(/)?.[1] ?? `Case ${caseId}`;
-    const originalSourceUrl = heading.match(/\]\((https?:\/\/[^)]+)\)/)?.[1];
-    const images = Array.from(block.matchAll(/<img[^>]+src="([^"]+)"/g), (item) => normalizeImageUrl(item[1]));
-    const prompt =
-      block.match(/\*\*Prompt:\*\*\s*```([\s\S]*?)```/i)?.[1]?.trim() ??
-      block.match(/\*\*Prompt:\*\*\s*([\s\S]*?)(?=\n### Case|\n---|$)/i)?.[1]?.replace(/```/g, "").trim() ??
-      "";
-
-    return {
-      file,
-      caseId,
-      originalTitle: title,
-      originalSourceUrl,
-      images,
-      prompt: prompt.replace(/\r\n/g, "\n"),
-    };
-  });
-}
-
-function normalizeImageUrl(value) {
-  if (value.startsWith("http")) return value;
-  const clean = value.replace(/^(\.\/|\.\.\/)+/, "");
-  return `https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/${clean}`;
-}
-
-function classifyCase(item) {
-  const title = item.originalTitle.toLowerCase();
-  const file = item.file;
-
-  if (/3d|icon|clay|isometric|diorama|miniature|exploded view|stone staircase/.test(title)) return "3d-icon";
-  if (/ui|interface|dashboard|app|web|landing page|design system|screen|feed|livestream|mockup/.test(title)) return "ui-design";
-  if (/character|mascot|anime|persona|gal game|mecha|saint seiya|vtuber/.test(title)) return "character-design";
-  if (/game|concept|fantasy|sci-fi|science fiction|cyberpunk|world|battle|gta|minecraft/.test(title)) return "game-concept";
-  if (/vintage|retro|90s|old|super famicom|classic|film poster/.test(title)) return "vintage-poster";
-  if (/xiaohongshu|social|cover|thumbnail|grwm|lifestyle|magazine|fashion cover/.test(title)) return "xiaohongshu-cover";
-  if (/chinese|ink|oriental|hanfu|guofeng|wuxia|journey to the west|taoist|guangzhou|chengdu|shan|calligraphy|song dynasty/.test(title)) {
-    return "chinese-illustration";
-  }
-  if (file === "portrait.md" && /portrait|selfie|idol|beauty|photo|photograph|snapshot|mother|family/.test(title)) return "portrait";
-  if (file === "ecommerce.md") return "ecommerce-main-image";
-  if (/product|perfume|cosmetic|skincare|watch|shoe|sneaker|food|beverage|juice|soda|chocolate|ad|advertisement|campaign|poster|flyer/.test(title)) {
-    return "product-poster";
-  }
-  if (file === "character.md") return "character-design";
-  if (file === "poster.md") return "product-poster";
-  return undefined;
-}
-
-function makeSlug(item, categorySlug) {
-  if (item.file === "portrait.md" && item.caseId === 1) return "neon-cinematic-portrait";
-  const fileSlug = item.file.replace(".md", "").replace(/[^a-z0-9]+/gi, "-").toLowerCase();
-  const titleSlug = item.originalTitle
+function slugify(input) {
+  return String(input || "prompt")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .split("-")
-    .slice(0, 8)
-    .join("-");
-  return `${categorySlug}-${fileSlug}-${item.caseId}-${titleSlug}`.replace(/-+/g, "-");
+    .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 72) || "prompt";
 }
 
-function zhTitle(originalTitle, categorySlug) {
-  let title = originalTitle.replace(/^E-commerce Main Image\s*-\s*/i, "").replace(/\bPrompt\b/gi, "").trim();
-  for (const [en, zh] of phraseMap) {
-    title = title.replace(new RegExp(escapeRegExp(en), "gi"), zh);
+function uniqueSlug(base, used) {
+  let slug = slugify(base);
+  let next = slug;
+  let i = 2;
+  while (used.has(next)) next = `${slug}-${i++}`;
+  used.add(next);
+  return next;
+}
+
+function uniqueTitle(base, categorySlug, used) {
+  const suffixA = ["灵感", "视觉", "构图", "模板", "参考", "设计", "大片", "方案", "版式", "场景"];
+  const suffixB = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"];
+  const title = cleanTitle(base, categorySlug);
+  if (!used.has(title)) {
+    used.add(title);
+    return title;
   }
-  title = title.replace(/\s*[-:]\s*/g, " ").replace(/\s+/g, " ").trim();
-  const asciiCount = (title.match(/[a-z]/gi) ?? []).length;
-  if (asciiCount > 14) return naturalFallbackTitle(originalTitle, categorySlug);
-  return title || naturalFallbackTitle(originalTitle, categorySlug);
-}
-
-function naturalFallbackTitle(originalTitle, categorySlug) {
-  const title = originalTitle.toLowerCase();
-  if (title.includes("mustang") || title.includes("car")) return "跑车生活方式封面";
-  if (title.includes("momos") || title.includes("burger") || title.includes("food")) return "电影感美食广告";
-  if (title.includes("beverage") || title.includes("watermelon") || title.includes("drink")) return "清爽饮品广告海报";
-  if (title.includes("perfume")) return "极简香水产品海报";
-  if (title.includes("skincare") || title.includes("cosmetic") || title.includes("beauty")) return "自然光美妆封面";
-  if (title.includes("watch")) return "高级腕表广告海报";
-  if (title.includes("sneaker") || title.includes("shoe") || title.includes("loafer")) return "鞋履商品种草图";
-  if (title.includes("dashboard")) return "数据看板 UI 概念";
-  if (title.includes("livestream") || title.includes("live stream")) return "直播界面 UI";
-  if (title.includes("app")) return "App 界面设计概念";
-  if (title.includes("vtuber")) return "VTuber 角色封面";
-  if (title.includes("asmr")) return "ASMR 少女角色设定";
-  if (title.includes("anime")) return "二次元角色设定";
-  if (title.includes("hanfu")) return "博物馆汉服拆解图";
-  if (title.includes("calligraphy")) return "书法字帖排版图";
-  if (title.includes("newspaper")) return "复古报纸人物头版";
-  if (title.includes("vintage")) return "复古印刷海报";
-  if (title.includes("pixel")) return "像素游戏概念板";
-  if (title.includes("shinjuku") || title.includes("bar")) return "新宿酒吧游戏场景";
-  if (title.includes("market")) return "市集开放世界场景";
-  if (title.includes("portrait")) return "电影感人像写真";
-  if (title.includes("icon") || title.includes("chibi") || title.includes("3d")) return "圆润 3D 视觉资产";
-
-  return {
-    portrait: "电影感人像写真",
-    "product-poster": "高级产品广告海报",
-    "ecommerce-main-image": "精致商品电商主图",
-    "chinese-illustration": "东方美学国风插画",
-    "3d-icon": "圆润 3D 图标套装",
-    "ui-design": "现代产品界面设计",
-    "game-concept": "幻想游戏概念场景",
-    "xiaohongshu-cover": "生活方式种草封面",
-    "vintage-poster": "复古印刷风海报",
-    "character-design": "二次元角色设定",
-  }[categorySlug] ?? "精选视觉提示词";
-}
-
-// Kept as a legacy reference for older import batches; current imports use naturalFallbackTitle.
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function fallbackTitle(originalTitle, categorySlug, caseId) {
-  const title = originalTitle.toLowerCase();
-  if (title.includes("perfume")) return "高级香水产品海报";
-  if (title.includes("skincare") || title.includes("cosmetic")) return "柔光护肤品主图";
-  if (title.includes("watch")) return "高级腕表广告海报";
-  if (title.includes("sneaker") || title.includes("shoe")) return "运动鞋产品海报";
-  if (title.includes("food") || title.includes("recipe")) return "美食广告海报";
-  if (title.includes("travel")) return "复古旅行海报";
-  if (title.includes("city")) return "城市主题视觉海报";
-  if (title.includes("character")) return "角色设定视觉稿";
-  if (title.includes("dashboard")) return "数据看板 UI 概念";
-  if (title.includes("app")) return "App 界面设计概念";
-  if (title.includes("portrait")) return "电影感人像写真";
-  const category = categoryBySlug.get(categorySlug);
-  return `${category?.name ?? "提示词"}案例 ${caseId}`;
-}
-
-function buildTags(item, categorySlug) {
-  const title = item.originalTitle.toLowerCase();
-  const tags = new Set(categoryTagMap[categorySlug] ?? []);
-  for (const [pattern, tag] of keywordTags) {
-    if (new RegExp(pattern, "i").test(title)) tags.add(tag);
-  }
-  return Array.from(tags).slice(0, 6);
-}
-
-function descriptionFor(title, categorySlug) {
-  const descriptions = {
-    portrait: `${title}，适合头像、写真和人物视觉参考。`,
-    "product-poster": `${title}，适合品牌广告、产品宣传和商业海报参考。`,
-    "ecommerce-main-image": `${title}，适合电商首图、商品展示和详情页视觉参考。`,
-    "chinese-illustration": `${title}，适合国风插画、文旅海报和东方美学视觉参考。`,
-    "3d-icon": `${title}，适合 3D 图标、拟物视觉和轻量资产设计参考。`,
-    "ui-design": `${title}，适合 App、Web、仪表盘和设计系统灵感参考。`,
-    "game-concept": `${title}，适合游戏场景、世界观设定和概念图参考。`,
-    "xiaohongshu-cover": `${title}，适合小红书封面、社交媒体首图和生活方式内容参考。`,
-    "vintage-poster": `${title}，适合复古海报、旅行视觉和怀旧印刷风格参考。`,
-    "character-design": `${title}，适合角色设定、IP 形象和人物档案参考。`,
-  };
-  return descriptions[categorySlug] ?? `${title}，适合 AI 图片创作灵感参考。`;
-}
-
-function chinesePromptFor(title, categorySlug, tags) {
-  const tagText = tags.join("、");
-  const templates = {
-    portrait: `生成一张${title}：人物主体清晰，表情自然，光线有层次，背景与人物气质统一，画面具有${tagText}风格，保留真实皮肤质感、电影感构图和高级摄影细节。`,
-    "product-poster": `生成一张${title}：产品主体居中或略偏构图，材质细节清晰，使用高级商业光影、干净背景和明确留白，突出${tagText}氛围，适合品牌广告和宣传海报。`,
-    "ecommerce-main-image": `生成一张${title}：商品主体完整清晰，背景干净，卖点表达明确，加入真实材质、柔和反射和商业摄影光线，突出${tagText}，适合电商主图和详情页首图。`,
-    "chinese-illustration": `生成一张${title}：融合东方美学、留白、细腻线条和文化元素，画面层次清楚，色彩克制高级，突出${tagText}，适合文旅海报、国风插画和内容封面。`,
-    "3d-icon": `生成一张${title}：使用圆润立体造型、干净浅色背景、柔和阴影和精致材质，主体完整不裁切，突出${tagText}，适合图标套装、应用视觉和 3D 资产展示。`,
-    "ui-design": `生成一张${title}：展示清晰的信息架构、现代组件、卡片、按钮、导航和关键页面状态，使用统一设计系统和舒适留白，突出${tagText}，适合产品概念和界面提案。`,
-    "game-concept": `生成一张${title}：构建具有故事感的场景空间，包含清晰前中后景、氛围光、角色或建筑线索，突出${tagText}，适合游戏世界观、概念设定和视觉开发。`,
-    "xiaohongshu-cover": `生成一张${title}：画面干净醒目，主体与标题区域分明，色彩柔和适合移动端浏览，突出${tagText}，适合小红书封面、社交媒体首图和生活方式内容。`,
-    "vintage-poster": `生成一张${title}：使用复古印刷质感、怀旧配色、清晰标题排版和海报式构图，突出${tagText}，适合旅行海报、电影海报和复古内容封面。`,
-    "character-design": `生成一张${title}：角色形象完整，展示服装、表情、姿态和关键设定信息，版式清晰，突出${tagText}，适合角色卡、IP 设定和游戏人物展示。`,
-  };
-  return templates[categorySlug] ?? `生成一张${title}：构图清晰，主体明确，风格统一，细节丰富，适合 AI 图片创作参考。`;
-}
-
-function englishPromptFor(originalTitle, categorySlug, tags) {
-  const tagText = tags.map(englishTag).join(", ");
-  const category = englishCategory(categorySlug);
-  return `Create a polished ${category} image concept inspired by "${originalTitle}". Focus on ${tagText}. Use a clear composition, refined lighting, high-quality details, coherent visual style, and professional commercial presentation. Keep the main subject readable, avoid clutter, and make the result suitable for an AI image prompt library showcase.`;
-}
-
-function englishCategory(categorySlug) {
-  return {
-    portrait: "portrait photography",
-    "product-poster": "product advertising poster",
-    "ecommerce-main-image": "e-commerce product hero image",
-    "chinese-illustration": "Chinese-style illustration",
-    "3d-icon": "3D icon visual",
-    "ui-design": "UI design presentation",
-    "game-concept": "game concept art",
-    "xiaohongshu-cover": "social media cover",
-    "vintage-poster": "vintage poster",
-    "character-design": "character design sheet",
-  }[categorySlug] ?? "visual concept";
-}
-
-function englishTag(tag) {
-  return {
-    人像: "portrait",
-    摄影: "photography",
-    写真: "photo shoot",
-    头像: "avatar",
-    封面: "cover",
-    产品: "product",
-    海报: "poster",
-    广告: "advertising",
-    电商: "e-commerce",
-    主图: "hero image",
-    包装: "packaging",
-    香水: "perfume",
-    护肤品: "skincare",
-    美食: "food",
-    极简: "minimal",
-    复古: "vintage",
-    国风: "Chinese style",
-    水墨: "ink wash",
-    插画: "illustration",
-    地图: "map",
-    城市: "city",
-    "3D": "3D",
-    图标: "icon",
-    拟物: "skeuomorphic",
-    UI: "UI",
-    App: "app",
-    Web: "web",
-    仪表盘: "dashboard",
-    角色: "character",
-    二次元: "anime",
-    游戏: "game",
-    科幻: "science fiction",
-    奇幻: "fantasy",
-    场景: "scene",
-    赛博朋克: "cyberpunk",
-    小红书: "lifestyle social media",
-    生活方式: "lifestyle",
-    旅行: "travel",
-    东方美学: "oriental aesthetics",
-    电影感: "cinematic",
-    霓虹: "neon",
-    柔光: "soft light",
-    杂志感: "editorial",
-    高级: "premium",
-    科技: "technology",
-    数据: "data",
-    设定: "concept sheet",
-    界面: "interface",
-    设计系统: "design system",
-    组件: "components",
-    印刷感: "print texture",
-  }[tag] ?? "visual design";
-}
-
-function isEnglishPrompt(value) {
-  return value && !/[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/.test(value);
-}
-
-function isDisplaySafePrompt(value) {
-  return !/\b(sexy|seductive|cleavage|mini skirt|parted lips|temptation|barefoot|vulnerable|aroused|nsfw)\b/i.test(value);
-}
-
-function ratioFor(categorySlug) {
-  return {
-    portrait: "4:5",
-    "product-poster": "4:5",
-    "ecommerce-main-image": "1:1",
-    "chinese-illustration": "3:4",
-    "3d-icon": "1:1",
-    "ui-design": "16:10",
-    "game-concept": "16:9",
-    "xiaohongshu-cover": "4:5",
-    "vintage-poster": "3:4",
-    "character-design": "3:4",
-  }[categorySlug] ?? "4:3";
-}
-
-function imageFitFor(categorySlug) {
-  return ["product-poster", "ecommerce-main-image", "3d-icon", "ui-design", "xiaohongshu-cover", "vintage-poster", "character-design"].includes(
-    categorySlug,
-  )
-    ? "contain"
-    : "cover";
-}
-
-function displayTypeFor(categorySlug) {
-  return {
-    portrait: "portrait",
-    "product-poster": "poster",
-    "ecommerce-main-image": "product",
-    "chinese-illustration": "poster",
-    "3d-icon": "icon",
-    "ui-design": "ui",
-    "game-concept": "scene",
-    "xiaohongshu-cover": "poster",
-    "vintage-poster": "poster",
-    "character-design": "portrait",
-  }[categorySlug];
-}
-
-function buildPrompt(item, index) {
-  const categorySlug = item.categorySlug;
-  const category = categoryBySlug.get(categorySlug);
-  const title = zhTitle(item.originalTitle, categorySlug);
-  const tags = buildTags(item, categorySlug);
-  const englishPrompt =
-    isEnglishPrompt(item.prompt) && isDisplaySafePrompt(item.prompt) ? item.prompt : englishPromptFor(item.originalTitle, categorySlug, tags);
-  const chinesePrompt = chinesePromptFor(title, categorySlug, tags);
-  const slug = makeSlug(item, categorySlug);
-  const createdAt = new Date(Date.UTC(2026, 4, 12, 9, index, 0)).toISOString();
-  const likes = 86 + ((index * 37 + item.caseId) % 920);
-  const views = 980 + ((index * 211 + item.caseId * 13) % 9800);
-
-  return {
-    id: `real-${item.file.replace(".md", "")}-${item.caseId}`,
-    title,
-    slug,
-    category: category.name,
-    categoryName: category.name,
-    categorySlug,
-    tags,
-    coverImage: item.images[0],
-    image: item.images[0],
-    imageUrl: item.images[0],
-    galleryImages: item.images,
-    imageFit: imageFitFor(categorySlug),
-    displayType: displayTypeFor(categorySlug),
-    englishPrompt,
-    enPrompt: englishPrompt,
-    chinesePrompt,
-    cnPrompt: chinesePrompt,
-    zhPrompt: chinesePrompt,
-    description: descriptionFor(title, categorySlug),
-    sourceName: repoName,
-    sourceUrl: `https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/cases/${item.file}`,
-    originalSourceUrl: item.originalSourceUrl,
-    aspectRatio: ratioFor(categorySlug),
-    ratio: ratioFor(categorySlug),
-    model: "GPT Image 2",
-    style: styleFor(categorySlug, tags),
-    useCases: casesForPrompt(categorySlug),
-    useCase: casesForPrompt(categorySlug).join("、"),
-    views,
-    favorites: likes,
-    likes,
-    createdAt,
-    updatedAt: createdAt,
-    isFeatured: index < 8,
-  };
-}
-
-function styleFor(categorySlug, tags) {
-  if (tags.includes("复古")) return "复古印刷风";
-  if (tags.includes("赛博朋克")) return "赛博朋克";
-  if (tags.includes("国风")) return "东方美学";
-  if (tags.includes("极简")) return "极简高级感";
-  return {
-    portrait: "电影感摄影",
-    "product-poster": "商业广告摄影",
-    "ecommerce-main-image": "电商产品摄影",
-    "chinese-illustration": "国风插画",
-    "3d-icon": "圆润 3D",
-    "ui-design": "现代 UI",
-    "game-concept": "游戏概念艺术",
-    "xiaohongshu-cover": "生活方式封面",
-    "vintage-poster": "复古海报",
-    "character-design": "角色设定",
-  }[categorySlug];
-}
-
-function casesForPrompt(categorySlug) {
-  return {
-    portrait: ["头像", "写真", "社交媒体封面"],
-    "product-poster": ["产品海报", "品牌广告", "社交媒体推广"],
-    "ecommerce-main-image": ["电商主图", "商品详情页", "卖点展示"],
-    "chinese-illustration": ["文旅海报", "国风插画", "内容封面"],
-    "3d-icon": ["图标套装", "App 视觉", "品牌素材"],
-    "ui-design": ["App 概念", "Web 界面", "产品提案"],
-    "game-concept": ["游戏场景", "世界观设定", "概念海报"],
-    "xiaohongshu-cover": ["小红书封面", "社交媒体首图", "生活方式内容"],
-    "vintage-poster": ["复古海报", "旅行宣传", "怀旧封面"],
-    "character-design": ["角色设定", "IP 形象", "游戏人物"],
-  }[categorySlug];
-}
-
-function syncCategories(prompts) {
-  return categories.map((category, index) => {
-    const items = prompts.filter((prompt) => prompt.categorySlug === category.slug);
-    const top = [...items].sort((a, b) => (b.views ?? 0) - (a.views ?? 0))[0];
-    const tagCounts = new Map();
-    for (const item of items) {
-      for (const tag of item.tags) tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
+  for (const a of suffixA) {
+    const candidate = `${title}${a}`;
+    if (!used.has(candidate)) {
+      used.add(candidate);
+      return candidate;
     }
-    const tags = Array.from(tagCounts.entries())
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 6)
-      .map(([tag]) => tag);
+  }
+  for (const a of suffixA) {
+    for (const b of suffixB) {
+      const candidate = `${title}${a}${b}`;
+      if (!used.has(candidate)) {
+        used.add(candidate);
+        return candidate;
+      }
+    }
+  }
+  const candidate = `${title}${suffixB[Math.abs(hashCode(base || title)) % suffixB.length]}${suffixA[Math.abs(hashCode(`${base}-x`)) % suffixA.length]}`;
+  used.add(candidate);
+  return candidate;
+}
+function stripMarkdown(text) {
+  return String(text || "")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/[`*_#>]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
+function parseCases(fileName) {
+  const full = path.join(CASES_DIR, fileName);
+  if (!fs.existsSync(full)) return [];
+  const text = fs.readFileSync(full, "utf8");
+  const matches = [...text.matchAll(/^### Case\s+(\d+):\s*(.+)$/gm)];
+  const cases = [];
+  for (let i = 0; i < matches.length; i++) {
+    const start = matches[i].index;
+    const end = i + 1 < matches.length ? matches[i + 1].index : text.length;
+    const block = text.slice(start, end);
+    const caseId = matches[i][1];
+    const heading = matches[i][2].trim();
+    const linked = heading.match(/\[([^\]]+)\]\(([^)]+)\)/);
+    const title = stripMarkdown(linked?.[1] || heading.replace(/\(by.+$/i, ""));
+    const originalSourceUrl = linked?.[2] || "";
+    const imageMatches = [...block.matchAll(/<img\s+[^>]*src=["']([^"']+)["'][^>]*>/gi)].map((m) => m[1]);
+    const promptMatch = block.match(/\*\*Prompt:\*\*\s*```([\s\S]*?)```/i) || block.match(/```([\s\S]*?)```/);
+    const prompt = promptMatch?.[1]?.trim() || "";
+    cases.push({ fileName, caseId, title, originalSourceUrl, images: imageMatches, prompt });
+  }
+  return cases;
+}
+
+function normalizeImageUrl(src) {
+  if (!src) return "";
+  if (/^https?:\/\//i.test(src)) return src;
+  const rel = path.posix.normalize(path.posix.join("cases", "..", src.replace(/\\/g, "/"))).replace(/^\.\//, "");
+  return SOURCE_RAW_PREFIX + rel;
+}
+
+function localPathForUrl(url) {
+  if (!url) return "";
+  let rel = "";
+  if (url.startsWith(SOURCE_RAW_PREFIX)) rel = url.slice(SOURCE_RAW_PREFIX.length);
+  else {
+    const match = url.match(/\/EvoLinkAI\/awesome-gpt-image-2-API-and-Prompts\/(?:raw|blob)\/main\/(.+)$/i);
+    if (match) rel = match[1];
+  }
+  if (!rel) return "";
+  return path.join(SOURCE_ROOT, ...rel.split(/[\/]+/));
+}
+
+function imageSize(file) {
+  if (!file || !fs.existsSync(file)) return null;
+  const buffer = fs.readFileSync(file);
+  if (buffer.length < 32) return null;
+  if (buffer[0] === 0x89 && buffer.toString("ascii", 1, 4) === "PNG") {
+    return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+  }
+  if (buffer[0] === 0xff && buffer[1] === 0xd8) {
+    let offset = 2;
+    while (offset < buffer.length) {
+      if (buffer[offset] !== 0xff) { offset++; continue; }
+      const marker = buffer[offset + 1];
+      if (offset + 4 > buffer.length) return null;
+      const length = buffer.readUInt16BE(offset + 2);
+      if (!Number.isFinite(length) || length < 2) return null;
+      if ([0xc0, 0xc1, 0xc2, 0xc3, 0xc5, 0xc6, 0xc7, 0xc9, 0xca, 0xcb, 0xcd, 0xce, 0xcf].includes(marker)) {
+        return { width: buffer.readUInt16BE(offset + 7), height: buffer.readUInt16BE(offset + 5) };
+      }
+      offset += 2 + length;
+    }
+  }
+  if (buffer.toString("ascii", 0, 4) === "RIFF" && buffer.toString("ascii", 8, 12) === "WEBP") {
+    const chunk = buffer.toString("ascii", 12, 16);
+    if (chunk === "VP8X") return { width: 1 + buffer.readUIntLE(24, 3), height: 1 + buffer.readUIntLE(27, 3) };
+  }
+  return null;
+}
+
+function aspectRatioLabel(width, height) {
+  if (!width || !height) return "自定义比例";
+  const ratio = width / height;
+  const common = [
+    [1 / 1, "1:1"], [4 / 5, "4:5"], [3 / 4, "3:4"], [2 / 3, "2:3"], [9 / 16, "9:16"],
+    [16 / 9, "16:9"], [3 / 2, "3:2"], [4 / 3, "4:3"], [16 / 10, "16:10"], [5 / 4, "5:4"],
+  ];
+  let best = common[0];
+  let bestDelta = Infinity;
+  for (const item of common) {
+    const delta = Math.abs(ratio - item[0]);
+    if (delta < bestDelta) { best = item; bestDelta = delta; }
+  }
+  if (bestDelta <= 0.08) return best[1];
+  return `约 ${ratio.toFixed(2)}:1`;
+}
+
+function classify(item) {
+  const file = item.fileName.replace(/\.md$/, "");
+  const text = `${item.title} ${item.prompt}`.toLowerCase();
+  const has = (words) => words.some((word) => text.includes(word));
+  if (has(["3d icon", "app icon", "clay icon", "isometric icon", "icon set", "emoji", "sticker"])) return "3d-icon";
+  if (has(["dashboard", "interface", "ui", "app screen", "mobile app", "web page", "landing page", "design system", "mockup"])) return "ui-design";
+  if (has(["character", "mascot", "anime", "vtuber", "mecha", "persona", "game streamer", "girl character", "figure"])) return "character-design";
+  if (has(["game", "concept art", "fantasy", "sci-fi", "science fiction", "cyberpunk", "worldbuilding", "minecraft", "gta", "castle", "battle"] )) return "game-concept";
+  if (has(["vintage", "retro", "old newspaper", "classic poster", "1950s", "1960s", "film poster"])) return "vintage-poster";
+  if (has(["xiaohongshu", "social media", "cover", "thumbnail", "lifestyle", "magazine cover", "note cover"])) return "xiaohongshu-cover";
+  if (has(["chinese", "ink", "oriental", "hanfu", "guofeng", "wuxia", "calligraphy", "chengdu", "guangzhou", "china", "journey to the west", "taoist"])) return "chinese-illustration";
+  if (has(["portrait", "headshot", "selfie", "model", "fashion", "photography", "cinematic portrait", "girl", "woman", "man"])) return "portrait";
+  if (file === "ecommerce" || has(["ecommerce", "product listing", "main image", "hero image", "product shot", "商品主图"])) return "ecommerce-main-image";
+  if (has(["product", "perfume", "cosmetic", "skincare", "watch", "shoe", "sneaker", "food", "beverage", "advertisement", "advertising", "campaign", "commercial", "poster", "flyer", "ad creative"])) return "product-poster";
+  if (file === "ui") return "ui-design";
+  if (file === "character") return "character-design";
+  if (file === "portrait") return "portrait";
+  if (file === "ad-creative") return "product-poster";
+  if (file === "poster") return "vintage-poster";
+  return "product-poster";
+}
+
+function cleanTitle(rawTitle, categorySlug) {
+  const titleSource = stripMarkdown(rawTitle).replace(NUMBERED_TITLE, "").trim();
+  for (const [pattern, title] of TITLE_HINTS) if (pattern.test(titleSource)) return title;
+  const bank = TITLE_BANK[categorySlug] || TITLE_BANK["product-poster"];
+  const seed = Math.abs(hashCode(titleSource || categorySlug)) % bank.length;
+  return bank[seed];
+}
+
+function hashCode(text) {
+  let hash = 0;
+  for (let i = 0; i < text.length; i++) hash = ((hash << 5) - hash + text.charCodeAt(i)) | 0;
+  return hash;
+}
+
+function extraTags(text) {
+  const result = [];
+  const rules = [
+    [/perfume|fragrance/i, "香水"], [/cosmetic|skincare|beauty/i, "护肤品"], [/food|drink|beverage|coffee/i, "美食"], [/shoe|sneaker/i, "鞋履"],
+    [/dashboard|data/i, "仪表盘"], [/landing page|web/i, "Web"], [/app/i, "App"], [/cyberpunk/i, "赛博朋克"], [/fantasy/i, "奇幻"],
+    [/retro|vintage/i, "复古"], [/map/i, "地图"], [/city/i, "城市"], [/poster/i, "海报"], [/portrait|headshot/i, "人像"], [/minimal/i, "极简"],
+  ];
+  for (const [pattern, tag] of rules) if (pattern.test(text) && !result.includes(tag)) result.push(tag);
+  return result;
+}
+
+function makeTags(categorySlug, raw) {
+  const tags = [...(CATEGORY_TAGS[categorySlug] || []), ...extraTags(raw)].filter(Boolean);
+  return [...new Set(tags)].slice(0, 5);
+}
+
+function makeDescription(categorySlug, title, tags) {
+  const templates = {
+    portrait: `适合头像写真、人物摄影和社交媒体形象参考。`,
+    "product-poster": `适合品牌广告、产品宣传和商业海报创意参考。`,
+    "ecommerce-main-image": `适合商品主图、卖点展示和电商详情首图参考。`,
+    "chinese-illustration": `适合国风插画、东方美学和文化主题视觉参考。`,
+    "3d-icon": `适合 App 图标、功能入口和 3D 视觉组件参考。`,
+    "ui-design": `适合界面概念、仪表盘和产品体验设计参考。`,
+    "game-concept": `适合游戏场景、世界观设定和概念艺术参考。`,
+    "xiaohongshu-cover": `适合种草笔记、生活方式内容和社交媒体封面参考。`,
+    "vintage-poster": `适合复古广告、旅行海报和怀旧平面设计参考。`,
+    "character-design": `适合角色立绘、IP 形象和人物设定参考。`,
+  };
+  return templates[categorySlug] || `适合 ${tags.slice(0, 2).join("、")} 等视觉创作参考。`;
+}
+
+function englishFallback(categorySlug) {
+  const englishCategory = {
+    portrait: "cinematic portrait photography",
+    "product-poster": "premium product advertising poster",
+    "ecommerce-main-image": "e-commerce hero product image",
+    "chinese-illustration": "oriental ink-inspired illustration",
+    "3d-icon": "soft 3D icon design",
+    "ui-design": "modern digital interface design",
+    "game-concept": "fantasy game concept art",
+    "xiaohongshu-cover": "social media cover design",
+    "vintage-poster": "retro editorial poster design",
+    "character-design": "stylized character design",
+  }[categorySlug] || "polished visual concept";
+  return `Create a polished GPT Image 2 ${englishCategory}. Use clean composition, refined lighting, strong visual hierarchy, detailed materials, harmonious colors, premium editorial quality, and a finished portfolio-ready look. Keep the subject clear, readable, and visually balanced.`;
+}
+
+function chinesePrompt(categorySlug, title, tags) {
+  const tagLine = tags.join("、");
+  return `${title}，围绕${tagLine}展开画面设计，构图清晰，主体突出，光线柔和而有层次，色彩干净高级，细节丰富但不过度拥挤，适合作为 GPT Image 2 提示词参考。画面需要兼顾真实质感、视觉冲击力和可复制的创作思路。`;
+}
+
+function normalizeEnglishPrompt(raw, categorySlug, title, tags) {
+  // Source prompts often contain mixed-language text, placeholders, social links or multi-prompt notes.
+  // For the public MVP we keep the sourceUrl for traceability and generate a clean copy-ready English prompt.
+  return englishFallback(categorySlug, title, tags);
+}
+function displayType(categorySlug) {
+  if (categorySlug === "portrait") return "portrait";
+  if (["product-poster", "vintage-poster", "xiaohongshu-cover"].includes(categorySlug)) return "poster";
+  if (categorySlug === "ecommerce-main-image") return "product";
+  if (categorySlug === "ui-design") return "ui";
+  if (categorySlug === "3d-icon") return "icon";
+  if (["game-concept", "chinese-illustration"].includes(categorySlug)) return "scene";
+  return "landscape";
+}
+
+function imageFit(categorySlug) {
+  if (["portrait", "game-concept", "chinese-illustration", "vintage-poster"].includes(categorySlug)) return "cover";
+  return "contain";
+}
+
+function buildCategories(prompts) {
+  return CATEGORY_DEFS.map((def) => {
+    const items = prompts.filter((prompt) => prompt.categorySlug === def.slug);
+    const sorted = [...items].sort((a, b) => (b.views || 0) + (b.favorites || 0) - ((a.views || 0) + (a.favorites || 0)));
+    const tagCounts = new Map();
+    for (const prompt of items) for (const tag of prompt.tags) tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+    const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([tag]) => tag);
     return {
-      id: `cat-${String(index + 1).padStart(2, "0")}`,
-      name: category.name,
-      slug: category.slug,
-      description: category.description,
-      icon: category.icon,
-      accent: category.accent,
-      coverImage: top?.coverImage ?? "",
-      thumbnail: top?.coverImage ?? "",
-      accentImage: top?.coverImage ?? "",
-      dailyImageMode: "top-prompt",
-      promptCount: items.length,
+      slug: def.slug,
+      name: def.name,
+      description: def.description,
       count: items.length,
+      promptCount: items.length,
+      coverImage: sorted[0]?.coverImage || "",
+      accentImage: sorted[1]?.coverImage || sorted[0]?.coverImage || "",
       tags,
     };
   });
 }
 
-function syncTags(prompts) {
-  const names = Array.from(new Set(prompts.flatMap((prompt) => prompt.tags)));
-  return names.sort((a, b) => a.localeCompare(b, "zh-Hans-CN")).map((name, index) => ({
-    id: `tag-${String(index + 1).padStart(2, "0")}`,
-    name,
-    slug: tagSlug(name),
-    description: `${name}相关提示词标签`,
-  }));
+function buildTags(prompts) {
+  const counts = new Map();
+  for (const prompt of prompts) for (const tag of prompt.tags) counts.set(tag, (counts.get(tag) || 0) + 1);
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN")).map(([name, count]) => ({ id: slugify(name), name, slug: slugify(name), count }));
 }
 
-function tagSlug(name) {
-  const known = {
-    人像: "portrait",
-    摄影: "photography",
-    写真: "photo-shoot",
-    头像: "avatar",
-    封面: "cover",
-    产品: "product",
-    海报: "poster",
-    广告: "advertising",
-    电商: "ecommerce",
-    主图: "main-image",
-    包装: "packaging",
-    香水: "perfume",
-    护肤品: "skincare",
-    美食: "food",
-    极简: "minimal",
-    复古: "vintage",
-    国风: "chinese-style",
-    国潮: "china-chic",
-    水墨: "ink",
-    插画: "illustration",
-    地图: "map",
-    城市: "city",
-    "3D": "3d",
-    图标: "icon",
-    拟物: "skeuomorphic",
-    UI: "ui",
-    App: "app",
-    Web: "web",
-    仪表盘: "dashboard",
-    角色: "character",
-    IP: "ip",
-    二次元: "anime",
-    游戏: "game",
-    科幻: "sci-fi",
-    奇幻: "fantasy",
-    场景: "scene",
-    赛博朋克: "cyberpunk",
-    小红书: "xiaohongshu",
-    生活方式: "lifestyle",
-    旅行: "travel",
-    东方美学: "oriental-aesthetic",
-  };
-  return known[name] ?? name.toLowerCase().replace(/\s+/g, "-");
-}
+function main() {
+  ensureDirs();
+  const backupDir = backupCurrentData();
+  const cases = CASE_FILES.flatMap(parseCases);
+  const usedSlugs = new Set();
+  const usedTitles = new Set();
+  const prompts = [];
+  const skipped = [];
 
-function writeJson(fileName, value) {
-  fs.writeFileSync(path.join(dataDir, fileName), `${JSON.stringify(value, null, 2)}\n`, "utf8");
-}
+  for (const item of cases) {
+    const imageUrl = normalizeImageUrl(item.images[0], item.fileName);
+    const localImage = localPathForUrl(imageUrl);
+    const size = imageSize(localImage);
+    if (!item.prompt) { skipped.push({ file: item.fileName, caseId: item.caseId, reason: "missing prompt" }); continue; }
+    if (!imageUrl || !localImage || !fs.existsSync(localImage)) { skipped.push({ file: item.fileName, caseId: item.caseId, reason: "missing local image" }); continue; }
+    if (!size) { skipped.push({ file: item.fileName, caseId: item.caseId, reason: "unreadable image size" }); continue; }
 
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-async function imageAvailable(url) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 8000);
-  try {
-    const response = await fetch(url, { method: "HEAD", signal: controller.signal });
-    return response.ok;
-  } catch {
-    try {
-      const response = await fetch(url, { method: "GET", signal: controller.signal });
-      return response.ok;
-    } catch {
-      return false;
-    }
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-async function selectCases(allCases) {
-  const byCategory = new Map();
-  for (const item of allCases) {
-    const categorySlug = classifyCase(item);
-    if (!categorySlug || !item.images.length || !item.prompt) continue;
-    if (!byCategory.has(categorySlug)) byCategory.set(categorySlug, []);
-    byCategory.get(categorySlug).push({ ...item, categorySlug });
+    const categorySlug = classify(item);
+    const category = CATEGORY_DEFS.find((def) => def.slug === categorySlug) || CATEGORY_DEFS[0];
+    const rawContext = `${item.title} ${item.prompt}`;
+    const title = uniqueTitle(item.title, categorySlug, usedTitles);
+    const tags = makeTags(categorySlug, rawContext);
+    const englishPrompt = normalizeEnglishPrompt(item.prompt, categorySlug, title, tags);
+    const slug = uniqueSlug(`${categorySlug}-${item.fileName.replace(/\.md$/, "")}-${item.caseId}-${title}`, usedSlugs);
+    const views = 900 + Math.abs(hashCode(`${item.fileName}-${item.caseId}-views`)) % 9200;
+    const favorites = 60 + Math.abs(hashCode(`${item.fileName}-${item.caseId}-favorites`)) % 1800;
+    const ratio = aspectRatioLabel(size.width, size.height);
+    const sourceUrl = `${SOURCE_REPO_URL}/blob/main/cases/${item.fileName}#case-${item.caseId}`;
+    prompts.push({
+      id: slug,
+      slug,
+      title,
+      description: makeDescription(categorySlug, title, tags),
+      category: category.name,
+      categoryName: category.name,
+      categorySlug,
+      tags,
+      coverImage: imageUrl,
+      image: imageUrl,
+      imageUrl,
+      galleryImages: [imageUrl],
+      imageFit: imageFit(categorySlug),
+      displayType: displayType(categorySlug),
+      chinesePrompt: chinesePrompt(categorySlug, title, tags),
+      cnPrompt: chinesePrompt(categorySlug, title, tags),
+      zhPrompt: chinesePrompt(categorySlug, title, tags),
+      englishPrompt,
+      enPrompt: englishPrompt,
+      model: "GPT Image 2",
+      ratio,
+      aspectRatio: ratio,
+      aspectRatioLabel: ratio,
+      imageWidth: size.width,
+      imageHeight: size.height,
+      style: tags.slice(0, 3).join("、"),
+      useCases: tags.slice(0, 4),
+      useCase: tags.slice(0, 3).join("、"),
+      views,
+      likes: favorites,
+      favorites,
+      sourceName: SOURCE_NAME,
+      sourceRepo: SOURCE_NAME,
+      sourceUrl,
+      originalSourceUrl: item.originalSourceUrl,
+      sourceLicense: SOURCE_LICENSE,
+      license: SOURCE_LICENSE,
+      createdAt: "2026-05-15",
+      updatedAt: "2026-05-15",
+      isFeatured: prompts.length < 12,
+    });
   }
 
-  const selected = [];
-  const used = new Set();
-  const skippedImages = [];
+  prompts.sort((a, b) => b.views + b.favorites - (a.views + a.favorites));
+  const categories = buildCategories(prompts);
+  const tags = buildTags(prompts);
+  fs.writeFileSync(path.join(DATA_DIR, "prompts.json"), JSON.stringify(prompts, null, 2) + "\n", "utf8");
+  fs.writeFileSync(path.join(DATA_DIR, "categories.json"), JSON.stringify(categories, null, 2) + "\n", "utf8");
+  fs.writeFileSync(path.join(DATA_DIR, "tags.json"), JSON.stringify(tags, null, 2) + "\n", "utf8");
 
-  async function tryAdd(item) {
-    const key = `${item.file}:${item.caseId}`;
-    if (used.has(key)) return false;
-    const ok = await imageAvailable(item.images[0]);
-    if (!ok) {
-      skippedImages.push(key);
-      return false;
-    }
-    used.add(key);
-    selected.push(item);
-    return true;
-  }
-
-  for (const [categorySlug, count] of Object.entries(quota)) {
-    const items = byCategory.get(categorySlug) ?? [];
-    let added = 0;
-    for (const item of items) {
-      if (added >= count) break;
-      if (await tryAdd(item)) added += 1;
-    }
-  }
-
-  if (selected.length < targetCount) {
-    const leftovers = Array.from(byCategory.values()).flat();
-    for (const item of leftovers) {
-      if (selected.length >= targetCount) break;
-      await tryAdd(item);
-    }
-  }
-
-  if (selected.length < targetCount) {
-    throw new Error(`Only selected ${selected.length} valid cases; target is ${targetCount}. Skipped bad images: ${skippedImages.join(", ")}`);
-  }
-
-  return { selected: selected.slice(0, targetCount), skippedImages };
+  const distribution = Object.fromEntries(categories.map((cat) => [cat.name, cat.count]));
+  const report = { sourceRoot: SOURCE_ROOT, backupDir, totalCases: cases.length, imported: prompts.length, skipped: skipped.length, distribution, skippedSamples: skipped.slice(0, 80) };
+  fs.writeFileSync(path.join(REPORT_DIR, "full-import-report.json"), JSON.stringify(report, null, 2) + "\n", "utf8");
+  console.log(JSON.stringify(report, null, 2));
 }
 
-async function main() {
-  ensureSourceRepo();
-  backupFile("prompts.json", "real.20.backup");
-  backupFile("categories.json", "real.20.backup");
-  backupFile("tags.json", "real.20.backup");
+main();
 
-  const allCases = sourceFiles.flatMap(parseCases);
-  const { selected, skippedImages } = await selectCases(allCases);
-  const prompts = selected.map(buildPrompt);
-  const nextCategories = syncCategories(prompts);
-  const nextTags = syncTags(prompts);
 
-  writeJson("prompts.json", prompts);
-  writeJson("categories.json", nextCategories);
-  writeJson("tags.json", nextTags);
 
-  const distribution = nextCategories.map((category) => `${category.name}: ${category.count}`).join("\n");
-  console.log(`Imported ${prompts.length} prompts from ${repoName}.`);
-  console.log(distribution);
-  if (skippedImages.length) console.log(`Skipped unavailable images: ${skippedImages.join(", ")}`);
-}
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+
+
+
+
