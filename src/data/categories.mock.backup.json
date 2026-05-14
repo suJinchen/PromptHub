@@ -1,0 +1,212 @@
+[
+  {
+    "id": "cat-portrait",
+    "name": "人像写真",
+    "slug": "portrait",
+    "description": "适合头像、写真、棚拍、电影感人像与社交媒体形象设计。",
+    "icon": "portrait",
+    "accent": "#8B5CF6",
+    "coverImage": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 10,
+    "count": 10,
+    "tags": [
+      "人像",
+      "头像",
+      "写真",
+      "电影感",
+      "柔光"
+    ]
+  },
+  {
+    "id": "cat-product-poster",
+    "name": "产品海报",
+    "slug": "product-poster",
+    "description": "适合香水、护肤品、家居产品、品牌海报和广告主视觉。",
+    "icon": "poster",
+    "accent": "#7C3AED",
+    "coverImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 10,
+    "count": 10,
+    "tags": [
+      "产品",
+      "海报",
+      "广告",
+      "香水",
+      "护肤品"
+    ]
+  },
+  {
+    "id": "cat-ecommerce-main-image",
+    "name": "电商主图",
+    "slug": "ecommerce-main-image",
+    "description": "适合电商平台商品主图、卖点展示、清爽背景和产品场景图。",
+    "icon": "shopping",
+    "accent": "#6D4AFF",
+    "coverImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "电商",
+      "主图",
+      "商品",
+      "极简",
+      "卖点"
+    ]
+  },
+  {
+    "id": "cat-chinese-illustration",
+    "name": "国风插画",
+    "slug": "chinese-illustration",
+    "description": "适合古风人物、水墨山水、节气海报、国潮插画与东方叙事。",
+    "icon": "brush",
+    "accent": "#9F67FF",
+    "coverImage": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 8,
+    "count": 8,
+    "tags": [
+      "国风",
+      "古风",
+      "水墨",
+      "插画",
+      "东方美学"
+    ]
+  },
+  {
+    "id": "cat-3d-icons",
+    "name": "3D 图标",
+    "slug": "3d-icons",
+    "description": "适合 App 图标、功能图标、圆润 3D 物体和品牌视觉组件。",
+    "icon": "cube",
+    "accent": "#8B5CF6",
+    "coverImage": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 6,
+    "count": 6,
+    "tags": [
+      "3D",
+      "图标",
+      "圆润",
+      "App",
+      "质感"
+    ]
+  },
+  {
+    "id": "cat-ui-design",
+    "name": "UI 设计",
+    "slug": "ui-design",
+    "description": "适合 App 页面、数据看板、SaaS 界面、工具产品概念与设计提案。",
+    "icon": "ui",
+    "accent": "#6D4AFF",
+    "coverImage": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 6,
+    "count": 6,
+    "tags": [
+      "UI",
+      "App",
+      "仪表盘",
+      "SaaS",
+      "界面"
+    ]
+  },
+  {
+    "id": "cat-game-concept-art",
+    "name": "游戏概念图",
+    "slug": "game-concept-art",
+    "description": "适合未来城市、幻想场景、游戏关卡、角色氛围与世界观视觉。",
+    "icon": "game",
+    "accent": "#7C3AED",
+    "coverImage": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 6,
+    "count": 6,
+    "tags": [
+      "游戏",
+      "场景",
+      "概念图",
+      "科幻",
+      "奇幻"
+    ]
+  },
+  {
+    "id": "cat-xiaohongshu-cover",
+    "name": "小红书封面",
+    "slug": "xiaohongshu-cover",
+    "description": "适合生活方式、旅行攻略、知识分享、清新标题封面和种草内容。",
+    "icon": "cover",
+    "accent": "#A855F7",
+    "coverImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 6,
+    "count": 6,
+    "tags": [
+      "小红书",
+      "封面",
+      "生活方式",
+      "排版",
+      "自然光"
+    ]
+  },
+  {
+    "id": "cat-character-design",
+    "name": "角色设定",
+    "slug": "character-design",
+    "description": "适合角色外观、服装、职业设定、游戏人物和世界观视觉。",
+    "icon": "character",
+    "accent": "#8B5CF6",
+    "coverImage": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80",
+    "tags": [
+      "角色",
+      "游戏",
+      "奇幻",
+      "科幻",
+      "概念图"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 2,
+    "count": 2
+  },
+  {
+    "id": "cat-vintage-poster",
+    "name": "复古海报",
+    "slug": "vintage-poster",
+    "description": "适合旅行海报、复古广告、旧印刷质感和怀旧商业视觉。",
+    "icon": "poster",
+    "accent": "#A855F7",
+    "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80",
+    "tags": [
+      "复古",
+      "海报",
+      "广告",
+      "插画",
+      "旅行"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80",
+    "accentImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80",
+    "dailyImageMode": "topPrompt",
+    "promptCount": 2,
+    "count": 2
+  }
+]

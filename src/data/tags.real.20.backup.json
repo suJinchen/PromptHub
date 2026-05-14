@@ -1,0 +1,338 @@
+[
+  {
+    "id": "tag-01",
+    "name": "包装",
+    "slug": "packaging",
+    "description": "包装相关提示词标签"
+  },
+  {
+    "id": "tag-02",
+    "name": "插画",
+    "slug": "illustration",
+    "description": "插画相关提示词标签"
+  },
+  {
+    "id": "tag-03",
+    "name": "产品",
+    "slug": "product",
+    "description": "产品相关提示词标签"
+  },
+  {
+    "id": "tag-04",
+    "name": "场景",
+    "slug": "scene",
+    "description": "场景相关提示词标签"
+  },
+  {
+    "id": "tag-05",
+    "name": "城市",
+    "slug": "city",
+    "description": "城市相关提示词标签"
+  },
+  {
+    "id": "tag-06",
+    "name": "地图",
+    "slug": "map",
+    "description": "地图相关提示词标签"
+  },
+  {
+    "id": "tag-07",
+    "name": "电商",
+    "slug": "ecommerce",
+    "description": "电商相关提示词标签"
+  },
+  {
+    "id": "tag-08",
+    "name": "电影感",
+    "slug": "cinematic",
+    "description": "电影感相关提示词标签"
+  },
+  {
+    "id": "tag-09",
+    "name": "东方美学",
+    "slug": "oriental-aesthetic",
+    "description": "东方美学相关提示词标签"
+  },
+  {
+    "id": "tag-10",
+    "name": "二次元",
+    "slug": "anime",
+    "description": "二次元相关提示词标签"
+  },
+  {
+    "id": "tag-11",
+    "name": "复古",
+    "slug": "vintage",
+    "description": "复古相关提示词标签"
+  },
+  {
+    "id": "tag-12",
+    "name": "概念图",
+    "slug": "concept-art",
+    "description": "概念图相关提示词标签"
+  },
+  {
+    "id": "tag-13",
+    "name": "广告",
+    "slug": "advertising",
+    "description": "广告相关提示词标签"
+  },
+  {
+    "id": "tag-14",
+    "name": "国风",
+    "slug": "chinese-style",
+    "description": "国风相关提示词标签"
+  },
+  {
+    "id": "tag-15",
+    "name": "海报",
+    "slug": "poster",
+    "description": "海报相关提示词标签"
+  },
+  {
+    "id": "tag-16",
+    "name": "护肤品",
+    "slug": "skincare",
+    "description": "护肤品相关提示词标签"
+  },
+  {
+    "id": "tag-17",
+    "name": "极简",
+    "slug": "minimal",
+    "description": "极简相关提示词标签"
+  },
+  {
+    "id": "tag-18",
+    "name": "胶片",
+    "slug": "film",
+    "description": "胶片相关提示词标签"
+  },
+  {
+    "id": "tag-19",
+    "name": "角色",
+    "slug": "character",
+    "description": "角色相关提示词标签"
+  },
+  {
+    "id": "tag-20",
+    "name": "界面",
+    "slug": "interface",
+    "description": "界面相关提示词标签"
+  },
+  {
+    "id": "tag-21",
+    "name": "卡片",
+    "slug": "card",
+    "description": "卡片相关提示词标签"
+  },
+  {
+    "id": "tag-22",
+    "name": "科技",
+    "slug": "tech",
+    "description": "科技相关提示词标签"
+  },
+  {
+    "id": "tag-23",
+    "name": "旅行",
+    "slug": "travel",
+    "description": "旅行相关提示词标签"
+  },
+  {
+    "id": "tag-24",
+    "name": "卖点",
+    "slug": "selling-points",
+    "description": "卖点相关提示词标签"
+  },
+  {
+    "id": "tag-25",
+    "name": "美食",
+    "slug": "food-map",
+    "description": "美食相关提示词标签"
+  },
+  {
+    "id": "tag-26",
+    "name": "霓虹",
+    "slug": "neon",
+    "description": "霓虹相关提示词标签"
+  },
+  {
+    "id": "tag-27",
+    "name": "品牌",
+    "slug": "brand",
+    "description": "品牌相关提示词标签"
+  },
+  {
+    "id": "tag-28",
+    "name": "奇幻",
+    "slug": "fantasy",
+    "description": "奇幻相关提示词标签"
+  },
+  {
+    "id": "tag-29",
+    "name": "人物",
+    "slug": "figure",
+    "description": "人物相关提示词标签"
+  },
+  {
+    "id": "tag-30",
+    "name": "人像",
+    "slug": "portrait",
+    "description": "人像相关提示词标签"
+  },
+  {
+    "id": "tag-31",
+    "name": "柔光",
+    "slug": "soft-light",
+    "description": "柔光相关提示词标签"
+  },
+  {
+    "id": "tag-32",
+    "name": "赛博朋克",
+    "slug": "cyberpunk",
+    "description": "赛博朋克相关提示词标签"
+  },
+  {
+    "id": "tag-33",
+    "name": "闪光灯",
+    "slug": "flash",
+    "description": "闪光灯相关提示词标签"
+  },
+  {
+    "id": "tag-34",
+    "name": "奢华",
+    "slug": "luxury",
+    "description": "奢华相关提示词标签"
+  },
+  {
+    "id": "tag-35",
+    "name": "设定",
+    "slug": "character-sheet",
+    "description": "设定相关提示词标签"
+  },
+  {
+    "id": "tag-36",
+    "name": "设计系统",
+    "slug": "design-system",
+    "description": "设计系统相关提示词标签"
+  },
+  {
+    "id": "tag-37",
+    "name": "摄影",
+    "slug": "photography",
+    "description": "摄影相关提示词标签"
+  },
+  {
+    "id": "tag-38",
+    "name": "食品",
+    "slug": "food",
+    "description": "食品相关提示词标签"
+  },
+  {
+    "id": "tag-39",
+    "name": "手表",
+    "slug": "watch",
+    "description": "手表相关提示词标签"
+  },
+  {
+    "id": "tag-40",
+    "name": "数据",
+    "slug": "data",
+    "description": "数据相关提示词标签"
+  },
+  {
+    "id": "tag-41",
+    "name": "水墨",
+    "slug": "ink",
+    "description": "水墨相关提示词标签"
+  },
+  {
+    "id": "tag-42",
+    "name": "文旅",
+    "slug": "culture-tourism",
+    "description": "文旅相关提示词标签"
+  },
+  {
+    "id": "tag-43",
+    "name": "夏日",
+    "slug": "summer",
+    "description": "夏日相关提示词标签"
+  },
+  {
+    "id": "tag-44",
+    "name": "香水",
+    "slug": "perfume",
+    "description": "香水相关提示词标签"
+  },
+  {
+    "id": "tag-45",
+    "name": "肖像",
+    "slug": "headshot",
+    "description": "肖像相关提示词标签"
+  },
+  {
+    "id": "tag-46",
+    "name": "夜景",
+    "slug": "night",
+    "description": "夜景相关提示词标签"
+  },
+  {
+    "id": "tag-47",
+    "name": "饮料",
+    "slug": "beverage",
+    "description": "饮料相关提示词标签"
+  },
+  {
+    "id": "tag-48",
+    "name": "印刷感",
+    "slug": "print",
+    "description": "印刷感相关提示词标签"
+  },
+  {
+    "id": "tag-49",
+    "name": "游戏",
+    "slug": "game",
+    "description": "游戏相关提示词标签"
+  },
+  {
+    "id": "tag-50",
+    "name": "杂志感",
+    "slug": "editorial",
+    "description": "杂志感相关提示词标签"
+  },
+  {
+    "id": "tag-51",
+    "name": "主图",
+    "slug": "main-image",
+    "description": "主图相关提示词标签"
+  },
+  {
+    "id": "tag-52",
+    "name": "自然光",
+    "slug": "natural-light",
+    "description": "自然光相关提示词标签"
+  },
+  {
+    "id": "tag-53",
+    "name": "组件",
+    "slug": "components",
+    "description": "组件相关提示词标签"
+  },
+  {
+    "id": "tag-54",
+    "name": "App",
+    "slug": "app",
+    "description": "App相关提示词标签"
+  },
+  {
+    "id": "tag-55",
+    "name": "UI",
+    "slug": "ui",
+    "description": "UI相关提示词标签"
+  },
+  {
+    "id": "tag-56",
+    "name": "Web",
+    "slug": "web",
+    "description": "Web相关提示词标签"
+  }
+]

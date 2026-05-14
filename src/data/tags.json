@@ -1,0 +1,218 @@
+[
+  {
+    "id": "tag-01",
+    "name": "3D",
+    "slug": "3d",
+    "description": "3D相关提示词标签"
+  },
+  {
+    "id": "tag-02",
+    "name": "包装",
+    "slug": "packaging",
+    "description": "包装相关提示词标签"
+  },
+  {
+    "id": "tag-03",
+    "name": "插画",
+    "slug": "illustration",
+    "description": "插画相关提示词标签"
+  },
+  {
+    "id": "tag-04",
+    "name": "产品",
+    "slug": "product",
+    "description": "产品相关提示词标签"
+  },
+  {
+    "id": "tag-05",
+    "name": "场景",
+    "slug": "scene",
+    "description": "场景相关提示词标签"
+  },
+  {
+    "id": "tag-06",
+    "name": "城市",
+    "slug": "city",
+    "description": "城市相关提示词标签"
+  },
+  {
+    "id": "tag-07",
+    "name": "电商",
+    "slug": "ecommerce",
+    "description": "电商相关提示词标签"
+  },
+  {
+    "id": "tag-08",
+    "name": "电影感",
+    "slug": "电影感",
+    "description": "电影感相关提示词标签"
+  },
+  {
+    "id": "tag-09",
+    "name": "东方美学",
+    "slug": "oriental-aesthetic",
+    "description": "东方美学相关提示词标签"
+  },
+  {
+    "id": "tag-10",
+    "name": "二次元",
+    "slug": "anime",
+    "description": "二次元相关提示词标签"
+  },
+  {
+    "id": "tag-11",
+    "name": "封面",
+    "slug": "cover",
+    "description": "封面相关提示词标签"
+  },
+  {
+    "id": "tag-12",
+    "name": "复古",
+    "slug": "vintage",
+    "description": "复古相关提示词标签"
+  },
+  {
+    "id": "tag-13",
+    "name": "概念图",
+    "slug": "概念图",
+    "description": "概念图相关提示词标签"
+  },
+  {
+    "id": "tag-14",
+    "name": "高级",
+    "slug": "高级",
+    "description": "高级相关提示词标签"
+  },
+  {
+    "id": "tag-15",
+    "name": "广告",
+    "slug": "advertising",
+    "description": "广告相关提示词标签"
+  },
+  {
+    "id": "tag-16",
+    "name": "国风",
+    "slug": "chinese-style",
+    "description": "国风相关提示词标签"
+  },
+  {
+    "id": "tag-17",
+    "name": "海报",
+    "slug": "poster",
+    "description": "海报相关提示词标签"
+  },
+  {
+    "id": "tag-18",
+    "name": "极简",
+    "slug": "minimal",
+    "description": "极简相关提示词标签"
+  },
+  {
+    "id": "tag-19",
+    "name": "角色",
+    "slug": "character",
+    "description": "角色相关提示词标签"
+  },
+  {
+    "id": "tag-20",
+    "name": "界面",
+    "slug": "界面",
+    "description": "界面相关提示词标签"
+  },
+  {
+    "id": "tag-21",
+    "name": "霓虹",
+    "slug": "霓虹",
+    "description": "霓虹相关提示词标签"
+  },
+  {
+    "id": "tag-22",
+    "name": "拟物",
+    "slug": "skeuomorphic",
+    "description": "拟物相关提示词标签"
+  },
+  {
+    "id": "tag-23",
+    "name": "人像",
+    "slug": "portrait",
+    "description": "人像相关提示词标签"
+  },
+  {
+    "id": "tag-24",
+    "name": "柔光",
+    "slug": "柔光",
+    "description": "柔光相关提示词标签"
+  },
+  {
+    "id": "tag-25",
+    "name": "设定",
+    "slug": "设定",
+    "description": "设定相关提示词标签"
+  },
+  {
+    "id": "tag-26",
+    "name": "摄影",
+    "slug": "photography",
+    "description": "摄影相关提示词标签"
+  },
+  {
+    "id": "tag-27",
+    "name": "生活方式",
+    "slug": "lifestyle",
+    "description": "生活方式相关提示词标签"
+  },
+  {
+    "id": "tag-28",
+    "name": "图标",
+    "slug": "icon",
+    "description": "图标相关提示词标签"
+  },
+  {
+    "id": "tag-29",
+    "name": "小红书",
+    "slug": "xiaohongshu",
+    "description": "小红书相关提示词标签"
+  },
+  {
+    "id": "tag-30",
+    "name": "写真",
+    "slug": "photo-shoot",
+    "description": "写真相关提示词标签"
+  },
+  {
+    "id": "tag-31",
+    "name": "印刷感",
+    "slug": "印刷感",
+    "description": "印刷感相关提示词标签"
+  },
+  {
+    "id": "tag-32",
+    "name": "游戏",
+    "slug": "game",
+    "description": "游戏相关提示词标签"
+  },
+  {
+    "id": "tag-33",
+    "name": "杂志感",
+    "slug": "杂志感",
+    "description": "杂志感相关提示词标签"
+  },
+  {
+    "id": "tag-34",
+    "name": "主图",
+    "slug": "main-image",
+    "description": "主图相关提示词标签"
+  },
+  {
+    "id": "tag-35",
+    "name": "App",
+    "slug": "app",
+    "description": "App相关提示词标签"
+  },
+  {
+    "id": "tag-36",
+    "name": "UI",
+    "slug": "ui",
+    "description": "UI相关提示词标签"
+  }
+]
