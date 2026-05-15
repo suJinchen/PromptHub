@@ -14,6 +14,7 @@ const CHECK_REMOTE_IMAGES = process.env.PROMPTHUB_CHECK_REMOTE_IMAGES === "1";
 const badTextPattern = /(\?\?\?|\bundefined\b|\bnull\b|\bNaN\b|Sparkles|\uFFFD)/i;
 const numberedPattern = /(案例\s*\d+|case\s*\d+|demo\s*\d+|prompt\s*\d+)/i;
 const cjkPattern = /[\u4e00-\u9fff]/;
+const safeSlugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const requiredPromptFields = [
   "id", "slug", "title", "description", "category", "categorySlug", "tags", "coverImage", "galleryImages",
   "chinesePrompt", "englishPrompt", "model", "ratio", "style", "useCases", "views", "favorites", "sourceName", "sourceUrl",
@@ -84,6 +85,8 @@ async function main() {
       }
     }
 
+    if (!safeSlugPattern.test(prompt.slug || "")) fail(errors, `${label} slug 非法，只允许小写英文、数字和短横线：${prompt.slug}`);
+    if (prompt.id !== prompt.slug) fail(errors, `${label} id 和 slug 不一致：id=${prompt.id} slug=${prompt.slug}`);
     if (seenSlugs.has(prompt.slug)) fail(errors, `slug 重复：${prompt.slug}`);
     seenSlugs.add(prompt.slug);
 
@@ -123,6 +126,9 @@ async function main() {
   }
 
   if (ratioLabels.size <= 3 && prompts.length > 20) warn(warnings, `比例标签种类偏少：${[...ratioLabels].join(", ")}`);
+
+  const routeMisses = prompts.filter((prompt) => !prompts.find((item) => item.slug === prompt.slug));
+  if (routeMisses.length) fail(errors, `存在无法通过 slug 查回的数据：${routeMisses.slice(0, 5).map((item) => item.slug).join(", ")}`);
 
   if (CHECK_REMOTE_IMAGES) {
     const sample = imageUrls.slice(0, Math.min(imageUrls.length, 120));

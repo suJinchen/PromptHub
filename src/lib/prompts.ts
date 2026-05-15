@@ -13,7 +13,8 @@ export function getFeaturedPrompts(limit = 6) {
 }
 
 export function getPromptBySlug(slug: string) {
-  return prompts.find((prompt) => prompt.slug === slug);
+  const normalizedSlug = decodeURIComponent(slug);
+  return prompts.find((prompt) => prompt.slug === normalizedSlug || prompt.id === normalizedSlug || prompt.legacySlug === normalizedSlug);
 }
 
 export function getPromptsByCategory(categorySlug: string) {

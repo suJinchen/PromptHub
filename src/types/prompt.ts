@@ -2,6 +2,7 @@
   id: string;
   title: string;
   slug: string;
+  legacySlug?: string;
   category: string;
   categoryName?: string;
   categorySlug: string;

@@ -1,7 +1,7 @@
 [
   {
-    "id": "ui-design-ad-creative-171-社交应用界面大片",
-    "slug": "ui-design-ad-creative-171-社交应用界面大片",
+    "id": "ui-design-ad-creative-171",
+    "slug": "ui-design-ad-creative-171",
     "title": "社交应用界面大片",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -52,11 +52,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-171-社交应用界面大片"
   },
   {
-    "id": "character-design-poster-64-复古旅行海报灵感己",
-    "slug": "character-design-poster-64-复古旅行海报灵感己",
+    "id": "character-design-poster-64",
+    "slug": "character-design-poster-64",
     "title": "复古旅行海报灵感己",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -107,11 +108,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-64-复古旅行海报灵感己"
   },
   {
-    "id": "portrait-poster-189-复古旅行海报模板辛",
-    "slug": "portrait-poster-189-复古旅行海报模板辛",
+    "id": "portrait-poster-189",
+    "slug": "portrait-poster-189",
     "title": "复古旅行海报模板辛",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -162,11 +164,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-189-复古旅行海报模板辛"
   },
   {
-    "id": "ui-design-poster-139-智能家居-app-ui",
-    "slug": "ui-design-poster-139-智能家居-app-ui",
+    "id": "ui-design-poster-139-app-ui",
+    "slug": "ui-design-poster-139-app-ui",
     "title": "智能家居 App UI",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -217,11 +220,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-139-智能家居-app-ui"
   },
   {
-    "id": "portrait-ad-creative-147-复古胶片人像灵感",
-    "slug": "portrait-ad-creative-147-复古胶片人像灵感",
+    "id": "portrait-ad-creative-147",
+    "slug": "portrait-ad-creative-147",
     "title": "复古胶片人像灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -272,11 +276,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ad-creative-147-复古胶片人像灵感"
   },
   {
-    "id": "portrait-portrait-15-电影感人像写真灵感庚",
-    "slug": "portrait-portrait-15-电影感人像写真灵感庚",
+    "id": "portrait-portrait-15",
+    "slug": "portrait-portrait-15",
     "title": "电影感人像写真灵感庚",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -327,11 +332,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-15-电影感人像写真灵感庚"
   },
   {
-    "id": "character-design-poster-126-复古旅行海报构图丁",
-    "slug": "character-design-poster-126-复古旅行海报构图丁",
+    "id": "character-design-poster-126",
+    "slug": "character-design-poster-126",
     "title": "复古旅行海报构图丁",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -382,11 +388,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-126-复古旅行海报构图丁"
   },
   {
-    "id": "ecommerce-main-image-ecommerce-114-香水护肤产品海报构图",
-    "slug": "ecommerce-main-image-ecommerce-114-香水护肤产品海报构图",
+    "id": "ecommerce-main-image-ecommerce-114",
+    "slug": "ecommerce-main-image-ecommerce-114",
     "title": "香水护肤产品海报构图",
     "description": "适合商品主图、卖点展示和电商详情首图参考。",
     "category": "电商主图",
@@ -437,11 +444,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ecommerce-main-image-ecommerce-114-香水护肤产品海报构图"
   },
   {
-    "id": "chinese-illustration-poster-14-国风城市海报参考",
-    "slug": "chinese-illustration-poster-14-国风城市海报参考",
+    "id": "chinese-illustration-poster-14",
+    "slug": "chinese-illustration-poster-14",
     "title": "国风城市海报参考",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -492,11 +500,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-14-国风城市海报参考"
   },
   {
-    "id": "portrait-ad-creative-144-智能手表卖点图",
-    "slug": "portrait-ad-creative-144-智能手表卖点图",
+    "id": "portrait-ad-creative-144",
+    "slug": "portrait-ad-creative-144",
     "title": "智能手表卖点图",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -547,11 +556,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ad-creative-144-智能手表卖点图"
   },
   {
-    "id": "portrait-portrait-9-电影感人像写真灵感丙",
-    "slug": "portrait-portrait-9-电影感人像写真灵感丙",
+    "id": "portrait-portrait-9",
+    "slug": "portrait-portrait-9",
     "title": "电影感人像写真灵感丙",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -602,11 +612,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-9-电影感人像写真灵感丙"
   },
   {
-    "id": "product-poster-poster-51-复古旅行海报灵感丙",
-    "slug": "product-poster-poster-51-复古旅行海报灵感丙",
+    "id": "product-poster-poster-51",
+    "slug": "product-poster-poster-51",
     "title": "复古旅行海报灵感丙",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -657,11 +668,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-51-复古旅行海报灵感丙"
   },
   {
-    "id": "vintage-poster-poster-176-怀旧杂志封面灵感",
-    "slug": "vintage-poster-poster-176-怀旧杂志封面灵感",
+    "id": "vintage-poster-poster-176",
+    "slug": "vintage-poster-poster-176",
     "title": "怀旧杂志封面灵感",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -712,11 +724,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-176-怀旧杂志封面灵感"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-117-小红书灵感封面参考",
-    "slug": "xiaohongshu-cover-ecommerce-117-小红书灵感封面参考",
+    "id": "xiaohongshu-cover-ecommerce-117",
+    "slug": "xiaohongshu-cover-ecommerce-117",
     "title": "小红书灵感封面参考",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -767,11 +780,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-117-小红书灵感封面参考"
   },
   {
-    "id": "product-poster-comparison-60-美食广告视觉灵感",
-    "slug": "product-poster-comparison-60-美食广告视觉灵感",
+    "id": "product-poster-comparison-60",
+    "slug": "product-poster-comparison-60",
     "title": "美食广告视觉灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -822,11 +836,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-60-美食广告视觉灵感"
   },
   {
-    "id": "xiaohongshu-cover-poster-77-电影感人像写真构图",
-    "slug": "xiaohongshu-cover-poster-77-电影感人像写真构图",
+    "id": "xiaohongshu-cover-poster-77",
+    "slug": "xiaohongshu-cover-poster-77",
     "title": "电影感人像写真构图",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -877,11 +892,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-poster-77-电影感人像写真构图"
   },
   {
-    "id": "ui-design-ecommerce-154-健康管理仪表盘大片",
-    "slug": "ui-design-ecommerce-154-健康管理仪表盘大片",
+    "id": "ui-design-ecommerce-154",
+    "slug": "ui-design-ecommerce-154",
     "title": "健康管理仪表盘大片",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -932,11 +948,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-154-健康管理仪表盘大片"
   },
   {
-    "id": "ui-design-poster-190-复古旅行海报模板壬",
-    "slug": "ui-design-poster-190-复古旅行海报模板壬",
+    "id": "ui-design-poster-190",
+    "slug": "ui-design-poster-190",
     "title": "复古旅行海报模板壬",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -987,11 +1004,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-190-复古旅行海报模板壬"
   },
   {
-    "id": "ui-design-ui-43-ai-数据看板-ui视觉",
-    "slug": "ui-design-ui-43-ai-数据看板-ui视觉",
+    "id": "ui-design-ui-43-ai-ui",
+    "slug": "ui-design-ui-43-ai-ui",
     "title": "AI 数据看板 UI视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1042,11 +1060,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-43-ai-数据看板-ui视觉"
   },
   {
-    "id": "ui-design-ui-102-复古旅行海报参考癸",
-    "slug": "ui-design-ui-102-复古旅行海报参考癸",
+    "id": "ui-design-ui-102",
+    "slug": "ui-design-ui-102",
     "title": "复古旅行海报参考癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1097,11 +1116,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-102-复古旅行海报参考癸"
   },
   {
-    "id": "ui-design-ecommerce-151-香水护肤产品海报参考",
-    "slug": "ui-design-ecommerce-151-香水护肤产品海报参考",
+    "id": "ui-design-ecommerce-151",
+    "slug": "ui-design-ecommerce-151",
     "title": "香水护肤产品海报参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1152,11 +1172,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-151-香水护肤产品海报参考"
   },
   {
-    "id": "game-concept-character-15-幻想游戏概念图模板",
-    "slug": "game-concept-character-15-幻想游戏概念图模板",
+    "id": "game-concept-character-15",
+    "slug": "game-concept-character-15",
     "title": "幻想游戏概念图模板",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -1207,11 +1228,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-character-15-幻想游戏概念图模板"
   },
   {
-    "id": "product-poster-comparison-64-美食广告视觉视觉",
-    "slug": "product-poster-comparison-64-美食广告视觉视觉",
+    "id": "product-poster-comparison-64",
+    "slug": "product-poster-comparison-64",
     "title": "美食广告视觉视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -1262,11 +1284,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-64-美食广告视觉视觉"
   },
   {
-    "id": "ui-design-poster-140-国风城市海报灵感丁",
-    "slug": "ui-design-poster-140-国风城市海报灵感丁",
+    "id": "ui-design-poster-140",
+    "slug": "ui-design-poster-140",
     "title": "国风城市海报灵感丁",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1317,11 +1340,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-140-国风城市海报灵感丁"
   },
   {
-    "id": "character-design-portrait-28-二次元角色设定模板",
-    "slug": "character-design-portrait-28-二次元角色设定模板",
+    "id": "character-design-portrait-28",
+    "slug": "character-design-portrait-28",
     "title": "二次元角色设定模板",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -1372,11 +1396,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-28-二次元角色设定模板"
   },
   {
-    "id": "character-design-poster-123-复古旅行海报构图甲",
-    "slug": "character-design-poster-123-复古旅行海报构图甲",
+    "id": "character-design-poster-123",
+    "slug": "character-design-poster-123",
     "title": "复古旅行海报构图甲",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -1427,11 +1452,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-123-复古旅行海报构图甲"
   },
   {
-    "id": "3d-icon-ui-93-二次元角色设定方案",
-    "slug": "3d-icon-ui-93-二次元角色设定方案",
+    "id": "3d-icon-ui-93",
+    "slug": "3d-icon-ui-93",
     "title": "二次元角色设定方案",
     "description": "适合 App 图标、功能入口和 3D 视觉组件参考。",
     "category": "3D 图标",
@@ -1482,11 +1508,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "3d-icon-ui-93-二次元角色设定方案"
   },
   {
-    "id": "game-concept-ui-47-幻想游戏概念图灵感",
-    "slug": "game-concept-ui-47-幻想游戏概念图灵感",
+    "id": "game-concept-ui-47",
+    "slug": "game-concept-ui-47",
     "title": "幻想游戏概念图灵感",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -1537,11 +1564,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-ui-47-幻想游戏概念图灵感"
   },
   {
-    "id": "3d-icon-ad-creative-107-二次元角色设定视觉甲",
-    "slug": "3d-icon-ad-creative-107-二次元角色设定视觉甲",
+    "id": "3d-icon-ad-creative-107",
+    "slug": "3d-icon-ad-creative-107",
     "title": "二次元角色设定视觉甲",
     "description": "适合 App 图标、功能入口和 3D 视觉组件参考。",
     "category": "3D 图标",
@@ -1592,11 +1620,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "3d-icon-ad-creative-107-二次元角色设定视觉甲"
   },
   {
-    "id": "ui-design-ui-106-健康管理仪表盘模板",
-    "slug": "ui-design-ui-106-健康管理仪表盘模板",
+    "id": "ui-design-ui-106",
+    "slug": "ui-design-ui-106",
     "title": "健康管理仪表盘模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1647,11 +1676,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-106-健康管理仪表盘模板"
   },
   {
-    "id": "ui-design-ui-1-数据看板-ui-设计方案",
-    "slug": "ui-design-ui-1-数据看板-ui-设计方案",
+    "id": "ui-design-ui-1-ui",
+    "slug": "ui-design-ui-1-ui",
     "title": "数据看板 UI 设计方案",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1702,11 +1732,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-1-数据看板-ui-设计方案"
   },
   {
-    "id": "ui-design-ui-115-二次元角色设定灵感辛",
-    "slug": "ui-design-ui-115-二次元角色设定灵感辛",
+    "id": "ui-design-ui-115",
+    "slug": "ui-design-ui-115",
     "title": "二次元角色设定灵感辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1757,11 +1788,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-115-二次元角色设定灵感辛"
   },
   {
-    "id": "ui-design-poster-163-复古旅行海报构图辛",
-    "slug": "ui-design-poster-163-复古旅行海报构图辛",
+    "id": "ui-design-poster-163",
+    "slug": "ui-design-poster-163",
     "title": "复古旅行海报构图辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1812,11 +1844,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-163-复古旅行海报构图辛"
   },
   {
-    "id": "game-concept-character-12-游戏活动主视觉",
-    "slug": "game-concept-character-12-游戏活动主视觉",
+    "id": "game-concept-character-12",
+    "slug": "game-concept-character-12",
     "title": "游戏活动主视觉",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -1867,11 +1900,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-character-12-游戏活动主视觉"
   },
   {
-    "id": "ui-design-ui-130-深色数据大屏设计",
-    "slug": "ui-design-ui-130-深色数据大屏设计",
+    "id": "ui-design-ui-130",
+    "slug": "ui-design-ui-130",
     "title": "深色数据大屏设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -1922,11 +1956,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-130-深色数据大屏设计"
   },
   {
-    "id": "game-concept-poster-10-复古旅行海报视觉",
-    "slug": "game-concept-poster-10-复古旅行海报视觉",
+    "id": "game-concept-poster-10",
+    "slug": "game-concept-poster-10",
     "title": "复古旅行海报视觉",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -1977,11 +2012,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "game-concept-poster-10-复古旅行海报视觉"
   },
   {
-    "id": "chinese-illustration-ui-46-新中式山水视觉灵感",
-    "slug": "chinese-illustration-ui-46-新中式山水视觉灵感",
+    "id": "chinese-illustration-ui-46",
+    "slug": "chinese-illustration-ui-46",
     "title": "新中式山水视觉灵感",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -2032,11 +2068,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-ui-46-新中式山水视觉灵感"
   },
   {
-    "id": "ui-design-comparison-73-复古旅行海报大片壬",
-    "slug": "ui-design-comparison-73-复古旅行海报大片壬",
+    "id": "ui-design-comparison-73",
+    "slug": "ui-design-comparison-73",
     "title": "复古旅行海报大片壬",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2087,11 +2124,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-73-复古旅行海报大片壬"
   },
   {
-    "id": "ui-design-ad-creative-131-健康管理仪表盘设计",
-    "slug": "ui-design-ad-creative-131-健康管理仪表盘设计",
+    "id": "ui-design-ad-creative-131",
+    "slug": "ui-design-ad-creative-131",
     "title": "健康管理仪表盘设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2142,11 +2180,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-131-健康管理仪表盘设计"
   },
   {
-    "id": "ui-design-ui-34-复古旅行海报参考己",
-    "slug": "ui-design-ui-34-复古旅行海报参考己",
+    "id": "ui-design-ui-34",
+    "slug": "ui-design-ui-34",
     "title": "复古旅行海报参考己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2197,11 +2236,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-34-复古旅行海报参考己"
   },
   {
-    "id": "character-design-poster-173-复古旅行海报构图壬",
-    "slug": "character-design-poster-173-复古旅行海报构图壬",
+    "id": "character-design-poster-173",
+    "slug": "character-design-poster-173",
     "title": "复古旅行海报构图壬",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -2252,11 +2292,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-173-复古旅行海报构图壬"
   },
   {
-    "id": "character-design-character-8-asmr-少女角色设定",
-    "slug": "character-design-character-8-asmr-少女角色设定",
+    "id": "character-design-character-8-asmr",
+    "slug": "character-design-character-8-asmr",
     "title": "ASMR 少女角色设定",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -2307,11 +2348,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-8-asmr-少女角色设定"
   },
   {
-    "id": "vintage-poster-poster-47-复古报纸人物海报",
-    "slug": "vintage-poster-poster-47-复古报纸人物海报",
+    "id": "vintage-poster-poster-47",
+    "slug": "vintage-poster-poster-47",
     "title": "复古报纸人物海报",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -2362,11 +2404,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-47-复古报纸人物海报"
   },
   {
-    "id": "ui-design-ui-36-社交应用界面构图",
-    "slug": "ui-design-ui-36-社交应用界面构图",
+    "id": "ui-design-ui-36",
+    "slug": "ui-design-ui-36",
     "title": "社交应用界面构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2417,11 +2460,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-36-社交应用界面构图"
   },
   {
-    "id": "game-concept-comparison-63-电影感人像写真参考丁",
-    "slug": "game-concept-comparison-63-电影感人像写真参考丁",
+    "id": "game-concept-comparison-63",
+    "slug": "game-concept-comparison-63",
     "title": "电影感人像写真参考丁",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -2472,11 +2516,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-63-电影感人像写真参考丁"
   },
   {
-    "id": "ui-design-portrait-92-深色数据大屏视觉",
-    "slug": "ui-design-portrait-92-深色数据大屏视觉",
+    "id": "ui-design-portrait-92",
+    "slug": "ui-design-portrait-92",
     "title": "深色数据大屏视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2527,11 +2572,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-92-深色数据大屏视觉"
   },
   {
-    "id": "portrait-portrait-30-电影感人像写真视觉丁",
-    "slug": "portrait-portrait-30-电影感人像写真视觉丁",
+    "id": "portrait-portrait-30",
+    "slug": "portrait-portrait-30",
     "title": "电影感人像写真视觉丁",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -2582,11 +2628,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-30-电影感人像写真视觉丁"
   },
   {
-    "id": "3d-icon-poster-179-复古旅行海报模板丙",
-    "slug": "3d-icon-poster-179-复古旅行海报模板丙",
+    "id": "3d-icon-poster-179",
+    "slug": "3d-icon-poster-179",
     "title": "复古旅行海报模板丙",
     "description": "适合 App 图标、功能入口和 3D 视觉组件参考。",
     "category": "3D 图标",
@@ -2637,11 +2684,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "3d-icon-poster-179-复古旅行海报模板丙"
   },
   {
-    "id": "ui-design-portrait-108-电影感人像写真构图壬",
-    "slug": "ui-design-portrait-108-电影感人像写真构图壬",
+    "id": "ui-design-portrait-108",
+    "slug": "ui-design-portrait-108",
     "title": "电影感人像写真构图壬",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2692,11 +2740,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-108-电影感人像写真构图壬"
   },
   {
-    "id": "product-poster-comparison-51-清新饮品产品海报",
-    "slug": "product-poster-comparison-51-清新饮品产品海报",
+    "id": "product-poster-comparison-51",
+    "slug": "product-poster-comparison-51",
     "title": "清新饮品产品海报",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -2747,11 +2796,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-51-清新饮品产品海报"
   },
   {
-    "id": "ui-design-portrait-19-复古广告海报视觉",
-    "slug": "ui-design-portrait-19-复古广告海报视觉",
+    "id": "ui-design-portrait-19",
+    "slug": "ui-design-portrait-19",
     "title": "复古广告海报视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -2802,11 +2852,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-19-复古广告海报视觉"
   },
   {
-    "id": "character-design-ui-96-二次元角色设定场景",
-    "slug": "character-design-ui-96-二次元角色设定场景",
+    "id": "character-design-ui-96",
+    "slug": "character-design-ui-96",
     "title": "二次元角色设定场景",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -2857,11 +2908,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-96-二次元角色设定场景"
   },
   {
-    "id": "character-design-poster-138-游戏主播角色封面",
-    "slug": "character-design-poster-138-游戏主播角色封面",
+    "id": "character-design-poster-138",
+    "slug": "character-design-poster-138",
     "title": "游戏主播角色封面",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -2912,11 +2964,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-138-游戏主播角色封面"
   },
   {
-    "id": "portrait-comparison-39-柔光棚拍头像灵感",
-    "slug": "portrait-comparison-39-柔光棚拍头像灵感",
+    "id": "portrait-comparison-39",
+    "slug": "portrait-comparison-39",
     "title": "柔光棚拍头像灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -2967,11 +3020,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-39-柔光棚拍头像灵感"
   },
   {
-    "id": "vintage-poster-comparison-37-复古广告海报模板",
-    "slug": "vintage-poster-comparison-37-复古广告海报模板",
+    "id": "vintage-poster-comparison-37",
+    "slug": "vintage-poster-comparison-37",
     "title": "复古广告海报模板",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -3022,11 +3076,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-comparison-37-复古广告海报模板"
   },
   {
-    "id": "ui-design-poster-110-国风城市海报灵感乙",
-    "slug": "ui-design-poster-110-国风城市海报灵感乙",
+    "id": "ui-design-poster-110",
+    "slug": "ui-design-poster-110",
     "title": "国风城市海报灵感乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3077,11 +3132,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-110-国风城市海报灵感乙"
   },
   {
-    "id": "ui-design-poster-188-小红书灵感封面",
-    "slug": "ui-design-poster-188-小红书灵感封面",
+    "id": "ui-design-poster-188",
+    "slug": "ui-design-poster-188",
     "title": "小红书灵感封面",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3132,11 +3188,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-188-小红书灵感封面"
   },
   {
-    "id": "chinese-illustration-portrait-104-电影感人像写真构图己",
-    "slug": "chinese-illustration-portrait-104-电影感人像写真构图己",
+    "id": "chinese-illustration-portrait-104",
+    "slug": "chinese-illustration-portrait-104",
     "title": "电影感人像写真构图己",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -3187,11 +3244,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-portrait-104-电影感人像写真构图己"
   },
   {
-    "id": "ui-design-poster-177-极简-web-首页",
-    "slug": "ui-design-poster-177-极简-web-首页",
+    "id": "ui-design-poster-177-web",
+    "slug": "ui-design-poster-177-web",
     "title": "极简 Web 首页",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3242,11 +3300,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-177-极简-web-首页"
   },
   {
-    "id": "ui-design-ui-97-二次元角色设定灵感甲",
-    "slug": "ui-design-ui-97-二次元角色设定灵感甲",
+    "id": "ui-design-ui-97",
+    "slug": "ui-design-ui-97",
     "title": "二次元角色设定灵感甲",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3297,11 +3356,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-97-二次元角色设定灵感甲"
   },
   {
-    "id": "portrait-ecommerce-118-香水护肤产品海报模板",
-    "slug": "portrait-ecommerce-118-香水护肤产品海报模板",
+    "id": "portrait-ecommerce-118",
+    "slug": "portrait-ecommerce-118",
     "title": "香水护肤产品海报模板",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -3352,11 +3412,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ecommerce-118-香水护肤产品海报模板"
   },
   {
-    "id": "portrait-portrait-18-电影感人像写真灵感癸",
-    "slug": "portrait-portrait-18-电影感人像写真灵感癸",
+    "id": "portrait-portrait-18",
+    "slug": "portrait-portrait-18",
     "title": "电影感人像写真灵感癸",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -3407,11 +3468,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-18-电影感人像写真灵感癸"
   },
   {
-    "id": "product-poster-comparison-50-数据看板-ui-设计灵感戊",
-    "slug": "product-poster-comparison-50-数据看板-ui-设计灵感戊",
+    "id": "product-poster-comparison-50-ui",
+    "slug": "product-poster-comparison-50-ui",
     "title": "数据看板 UI 设计灵感戊",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -3462,11 +3524,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-50-数据看板-ui-设计灵感戊"
   },
   {
-    "id": "ui-design-poster-129-复古旅行海报构图己",
-    "slug": "ui-design-poster-129-复古旅行海报构图己",
+    "id": "ui-design-poster-129",
+    "slug": "ui-design-poster-129",
     "title": "复古旅行海报构图己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3517,11 +3580,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-129-复古旅行海报构图己"
   },
   {
-    "id": "character-design-ui-99-二次元角色设定灵感乙",
-    "slug": "character-design-ui-99-二次元角色设定灵感乙",
+    "id": "character-design-ui-99",
+    "slug": "character-design-ui-99",
     "title": "二次元角色设定灵感乙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -3572,11 +3636,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-99-二次元角色设定灵感乙"
   },
   {
-    "id": "product-poster-poster-175-复古旅行海报模板甲",
-    "slug": "product-poster-poster-175-复古旅行海报模板甲",
+    "id": "product-poster-poster-175",
+    "slug": "product-poster-poster-175",
     "title": "复古旅行海报模板甲",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -3627,11 +3692,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-175-复古旅行海报模板甲"
   },
   {
-    "id": "ui-design-comparison-77-ai-数据看板-ui参考",
-    "slug": "ui-design-comparison-77-ai-数据看板-ui参考",
+    "id": "ui-design-comparison-77-ai-ui",
+    "slug": "ui-design-comparison-77-ai-ui",
     "title": "AI 数据看板 UI参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3682,11 +3748,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-77-ai-数据看板-ui参考"
   },
   {
-    "id": "chinese-illustration-poster-127-传统文化插画",
-    "slug": "chinese-illustration-poster-127-传统文化插画",
+    "id": "chinese-illustration-poster-127",
+    "slug": "chinese-illustration-poster-127",
     "title": "传统文化插画",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -3737,11 +3804,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-127-传统文化插画"
   },
   {
-    "id": "game-concept-portrait-106-电影感人像写真构图辛",
-    "slug": "game-concept-portrait-106-电影感人像写真构图辛",
+    "id": "game-concept-portrait-106",
+    "slug": "game-concept-portrait-106",
     "title": "电影感人像写真构图辛",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -3792,11 +3860,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-portrait-106-电影感人像写真构图辛"
   },
   {
-    "id": "portrait-poster-8-光影艺术肖像",
-    "slug": "portrait-poster-8-光影艺术肖像",
+    "id": "portrait-poster-8",
+    "slug": "portrait-poster-8",
     "title": "光影艺术肖像",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -3847,11 +3916,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "portrait-poster-8-光影艺术肖像"
   },
   {
-    "id": "portrait-ad-creative-143-清透半身写真视觉",
-    "slug": "portrait-ad-creative-143-清透半身写真视觉",
+    "id": "portrait-ad-creative-143",
+    "slug": "portrait-ad-creative-143",
     "title": "清透半身写真视觉",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -3902,11 +3972,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ad-creative-143-清透半身写真视觉"
   },
   {
-    "id": "ui-design-comparison-74-复古旅行海报大片癸",
-    "slug": "ui-design-comparison-74-复古旅行海报大片癸",
+    "id": "ui-design-comparison-74",
+    "slug": "ui-design-comparison-74",
     "title": "复古旅行海报大片癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -3957,11 +4028,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-74-复古旅行海报大片癸"
   },
   {
-    "id": "ui-design-ad-creative-170-复古旅行海报设计癸",
-    "slug": "ui-design-ad-creative-170-复古旅行海报设计癸",
+    "id": "ui-design-ad-creative-170",
+    "slug": "ui-design-ad-creative-170",
     "title": "复古旅行海报设计癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4012,11 +4084,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-170-复古旅行海报设计癸"
   },
   {
-    "id": "ui-design-poster-60-数据看板-ui-设计视觉",
-    "slug": "ui-design-poster-60-数据看板-ui-设计视觉",
+    "id": "ui-design-poster-60-ui",
+    "slug": "ui-design-poster-60-ui",
     "title": "数据看板 UI 设计视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4067,11 +4140,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-60-数据看板-ui-设计视觉"
   },
   {
-    "id": "ui-design-portrait-93-电影感人像写真视觉壬",
-    "slug": "ui-design-portrait-93-电影感人像写真视觉壬",
+    "id": "ui-design-portrait-93",
+    "slug": "ui-design-portrait-93",
     "title": "电影感人像写真视觉壬",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4122,11 +4196,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-93-电影感人像写真视觉壬"
   },
   {
-    "id": "ui-design-poster-136-社交应用界面",
-    "slug": "ui-design-poster-136-社交应用界面",
+    "id": "ui-design-poster-136",
+    "slug": "ui-design-poster-136",
     "title": "社交应用界面",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4177,11 +4252,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-136-社交应用界面"
   },
   {
-    "id": "ui-design-poster-7-数据看板-ui-设计",
-    "slug": "ui-design-poster-7-数据看板-ui-设计",
+    "id": "ui-design-poster-7-ui",
+    "slug": "ui-design-poster-7-ui",
     "title": "数据看板 UI 设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4232,11 +4308,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "ui-design-poster-7-数据看板-ui-设计"
   },
   {
-    "id": "ui-design-ecommerce-157-复古旅行海报大片丙",
-    "slug": "ui-design-ecommerce-157-复古旅行海报大片丙",
+    "id": "ui-design-ecommerce-157",
+    "slug": "ui-design-ecommerce-157",
     "title": "复古旅行海报大片丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4287,11 +4364,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-157-复古旅行海报大片丙"
   },
   {
-    "id": "character-design-ui-119-二次元角色设定灵感壬",
-    "slug": "character-design-ui-119-二次元角色设定灵感壬",
+    "id": "character-design-ui-119",
+    "slug": "character-design-ui-119",
     "title": "二次元角色设定灵感壬",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -4342,11 +4420,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-119-二次元角色设定灵感壬"
   },
   {
-    "id": "ui-design-ui-108-二次元角色设定灵感丁",
-    "slug": "ui-design-ui-108-二次元角色设定灵感丁",
+    "id": "ui-design-ui-108",
+    "slug": "ui-design-ui-108",
     "title": "二次元角色设定灵感丁",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4397,11 +4476,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-108-二次元角色设定灵感丁"
   },
   {
-    "id": "ui-design-portrait-91-国风城市海报灵感己",
-    "slug": "ui-design-portrait-91-国风城市海报灵感己",
+    "id": "ui-design-portrait-91",
+    "slug": "ui-design-portrait-91",
     "title": "国风城市海报灵感己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4452,11 +4532,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-91-国风城市海报灵感己"
   },
   {
-    "id": "ui-design-poster-36-数据看板-ui-设计灵感",
-    "slug": "ui-design-poster-36-数据看板-ui-设计灵感",
+    "id": "ui-design-poster-36-ui",
+    "slug": "ui-design-poster-36-ui",
     "title": "数据看板 UI 设计灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4507,11 +4588,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-36-数据看板-ui-设计灵感"
   },
   {
-    "id": "portrait-ad-creative-169-时尚杂志肖像",
-    "slug": "portrait-ad-creative-169-时尚杂志肖像",
+    "id": "portrait-ad-creative-169",
+    "slug": "portrait-ad-creative-169",
     "title": "时尚杂志肖像",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -4562,11 +4644,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ad-creative-169-时尚杂志肖像"
   },
   {
-    "id": "chinese-illustration-ui-33-水墨山河意境图",
-    "slug": "chinese-illustration-ui-33-水墨山河意境图",
+    "id": "chinese-illustration-ui-33",
+    "slug": "chinese-illustration-ui-33",
     "title": "水墨山河意境图",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -4617,11 +4700,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-ui-33-水墨山河意境图"
   },
   {
-    "id": "product-poster-comparison-76-清透包装宣传图",
-    "slug": "product-poster-comparison-76-清透包装宣传图",
+    "id": "product-poster-comparison-76",
+    "slug": "product-poster-comparison-76",
     "title": "清透包装宣传图",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -4672,11 +4756,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-76-清透包装宣传图"
   },
   {
-    "id": "ui-design-poster-71-复古旅行海报视觉乙",
-    "slug": "ui-design-poster-71-复古旅行海报视觉乙",
+    "id": "ui-design-poster-71",
+    "slug": "ui-design-poster-71",
     "title": "复古旅行海报视觉乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4727,11 +4812,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-71-复古旅行海报视觉乙"
   },
   {
-    "id": "ui-design-poster-125-复古旅行海报构图丙",
-    "slug": "ui-design-poster-125-复古旅行海报构图丙",
+    "id": "ui-design-poster-125",
+    "slug": "ui-design-poster-125",
     "title": "复古旅行海报构图丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4782,11 +4868,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-125-复古旅行海报构图丙"
   },
   {
-    "id": "ui-design-portrait-117-健康管理仪表盘构图",
-    "slug": "ui-design-portrait-117-健康管理仪表盘构图",
+    "id": "ui-design-portrait-117",
+    "slug": "ui-design-portrait-117",
     "title": "健康管理仪表盘构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4837,11 +4924,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-117-健康管理仪表盘构图"
   },
   {
-    "id": "product-poster-comparison-5-自然光产品海报灵感",
-    "slug": "product-poster-comparison-5-自然光产品海报灵感",
+    "id": "product-poster-comparison-5",
+    "slug": "product-poster-comparison-5",
     "title": "自然光产品海报灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -4892,11 +4980,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-5-自然光产品海报灵感"
   },
   {
-    "id": "ui-design-ui-95-幻想游戏概念图视觉",
-    "slug": "ui-design-ui-95-幻想游戏概念图视觉",
+    "id": "ui-design-ui-95",
+    "slug": "ui-design-ui-95",
     "title": "幻想游戏概念图视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -4947,11 +5036,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-95-幻想游戏概念图视觉"
   },
   {
-    "id": "ui-design-portrait-102-深色数据大屏构图",
-    "slug": "ui-design-portrait-102-深色数据大屏构图",
+    "id": "ui-design-portrait-102",
+    "slug": "ui-design-portrait-102",
     "title": "深色数据大屏构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -5002,11 +5092,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-102-深色数据大屏构图"
   },
   {
-    "id": "product-poster-poster-32-复古旅行海报设计",
-    "slug": "product-poster-poster-32-复古旅行海报设计",
+    "id": "product-poster-poster-32",
+    "slug": "product-poster-poster-32",
     "title": "复古旅行海报设计",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -5057,11 +5148,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-32-复古旅行海报设计"
   },
   {
-    "id": "ui-design-ecommerce-116-ai-数据看板-ui模板",
-    "slug": "ui-design-ecommerce-116-ai-数据看板-ui模板",
+    "id": "ui-design-ecommerce-116-ai-ui",
+    "slug": "ui-design-ecommerce-116-ai-ui",
     "title": "AI 数据看板 UI模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -5112,11 +5204,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-116-ai-数据看板-ui模板"
   },
   {
-    "id": "portrait-poster-73-电影感人像写真灵感",
-    "slug": "portrait-poster-73-电影感人像写真灵感",
+    "id": "portrait-poster-73",
+    "slug": "portrait-poster-73",
     "title": "电影感人像写真灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -5167,11 +5260,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-73-电影感人像写真灵感"
   },
   {
-    "id": "ui-design-poster-75-复古旅行海报视觉丁",
-    "slug": "ui-design-poster-75-复古旅行海报视觉丁",
+    "id": "ui-design-poster-75",
+    "slug": "ui-design-poster-75",
     "title": "复古旅行海报视觉丁",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -5222,11 +5316,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-75-复古旅行海报视觉丁"
   },
   {
-    "id": "character-design-poster-34-国风城市海报方案",
-    "slug": "character-design-poster-34-国风城市海报方案",
+    "id": "character-design-poster-34",
+    "slug": "character-design-poster-34",
     "title": "国风城市海报方案",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -5277,11 +5372,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-34-国风城市海报方案"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-159-电影感人像写真模板壬",
-    "slug": "xiaohongshu-cover-ecommerce-159-电影感人像写真模板壬",
+    "id": "xiaohongshu-cover-ecommerce-159",
+    "slug": "xiaohongshu-cover-ecommerce-159",
     "title": "电影感人像写真模板壬",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -5332,11 +5428,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-159-电影感人像写真模板壬"
   },
   {
-    "id": "character-design-ui-98-国风城市海报灵感庚",
-    "slug": "character-design-ui-98-国风城市海报灵感庚",
+    "id": "character-design-ui-98",
+    "slug": "character-design-ui-98",
     "title": "国风城市海报灵感庚",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -5387,11 +5484,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-98-国风城市海报灵感庚"
   },
   {
-    "id": "game-concept-character-11-赛博朋克街区场景",
-    "slug": "game-concept-character-11-赛博朋克街区场景",
+    "id": "game-concept-character-11",
+    "slug": "game-concept-character-11",
     "title": "赛博朋克街区场景",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -5442,11 +5540,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-character-11-赛博朋克街区场景"
   },
   {
-    "id": "game-concept-poster-45-复古旅行海报版式",
-    "slug": "game-concept-poster-45-复古旅行海报版式",
+    "id": "game-concept-poster-45",
+    "slug": "game-concept-poster-45",
     "title": "复古旅行海报版式",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -5497,11 +5596,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-poster-45-复古旅行海报版式"
   },
   {
-    "id": "product-poster-comparison-38-护肤精华广告海报灵感",
-    "slug": "product-poster-comparison-38-护肤精华广告海报灵感",
+    "id": "product-poster-comparison-38",
+    "slug": "product-poster-comparison-38",
     "title": "护肤精华广告海报灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -5552,11 +5652,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-38-护肤精华广告海报灵感"
   },
   {
-    "id": "portrait-ecommerce-155-极简人物大片",
-    "slug": "portrait-ecommerce-155-极简人物大片",
+    "id": "portrait-ecommerce-155",
+    "slug": "portrait-ecommerce-155",
     "title": "极简人物大片",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -5607,11 +5708,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ecommerce-155-极简人物大片"
   },
   {
-    "id": "ui-design-poster-168-健康管理仪表盘",
-    "slug": "ui-design-poster-168-健康管理仪表盘",
+    "id": "ui-design-poster-168",
+    "slug": "ui-design-poster-168",
     "title": "健康管理仪表盘",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -5662,11 +5764,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-168-健康管理仪表盘"
   },
   {
-    "id": "chinese-illustration-ui-44-数据看板-ui-设计灵感甲",
-    "slug": "chinese-illustration-ui-44-数据看板-ui-设计灵感甲",
+    "id": "chinese-illustration-ui-44-ui",
+    "slug": "chinese-illustration-ui-44-ui",
     "title": "数据看板 UI 设计灵感甲",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -5717,11 +5820,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-ui-44-数据看板-ui-设计灵感甲"
   },
   {
-    "id": "product-poster-poster-49-复古旅行海报灵感甲",
-    "slug": "product-poster-poster-49-复古旅行海报灵感甲",
+    "id": "product-poster-poster-49",
+    "slug": "product-poster-poster-49",
     "title": "复古旅行海报灵感甲",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -5772,11 +5876,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-49-复古旅行海报灵感甲"
   },
   {
-    "id": "3d-icon-ad-creative-146-复古旅行海报设计庚",
-    "slug": "3d-icon-ad-creative-146-复古旅行海报设计庚",
+    "id": "3d-icon-ad-creative-146",
+    "slug": "3d-icon-ad-creative-146",
     "title": "复古旅行海报设计庚",
     "description": "适合 App 图标、功能入口和 3D 视觉组件参考。",
     "category": "3D 图标",
@@ -5827,11 +5932,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "3d-icon-ad-creative-146-复古旅行海报设计庚"
   },
   {
-    "id": "ui-design-poster-62-电商落地页界面",
-    "slug": "ui-design-poster-62-电商落地页界面",
+    "id": "ui-design-poster-62",
+    "slug": "ui-design-poster-62",
     "title": "电商落地页界面",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -5882,11 +5988,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-62-电商落地页界面"
   },
   {
-    "id": "character-design-poster-162-复古旅行海报构图庚",
-    "slug": "character-design-poster-162-复古旅行海报构图庚",
+    "id": "character-design-poster-162",
+    "slug": "character-design-poster-162",
     "title": "复古旅行海报构图庚",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -5937,11 +6044,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-162-复古旅行海报构图庚"
   },
   {
-    "id": "game-concept-comparison-52-幻想游戏概念图设计",
-    "slug": "game-concept-comparison-52-幻想游戏概念图设计",
+    "id": "game-concept-comparison-52",
+    "slug": "game-concept-comparison-52",
     "title": "幻想游戏概念图设计",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -5992,11 +6100,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-52-幻想游戏概念图设计"
   },
   {
-    "id": "chinese-illustration-poster-12-国风城市海报模板",
-    "slug": "chinese-illustration-poster-12-国风城市海报模板",
+    "id": "chinese-illustration-poster-12",
+    "slug": "chinese-illustration-poster-12",
     "title": "国风城市海报模板",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -6047,11 +6156,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "chinese-illustration-poster-12-国风城市海报模板"
   },
   {
-    "id": "character-design-portrait-90-可爱吉祥物设计灵感",
-    "slug": "character-design-portrait-90-可爱吉祥物设计灵感",
+    "id": "character-design-portrait-90",
+    "slug": "character-design-portrait-90",
     "title": "可爱吉祥物设计灵感",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -6102,11 +6212,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-90-可爱吉祥物设计灵感"
   },
   {
-    "id": "product-poster-ad-creative-168-复古旅行海报设计壬",
-    "slug": "product-poster-ad-creative-168-复古旅行海报设计壬",
+    "id": "product-poster-ad-creative-168",
+    "slug": "product-poster-ad-creative-168",
     "title": "复古旅行海报设计壬",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -6157,11 +6268,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-ad-creative-168-复古旅行海报设计壬"
   },
   {
-    "id": "ui-design-poster-164-二次元角色设定视觉",
-    "slug": "ui-design-poster-164-二次元角色设定视觉",
+    "id": "ui-design-poster-164",
+    "slug": "ui-design-poster-164",
     "title": "二次元角色设定视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6212,11 +6324,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-164-二次元角色设定视觉"
   },
   {
-    "id": "portrait-portrait-89-柔光棚拍头像",
-    "slug": "portrait-portrait-89-柔光棚拍头像",
+    "id": "portrait-portrait-89",
+    "slug": "portrait-portrait-89",
     "title": "柔光棚拍头像",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -6267,11 +6380,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-89-柔光棚拍头像"
   },
   {
-    "id": "character-design-character-17-二次元角色设定构图甲",
-    "slug": "character-design-character-17-二次元角色设定构图甲",
+    "id": "character-design-character-17",
+    "slug": "character-design-character-17",
     "title": "二次元角色设定构图甲",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -6322,11 +6436,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-17-二次元角色设定构图甲"
   },
   {
-    "id": "ui-design-portrait-16-电影感人像写真灵感辛",
-    "slug": "ui-design-portrait-16-电影感人像写真灵感辛",
+    "id": "ui-design-portrait-16",
+    "slug": "ui-design-portrait-16",
     "title": "电影感人像写真灵感辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6377,11 +6492,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-16-电影感人像写真灵感辛"
   },
   {
-    "id": "game-concept-ui-35-复古旅行海报参考庚",
-    "slug": "game-concept-ui-35-复古旅行海报参考庚",
+    "id": "game-concept-ui-35",
+    "slug": "game-concept-ui-35",
     "title": "复古旅行海报参考庚",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -6432,11 +6548,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-ui-35-复古旅行海报参考庚"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-153-露营攻略封面图",
-    "slug": "xiaohongshu-cover-ecommerce-153-露营攻略封面图",
+    "id": "xiaohongshu-cover-ecommerce-153",
+    "slug": "xiaohongshu-cover-ecommerce-153",
     "title": "露营攻略封面图",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -6487,11 +6604,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-153-露营攻略封面图"
   },
   {
-    "id": "ui-design-comparison-75-数据看板-ui-设计灵感庚",
-    "slug": "ui-design-comparison-75-数据看板-ui-设计灵感庚",
+    "id": "ui-design-comparison-75-ui",
+    "slug": "ui-design-comparison-75-ui",
     "title": "数据看板 UI 设计灵感庚",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6542,11 +6660,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-75-数据看板-ui-设计灵感庚"
   },
   {
-    "id": "ui-design-comparison-61-数据看板-ui-设计灵感己",
-    "slug": "ui-design-comparison-61-数据看板-ui-设计灵感己",
+    "id": "ui-design-comparison-61-ui",
+    "slug": "ui-design-comparison-61-ui",
     "title": "数据看板 UI 设计灵感己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6597,11 +6716,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-61-数据看板-ui-设计灵感己"
   },
   {
-    "id": "character-design-character-9-二次元角色设定视觉庚",
-    "slug": "character-design-character-9-二次元角色设定视觉庚",
+    "id": "character-design-character-9",
+    "slug": "character-design-character-9",
     "title": "二次元角色设定视觉庚",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -6652,11 +6772,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-9-二次元角色设定视觉庚"
   },
   {
-    "id": "ui-design-portrait-29-电影感人像写真视觉丙",
-    "slug": "ui-design-portrait-29-电影感人像写真视觉丙",
+    "id": "ui-design-portrait-29",
+    "slug": "ui-design-portrait-29",
     "title": "电影感人像写真视觉丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6707,11 +6828,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-29-电影感人像写真视觉丙"
   },
   {
-    "id": "ui-design-poster-174-复古旅行海报构图癸",
-    "slug": "ui-design-poster-174-复古旅行海报构图癸",
+    "id": "ui-design-poster-174",
+    "slug": "ui-design-poster-174",
     "title": "复古旅行海报构图癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -6762,11 +6884,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-174-复古旅行海报构图癸"
   },
   {
-    "id": "portrait-portrait-17-电影感人像写真灵感壬",
-    "slug": "portrait-portrait-17-电影感人像写真灵感壬",
+    "id": "portrait-portrait-17",
+    "slug": "portrait-portrait-17",
     "title": "电影感人像写真灵感壬",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -6817,11 +6940,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-17-电影感人像写真灵感壬"
   },
   {
-    "id": "character-design-character-13-二次元角色设定视觉壬",
-    "slug": "character-design-character-13-二次元角色设定视觉壬",
+    "id": "character-design-character-13",
+    "slug": "character-design-character-13",
     "title": "二次元角色设定视觉壬",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -6872,11 +6996,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-13-二次元角色设定视觉壬"
   },
   {
-    "id": "vintage-poster-poster-79-复古广告海报",
-    "slug": "vintage-poster-poster-79-复古广告海报",
+    "id": "vintage-poster-poster-79",
+    "slug": "vintage-poster-poster-79",
     "title": "复古广告海报",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -6927,11 +7052,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-79-复古广告海报"
   },
   {
-    "id": "character-design-poster-38-复古旅行海报大片",
-    "slug": "character-design-poster-38-复古旅行海报大片",
+    "id": "character-design-poster-38",
+    "slug": "character-design-poster-38",
     "title": "复古旅行海报大片",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -6982,11 +7108,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-38-复古旅行海报大片"
   },
   {
-    "id": "ui-design-ui-131-电影感人像写真模板庚",
-    "slug": "ui-design-ui-131-电影感人像写真模板庚",
+    "id": "ui-design-ui-131",
+    "slug": "ui-design-ui-131",
     "title": "电影感人像写真模板庚",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7037,11 +7164,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-131-电影感人像写真模板庚"
   },
   {
-    "id": "product-poster-poster-192-复古旅行海报模板癸",
-    "slug": "product-poster-poster-192-复古旅行海报模板癸",
+    "id": "product-poster-poster-192",
+    "slug": "product-poster-poster-192",
     "title": "复古旅行海报模板癸",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -7092,11 +7220,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-192-复古旅行海报模板癸"
   },
   {
-    "id": "ui-design-ad-creative-108-数据看板-ui-设计灵感丙",
-    "slug": "ui-design-ad-creative-108-数据看板-ui-设计灵感丙",
+    "id": "ui-design-ad-creative-108-ui",
+    "slug": "ui-design-ad-creative-108-ui",
     "title": "数据看板 UI 设计灵感丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7147,11 +7276,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-108-数据看板-ui-设计灵感丙"
   },
   {
-    "id": "ui-design-poster-178-复古旅行海报模板乙",
-    "slug": "ui-design-poster-178-复古旅行海报模板乙",
+    "id": "ui-design-poster-178",
+    "slug": "ui-design-poster-178",
     "title": "复古旅行海报模板乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7202,11 +7332,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-178-复古旅行海报模板乙"
   },
   {
-    "id": "ui-design-ui-117-复古旅行海报设计乙",
-    "slug": "ui-design-ui-117-复古旅行海报设计乙",
+    "id": "ui-design-ui-117",
+    "slug": "ui-design-ui-117",
     "title": "复古旅行海报设计乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7257,11 +7388,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-117-复古旅行海报设计乙"
   },
   {
-    "id": "portrait-portrait-105-电影感人像写真构图庚",
-    "slug": "portrait-portrait-105-电影感人像写真构图庚",
+    "id": "portrait-portrait-105",
+    "slug": "portrait-portrait-105",
     "title": "电影感人像写真构图庚",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -7312,11 +7444,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-105-电影感人像写真构图庚"
   },
   {
-    "id": "product-poster-poster-9-复古旅行海报灵感",
-    "slug": "product-poster-poster-9-复古旅行海报灵感",
+    "id": "product-poster-poster-9",
+    "slug": "product-poster-poster-9",
     "title": "复古旅行海报灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -7367,11 +7500,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "product-poster-poster-9-复古旅行海报灵感"
   },
   {
-    "id": "ui-design-poster-142-幻想游戏概念图",
-    "slug": "ui-design-poster-142-幻想游戏概念图",
+    "id": "ui-design-poster-142",
+    "slug": "ui-design-poster-142",
     "title": "幻想游戏概念图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7422,11 +7556,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-142-幻想游戏概念图"
   },
   {
-    "id": "portrait-ad-creative-145-复古旅行海报设计己",
-    "slug": "portrait-ad-creative-145-复古旅行海报设计己",
+    "id": "portrait-ad-creative-145",
+    "slug": "portrait-ad-creative-145",
     "title": "复古旅行海报设计己",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -7477,11 +7612,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ad-creative-145-复古旅行海报设计己"
   },
   {
-    "id": "character-design-poster-124-复古旅行海报构图乙",
-    "slug": "character-design-poster-124-复古旅行海报构图乙",
+    "id": "character-design-poster-124",
+    "slug": "character-design-poster-124",
     "title": "复古旅行海报构图乙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -7532,11 +7668,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-124-复古旅行海报构图乙"
   },
   {
-    "id": "ui-design-ecommerce-89-数据看板-ui-设计灵感丁",
-    "slug": "ui-design-ecommerce-89-数据看板-ui-设计灵感丁",
+    "id": "ui-design-ecommerce-89-ui",
+    "slug": "ui-design-ecommerce-89-ui",
     "title": "数据看板 UI 设计灵感丁",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7587,11 +7724,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-89-数据看板-ui-设计灵感丁"
   },
   {
-    "id": "ui-design-ui-32-电商落地页界面构图",
-    "slug": "ui-design-ui-32-电商落地页界面构图",
+    "id": "ui-design-ui-32",
+    "slug": "ui-design-ui-32",
     "title": "电商落地页界面构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7642,11 +7780,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-32-电商落地页界面构图"
   },
   {
-    "id": "chinese-illustration-portrait-26-电影感人像写真视觉甲",
-    "slug": "chinese-illustration-portrait-26-电影感人像写真视觉甲",
+    "id": "chinese-illustration-portrait-26",
+    "slug": "chinese-illustration-portrait-26",
     "title": "电影感人像写真视觉甲",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -7697,11 +7836,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-portrait-26-电影感人像写真视觉甲"
   },
   {
-    "id": "ui-design-ui-121-健康管理仪表盘参考",
-    "slug": "ui-design-ui-121-健康管理仪表盘参考",
+    "id": "ui-design-ui-121",
+    "slug": "ui-design-ui-121",
     "title": "健康管理仪表盘参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7752,11 +7892,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-121-健康管理仪表盘参考"
   },
   {
-    "id": "ui-design-comparison-78-电影感人像写真参考庚",
-    "slug": "ui-design-comparison-78-电影感人像写真参考庚",
+    "id": "ui-design-comparison-78",
+    "slug": "ui-design-comparison-78",
     "title": "电影感人像写真参考庚",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7807,11 +7948,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-comparison-78-电影感人像写真参考庚"
   },
   {
-    "id": "portrait-portrait-115-清透半身写真灵感",
-    "slug": "portrait-portrait-115-清透半身写真灵感",
+    "id": "portrait-portrait-115",
+    "slug": "portrait-portrait-115",
     "title": "清透半身写真灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -7862,11 +8004,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-115-清透半身写真灵感"
   },
   {
-    "id": "ui-design-ui-39-电商落地页界面模板",
-    "slug": "ui-design-ui-39-电商落地页界面模板",
+    "id": "ui-design-ui-39",
+    "slug": "ui-design-ui-39",
     "title": "电商落地页界面模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7917,11 +8060,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-39-电商落地页界面模板"
   },
   {
-    "id": "ui-design-ad-creative-109-复古旅行海报设计辛",
-    "slug": "ui-design-ad-creative-109-复古旅行海报设计辛",
+    "id": "ui-design-ad-creative-109",
+    "slug": "ui-design-ad-creative-109",
     "title": "复古旅行海报设计辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -7972,11 +8116,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-109-复古旅行海报设计辛"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-162-小红书旅行封面",
-    "slug": "xiaohongshu-cover-ecommerce-162-小红书旅行封面",
+    "id": "xiaohongshu-cover-ecommerce-162",
+    "slug": "xiaohongshu-cover-ecommerce-162",
     "title": "小红书旅行封面",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -8027,11 +8172,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-162-小红书旅行封面"
   },
   {
-    "id": "character-design-poster-111-可爱吉祥物设计",
-    "slug": "character-design-poster-111-可爱吉祥物设计",
+    "id": "character-design-poster-111",
+    "slug": "character-design-poster-111",
     "title": "可爱吉祥物设计",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -8082,11 +8228,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-111-可爱吉祥物设计"
   },
   {
-    "id": "chinese-illustration-poster-66-复古旅行海报灵感庚",
-    "slug": "chinese-illustration-poster-66-复古旅行海报灵感庚",
+    "id": "chinese-illustration-poster-66",
+    "slug": "chinese-illustration-poster-66",
     "title": "复古旅行海报灵感庚",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -8137,11 +8284,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-66-复古旅行海报灵感庚"
   },
   {
-    "id": "ui-design-poster-161-ai-数据看板-ui",
-    "slug": "ui-design-poster-161-ai-数据看板-ui",
+    "id": "ui-design-poster-161-ai-ui",
+    "slug": "ui-design-poster-161-ai-ui",
     "title": "AI 数据看板 UI",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -8192,11 +8340,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-161-ai-数据看板-ui"
   },
   {
-    "id": "ui-design-poster-48-复古旅行海报场景",
-    "slug": "ui-design-poster-48-复古旅行海报场景",
+    "id": "ui-design-poster-48",
+    "slug": "ui-design-poster-48",
     "title": "复古旅行海报场景",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -8247,11 +8396,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-48-复古旅行海报场景"
   },
   {
-    "id": "product-poster-comparison-62-复古旅行海报大片辛",
-    "slug": "product-poster-comparison-62-复古旅行海报大片辛",
+    "id": "product-poster-comparison-62",
+    "slug": "product-poster-comparison-62",
     "title": "复古旅行海报大片辛",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -8302,11 +8452,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-62-复古旅行海报大片辛"
   },
   {
-    "id": "ui-design-ad-creative-149-香水护肤产品海报灵感",
-    "slug": "ui-design-ad-creative-149-香水护肤产品海报灵感",
+    "id": "ui-design-ad-creative-149",
+    "slug": "ui-design-ad-creative-149",
     "title": "香水护肤产品海报灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -8357,11 +8508,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-149-香水护肤产品海报灵感"
   },
   {
-    "id": "vintage-poster-poster-2-复古旅行海报",
-    "slug": "vintage-poster-poster-2-复古旅行海报",
+    "id": "vintage-poster-poster-2",
+    "slug": "vintage-poster-poster-2",
     "title": "复古旅行海报",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -8412,11 +8564,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "vintage-poster-poster-2-复古旅行海报"
   },
   {
-    "id": "character-design-portrait-94-电影感人像写真视觉癸",
-    "slug": "character-design-portrait-94-电影感人像写真视觉癸",
+    "id": "character-design-portrait-94",
+    "slug": "character-design-portrait-94",
     "title": "电影感人像写真视觉癸",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -8467,11 +8620,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-94-电影感人像写真视觉癸"
   },
   {
-    "id": "character-design-comparison-71-二次元角色设定构图乙",
-    "slug": "character-design-comparison-71-二次元角色设定构图乙",
+    "id": "character-design-comparison-71",
+    "slug": "character-design-comparison-71",
     "title": "二次元角色设定构图乙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -8522,11 +8676,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-comparison-71-二次元角色设定构图乙"
   },
   {
-    "id": "xiaohongshu-cover-ui-104-穿搭灵感封面",
-    "slug": "xiaohongshu-cover-ui-104-穿搭灵感封面",
+    "id": "xiaohongshu-cover-ui-104",
+    "slug": "xiaohongshu-cover-ui-104",
     "title": "穿搭灵感封面",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -8577,11 +8732,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ui-104-穿搭灵感封面"
   },
   {
-    "id": "product-poster-comparison-56-极简香水产品海报灵感",
-    "slug": "product-poster-comparison-56-极简香水产品海报灵感",
+    "id": "product-poster-comparison-56",
+    "slug": "product-poster-comparison-56",
     "title": "极简香水产品海报灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -8632,11 +8788,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-56-极简香水产品海报灵感"
   },
   {
-    "id": "portrait-poster-187-复古旅行海报模板庚",
-    "slug": "portrait-poster-187-复古旅行海报模板庚",
+    "id": "portrait-poster-187",
+    "slug": "portrait-poster-187",
     "title": "复古旅行海报模板庚",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -8687,11 +8844,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-187-复古旅行海报模板庚"
   },
   {
-    "id": "xiaohongshu-cover-ui-91-小红书灵感封面视觉",
-    "slug": "xiaohongshu-cover-ui-91-小红书灵感封面视觉",
+    "id": "xiaohongshu-cover-ui-91",
+    "slug": "xiaohongshu-cover-ui-91",
     "title": "小红书灵感封面视觉",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -8742,11 +8900,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ui-91-小红书灵感封面视觉"
   },
   {
-    "id": "game-concept-comparison-65-电影感人像写真参考戊",
-    "slug": "game-concept-comparison-65-电影感人像写真参考戊",
+    "id": "game-concept-comparison-65",
+    "slug": "game-concept-comparison-65",
     "title": "电影感人像写真参考戊",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -8797,11 +8956,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-65-电影感人像写真参考戊"
   },
   {
-    "id": "game-concept-comparison-34-幻想游戏概念图参考",
-    "slug": "game-concept-comparison-34-幻想游戏概念图参考",
+    "id": "game-concept-comparison-34",
+    "slug": "game-concept-comparison-34",
     "title": "幻想游戏概念图参考",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -8852,11 +9012,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-34-幻想游戏概念图参考"
   },
   {
-    "id": "portrait-portrait-7-电影感人像写真灵感甲",
-    "slug": "portrait-portrait-7-电影感人像写真灵感甲",
+    "id": "portrait-portrait-7",
+    "slug": "portrait-portrait-7",
     "title": "电影感人像写真灵感甲",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -8907,11 +9068,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-7-电影感人像写真灵感甲"
   },
   {
-    "id": "character-design-portrait-118-电影感人像写真模板戊",
-    "slug": "character-design-portrait-118-电影感人像写真模板戊",
+    "id": "character-design-portrait-118",
+    "slug": "character-design-portrait-118",
     "title": "电影感人像写真模板戊",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -8962,11 +9124,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-118-电影感人像写真模板戊"
   },
   {
-    "id": "ui-design-ui-45-数据看板-ui-设计灵感乙",
-    "slug": "ui-design-ui-45-数据看板-ui-设计灵感乙",
+    "id": "ui-design-ui-45-ui",
+    "slug": "ui-design-ui-45-ui",
     "title": "数据看板 UI 设计灵感乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9017,11 +9180,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-45-数据看板-ui-设计灵感乙"
   },
   {
-    "id": "portrait-portrait-109-电影感人像写真构图癸",
-    "slug": "portrait-portrait-109-电影感人像写真构图癸",
+    "id": "portrait-portrait-109",
+    "slug": "portrait-portrait-109",
     "title": "电影感人像写真构图癸",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -9072,11 +9236,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-109-电影感人像写真构图癸"
   },
   {
-    "id": "portrait-portrait-13-电影感人像写真灵感戊",
-    "slug": "portrait-portrait-13-电影感人像写真灵感戊",
+    "id": "portrait-portrait-13",
+    "slug": "portrait-portrait-13",
     "title": "电影感人像写真灵感戊",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -9127,11 +9292,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-13-电影感人像写真灵感戊"
   },
   {
-    "id": "portrait-poster-72-复古旅行海报视觉丙",
-    "slug": "portrait-poster-72-复古旅行海报视觉丙",
+    "id": "portrait-poster-72",
+    "slug": "portrait-poster-72",
     "title": "复古旅行海报视觉丙",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -9182,11 +9348,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-72-复古旅行海报视觉丙"
   },
   {
-    "id": "ui-design-poster-81-数据看板-ui-设计构图",
-    "slug": "ui-design-poster-81-数据看板-ui-设计构图",
+    "id": "ui-design-poster-81-ui",
+    "slug": "ui-design-poster-81-ui",
     "title": "数据看板 UI 设计构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9237,11 +9404,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-81-数据看板-ui-设计构图"
   },
   {
-    "id": "ui-design-ui-107-二次元角色设定灵感丙",
-    "slug": "ui-design-ui-107-二次元角色设定灵感丙",
+    "id": "ui-design-ui-107",
+    "slug": "ui-design-ui-107",
     "title": "二次元角色设定灵感丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9292,11 +9460,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-107-二次元角色设定灵感丙"
   },
   {
-    "id": "portrait-ecommerce-156-时尚杂志肖像灵感",
-    "slug": "portrait-ecommerce-156-时尚杂志肖像灵感",
+    "id": "portrait-ecommerce-156",
+    "slug": "portrait-ecommerce-156",
     "title": "时尚杂志肖像灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -9347,11 +9516,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ecommerce-156-时尚杂志肖像灵感"
   },
   {
-    "id": "character-design-character-10-二次元角色设定视觉辛",
-    "slug": "character-design-character-10-二次元角色设定视觉辛",
+    "id": "character-design-character-10",
+    "slug": "character-design-character-10",
     "title": "二次元角色设定视觉辛",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -9402,11 +9572,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-10-二次元角色设定视觉辛"
   },
   {
-    "id": "ui-design-poster-137-深色数据大屏灵感",
-    "slug": "ui-design-poster-137-深色数据大屏灵感",
+    "id": "ui-design-poster-137",
+    "slug": "ui-design-poster-137",
     "title": "深色数据大屏灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9457,11 +9628,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-137-深色数据大屏灵感"
   },
   {
-    "id": "portrait-portrait-31-电影感人像写真视觉戊",
-    "slug": "portrait-portrait-31-电影感人像写真视觉戊",
+    "id": "portrait-portrait-31",
+    "slug": "portrait-portrait-31",
     "title": "电影感人像写真视觉戊",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -9512,11 +9684,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-31-电影感人像写真视觉戊"
   },
   {
-    "id": "chinese-illustration-poster-35-国风城市海报版式",
-    "slug": "chinese-illustration-poster-35-国风城市海报版式",
+    "id": "chinese-illustration-poster-35",
+    "slug": "chinese-illustration-poster-35",
     "title": "国风城市海报版式",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -9567,11 +9740,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-35-国风城市海报版式"
   },
   {
-    "id": "product-poster-comparison-69-品牌活动主视觉灵感",
-    "slug": "product-poster-comparison-69-品牌活动主视觉灵感",
+    "id": "product-poster-comparison-69",
+    "slug": "product-poster-comparison-69",
     "title": "品牌活动主视觉灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -9622,11 +9796,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-69-品牌活动主视觉灵感"
   },
   {
-    "id": "character-design-portrait-98-电影感人像写真构图丙",
-    "slug": "character-design-portrait-98-电影感人像写真构图丙",
+    "id": "character-design-portrait-98",
+    "slug": "character-design-portrait-98",
     "title": "电影感人像写真构图丙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -9677,11 +9852,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-98-电影感人像写真构图丙"
   },
   {
-    "id": "product-poster-poster-13-复古旅行海报模板",
-    "slug": "product-poster-poster-13-复古旅行海报模板",
+    "id": "product-poster-poster-13",
+    "slug": "product-poster-poster-13",
     "title": "复古旅行海报模板",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -9732,11 +9908,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "product-poster-poster-13-复古旅行海报模板"
   },
   {
-    "id": "game-concept-portrait-114-电影感人像写真模板丙",
-    "slug": "game-concept-portrait-114-电影感人像写真模板丙",
+    "id": "game-concept-portrait-114",
+    "slug": "game-concept-portrait-114",
     "title": "电影感人像写真模板丙",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -9787,11 +9964,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-portrait-114-电影感人像写真模板丙"
   },
   {
-    "id": "ui-design-ui-7-社交应用界面视觉",
-    "slug": "ui-design-ui-7-社交应用界面视觉",
+    "id": "ui-design-ui-7",
+    "slug": "ui-design-ui-7",
     "title": "社交应用界面视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9842,11 +10020,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-7-社交应用界面视觉"
   },
   {
-    "id": "character-design-character-1-二次元角色设定视觉乙",
-    "slug": "character-design-character-1-二次元角色设定视觉乙",
+    "id": "character-design-character-1",
+    "slug": "character-design-character-1",
     "title": "二次元角色设定视觉乙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -9897,11 +10076,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-1-二次元角色设定视觉乙"
   },
   {
-    "id": "ui-design-ad-creative-90-复古旅行海报设计丁",
-    "slug": "ui-design-ad-creative-90-复古旅行海报设计丁",
+    "id": "ui-design-ad-creative-90",
+    "slug": "ui-design-ad-creative-90",
     "title": "复古旅行海报设计丁",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -9952,11 +10132,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-90-复古旅行海报设计丁"
   },
   {
-    "id": "character-design-comparison-79-赛博朋克角色设定",
-    "slug": "character-design-comparison-79-赛博朋克角色设定",
+    "id": "character-design-comparison-79",
+    "slug": "character-design-comparison-79",
     "title": "赛博朋克角色设定",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -10007,11 +10188,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-comparison-79-赛博朋克角色设定"
   },
   {
-    "id": "ui-design-poster-128-复古旅行海报构图戊",
-    "slug": "ui-design-poster-128-复古旅行海报构图戊",
+    "id": "ui-design-poster-128",
+    "slug": "ui-design-poster-128",
     "title": "复古旅行海报构图戊",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -10062,11 +10244,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-128-复古旅行海报构图戊"
   },
   {
-    "id": "portrait-ui-116-复古旅行海报设计甲",
-    "slug": "portrait-ui-116-复古旅行海报设计甲",
+    "id": "portrait-ui-116",
+    "slug": "portrait-ui-116",
     "title": "复古旅行海报设计甲",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -10117,11 +10300,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ui-116-复古旅行海报设计甲"
   },
   {
-    "id": "product-poster-poster-63-复古旅行海报灵感戊",
-    "slug": "product-poster-poster-63-复古旅行海报灵感戊",
+    "id": "product-poster-poster-63",
+    "slug": "product-poster-poster-63",
     "title": "复古旅行海报灵感戊",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -10172,11 +10356,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-63-复古旅行海报灵感戊"
   },
   {
-    "id": "character-design-ui-41-二次元角色设定大片",
-    "slug": "character-design-ui-41-二次元角色设定大片",
+    "id": "character-design-ui-41",
+    "slug": "character-design-ui-41",
     "title": "二次元角色设定大片",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -10227,11 +10412,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-41-二次元角色设定大片"
   },
   {
-    "id": "ui-design-ad-creative-173-深色数据大屏大片",
-    "slug": "ui-design-ad-creative-173-深色数据大屏大片",
+    "id": "ui-design-ad-creative-173",
+    "slug": "ui-design-ad-creative-173",
     "title": "深色数据大屏大片",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -10282,11 +10468,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-173-深色数据大屏大片"
   },
   {
-    "id": "product-poster-poster-50-复古旅行海报灵感乙",
-    "slug": "product-poster-poster-50-复古旅行海报灵感乙",
+    "id": "product-poster-poster-50",
+    "slug": "product-poster-poster-50",
     "title": "复古旅行海报灵感乙",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -10337,11 +10524,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-50-复古旅行海报灵感乙"
   },
   {
-    "id": "ui-design-ecommerce-115-复古旅行海报大片乙",
-    "slug": "ui-design-ecommerce-115-复古旅行海报大片乙",
+    "id": "ui-design-ecommerce-115",
+    "slug": "ui-design-ecommerce-115",
     "title": "复古旅行海报大片乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -10392,11 +10580,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-115-复古旅行海报大片乙"
   },
   {
-    "id": "chinese-illustration-comparison-53-国风城市海报灵感癸",
-    "slug": "chinese-illustration-comparison-53-国风城市海报灵感癸",
+    "id": "chinese-illustration-comparison-53",
+    "slug": "chinese-illustration-comparison-53",
     "title": "国风城市海报灵感癸",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -10447,11 +10636,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-comparison-53-国风城市海报灵感癸"
   },
   {
-    "id": "vintage-poster-poster-39-复古字体海报",
-    "slug": "vintage-poster-poster-39-复古字体海报",
+    "id": "vintage-poster-poster-39",
+    "slug": "vintage-poster-poster-39",
     "title": "复古字体海报",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -10502,11 +10692,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-39-复古字体海报"
   },
   {
-    "id": "portrait-portrait-12-夜景氛围人像",
-    "slug": "portrait-portrait-12-夜景氛围人像",
+    "id": "portrait-portrait-12",
+    "slug": "portrait-portrait-12",
     "title": "夜景氛围人像",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -10557,11 +10748,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-12-夜景氛围人像"
   },
   {
-    "id": "portrait-portrait-111-电影感人像写真模板甲",
-    "slug": "portrait-portrait-111-电影感人像写真模板甲",
+    "id": "portrait-portrait-111",
+    "slug": "portrait-portrait-111",
     "title": "电影感人像写真模板甲",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -10612,11 +10804,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-111-电影感人像写真模板甲"
   },
   {
-    "id": "xiaohongshu-cover-comparison-40-咖啡探店封面",
-    "slug": "xiaohongshu-cover-comparison-40-咖啡探店封面",
+    "id": "xiaohongshu-cover-comparison-40",
+    "slug": "xiaohongshu-cover-comparison-40",
     "title": "咖啡探店封面",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -10667,11 +10860,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-comparison-40-咖啡探店封面"
   },
   {
-    "id": "product-poster-portrait-22-奢华产品静物",
-    "slug": "product-poster-portrait-22-奢华产品静物",
+    "id": "product-poster-portrait-22",
+    "slug": "product-poster-portrait-22",
     "title": "奢华产品静物",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -10722,11 +10916,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-portrait-22-奢华产品静物"
   },
   {
-    "id": "character-design-poster-40-复古旅行海报方案",
-    "slug": "character-design-poster-40-复古旅行海报方案",
+    "id": "character-design-poster-40",
+    "slug": "character-design-poster-40",
     "title": "复古旅行海报方案",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -10777,11 +10972,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-40-复古旅行海报方案"
   },
   {
-    "id": "product-poster-comparison-43-护肤精华广告海报视觉",
-    "slug": "product-poster-comparison-43-护肤精华广告海报视觉",
+    "id": "product-poster-comparison-43",
+    "slug": "product-poster-comparison-43",
     "title": "护肤精华广告海报视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -10832,11 +11028,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-43-护肤精华广告海报视觉"
   },
   {
-    "id": "product-poster-comparison-80-奢华产品静物构图",
-    "slug": "product-poster-comparison-80-奢华产品静物构图",
+    "id": "product-poster-comparison-80",
+    "slug": "product-poster-comparison-80",
     "title": "奢华产品静物构图",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -10887,11 +11084,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-80-奢华产品静物构图"
   },
   {
-    "id": "character-design-poster-67-复古旅行海报灵感辛",
-    "slug": "character-design-poster-67-复古旅行海报灵感辛",
+    "id": "character-design-poster-67",
+    "slug": "character-design-poster-67",
     "title": "复古旅行海报灵感辛",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -10942,11 +11140,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-67-复古旅行海报灵感辛"
   },
   {
-    "id": "portrait-poster-180-复古旅行海报模板丁",
-    "slug": "portrait-poster-180-复古旅行海报模板丁",
+    "id": "portrait-poster-180",
+    "slug": "portrait-poster-180",
     "title": "复古旅行海报模板丁",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -10997,11 +11196,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-180-复古旅行海报模板丁"
   },
   {
-    "id": "ui-design-ui-129-电影感人像写真模板己",
-    "slug": "ui-design-ui-129-电影感人像写真模板己",
+    "id": "ui-design-ui-129",
+    "slug": "ui-design-ui-129",
     "title": "电影感人像写真模板己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11052,11 +11252,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-129-电影感人像写真模板己"
   },
   {
-    "id": "ui-design-ui-113-二次元角色设定灵感己",
-    "slug": "ui-design-ui-113-二次元角色设定灵感己",
+    "id": "ui-design-ui-113",
+    "slug": "ui-design-ui-113",
     "title": "二次元角色设定灵感己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11107,11 +11308,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-113-二次元角色设定灵感己"
   },
   {
-    "id": "ui-design-poster-130-saas-工作台界面",
-    "slug": "ui-design-poster-130-saas-工作台界面",
+    "id": "ui-design-poster-130-saas",
+    "slug": "ui-design-poster-130-saas",
     "title": "SaaS 工作台界面",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11162,11 +11364,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-130-saas-工作台界面"
   },
   {
-    "id": "ui-design-portrait-95-二次元角色设定设计",
-    "slug": "ui-design-portrait-95-二次元角色设定设计",
+    "id": "ui-design-portrait-95",
+    "slug": "ui-design-portrait-95",
     "title": "二次元角色设定设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11217,11 +11420,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-95-二次元角色设定设计"
   },
   {
-    "id": "vintage-poster-poster-57-怀旧杂志封面",
-    "slug": "vintage-poster-poster-57-怀旧杂志封面",
+    "id": "vintage-poster-poster-57",
+    "slug": "vintage-poster-poster-57",
     "title": "怀旧杂志封面",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -11272,11 +11476,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-57-怀旧杂志封面"
   },
   {
-    "id": "vintage-poster-poster-169-复古字体海报灵感",
-    "slug": "vintage-poster-poster-169-复古字体海报灵感",
+    "id": "vintage-poster-poster-169",
+    "slug": "vintage-poster-poster-169",
     "title": "复古字体海报灵感",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -11327,11 +11532,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-169-复古字体海报灵感"
   },
   {
-    "id": "character-design-character-5-二次元角色设定视觉戊",
-    "slug": "character-design-character-5-二次元角色设定视觉戊",
+    "id": "character-design-character-5",
+    "slug": "character-design-character-5",
     "title": "二次元角色设定视觉戊",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -11382,11 +11588,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-5-二次元角色设定视觉戊"
   },
   {
-    "id": "character-design-ui-94-二次元角色设定版式",
-    "slug": "character-design-ui-94-二次元角色设定版式",
+    "id": "character-design-ui-94",
+    "slug": "character-design-ui-94",
     "title": "二次元角色设定版式",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -11437,11 +11644,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-94-二次元角色设定版式"
   },
   {
-    "id": "ui-design-poster-170-健康管理仪表盘灵感",
-    "slug": "ui-design-poster-170-健康管理仪表盘灵感",
+    "id": "ui-design-poster-170",
+    "slug": "ui-design-poster-170",
     "title": "健康管理仪表盘灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11492,11 +11700,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-170-健康管理仪表盘灵感"
   },
   {
-    "id": "ui-design-portrait-6-电影感人像写真场景",
-    "slug": "ui-design-portrait-6-电影感人像写真场景",
+    "id": "ui-design-portrait-6",
+    "slug": "ui-design-portrait-6",
     "title": "电影感人像写真场景",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11547,11 +11756,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-6-电影感人像写真场景"
   },
   {
-    "id": "ui-design-poster-119-复古旅行海报视觉辛",
-    "slug": "ui-design-poster-119-复古旅行海报视觉辛",
+    "id": "ui-design-poster-119",
+    "slug": "ui-design-poster-119",
     "title": "复古旅行海报视觉辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11602,11 +11812,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-119-复古旅行海报视觉辛"
   },
   {
-    "id": "ui-design-ui-122-电商落地页界面设计",
-    "slug": "ui-design-ui-122-电商落地页界面设计",
+    "id": "ui-design-ui-122",
+    "slug": "ui-design-ui-122",
     "title": "电商落地页界面设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11657,11 +11868,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-122-电商落地页界面设计"
   },
   {
-    "id": "character-design-ad-creative-167-复古旅行海报设计戊",
-    "slug": "character-design-ad-creative-167-复古旅行海报设计戊",
+    "id": "character-design-ad-creative-167",
+    "slug": "character-design-ad-creative-167",
     "title": "复古旅行海报设计戊",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -11712,11 +11924,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ad-creative-167-复古旅行海报设计戊"
   },
   {
-    "id": "character-design-portrait-101-电影感人像写真构图丁",
-    "slug": "character-design-portrait-101-电影感人像写真构图丁",
+    "id": "character-design-portrait-101",
+    "slug": "character-design-portrait-101",
     "title": "电影感人像写真构图丁",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -11767,11 +11980,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-101-电影感人像写真构图丁"
   },
   {
-    "id": "portrait-comparison-70-极简人物大片灵感",
-    "slug": "portrait-comparison-70-极简人物大片灵感",
+    "id": "portrait-comparison-70",
+    "slug": "portrait-comparison-70",
     "title": "极简人物大片灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -11822,11 +12036,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-70-极简人物大片灵感"
   },
   {
-    "id": "portrait-comparison-66-电影感人像写真参考己",
-    "slug": "portrait-comparison-66-电影感人像写真参考己",
+    "id": "portrait-comparison-66",
+    "slug": "portrait-comparison-66",
     "title": "电影感人像写真参考己",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -11877,11 +12092,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-66-电影感人像写真参考己"
   },
   {
-    "id": "ui-design-poster-165-社交应用界面灵感",
-    "slug": "ui-design-poster-165-社交应用界面灵感",
+    "id": "ui-design-poster-165",
+    "slug": "ui-design-poster-165",
     "title": "社交应用界面灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -11932,11 +12148,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-165-社交应用界面灵感"
   },
   {
-    "id": "character-design-portrait-85-电影感人像写真视觉庚",
-    "slug": "character-design-portrait-85-电影感人像写真视觉庚",
+    "id": "character-design-portrait-85",
+    "slug": "character-design-portrait-85",
     "title": "电影感人像写真视觉庚",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -11987,11 +12204,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-85-电影感人像写真视觉庚"
   },
   {
-    "id": "product-poster-comparison-16-奢华产品静物灵感",
-    "slug": "product-poster-comparison-16-奢华产品静物灵感",
+    "id": "product-poster-comparison-16",
+    "slug": "product-poster-comparison-16",
     "title": "奢华产品静物灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -12042,11 +12260,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-16-奢华产品静物灵感"
   },
   {
-    "id": "xiaohongshu-cover-ui-4-小红书灵感封面灵感",
-    "slug": "xiaohongshu-cover-ui-4-小红书灵感封面灵感",
+    "id": "xiaohongshu-cover-ui-4",
+    "slug": "xiaohongshu-cover-ui-4",
     "title": "小红书灵感封面灵感",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -12097,11 +12316,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ui-4-小红书灵感封面灵感"
   },
   {
-    "id": "character-design-character-14-复古旅行海报大片丁",
-    "slug": "character-design-character-14-复古旅行海报大片丁",
+    "id": "character-design-character-14",
+    "slug": "character-design-character-14",
     "title": "复古旅行海报大片丁",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -12152,11 +12372,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-14-复古旅行海报大片丁"
   },
   {
-    "id": "ui-design-ecommerce-152-国风城市海报灵感壬",
-    "slug": "ui-design-ecommerce-152-国风城市海报灵感壬",
+    "id": "ui-design-ecommerce-152",
+    "slug": "ui-design-ecommerce-152",
     "title": "国风城市海报灵感壬",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -12207,11 +12428,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ecommerce-152-国风城市海报灵感壬"
   },
   {
-    "id": "portrait-ui-103-自然光人物写真",
-    "slug": "portrait-ui-103-自然光人物写真",
+    "id": "portrait-ui-103",
+    "slug": "portrait-ui-103",
     "title": "自然光人物写真",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -12262,11 +12484,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ui-103-自然光人物写真"
   },
   {
-    "id": "ui-design-ui-112-智能家居-app-ui灵感",
-    "slug": "ui-design-ui-112-智能家居-app-ui灵感",
+    "id": "ui-design-ui-112-app-ui",
+    "slug": "ui-design-ui-112-app-ui",
     "title": "智能家居 App UI灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -12317,11 +12540,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-112-智能家居-app-ui灵感"
   },
   {
-    "id": "game-concept-comparison-30-暗黑幻想城市概念图",
-    "slug": "game-concept-comparison-30-暗黑幻想城市概念图",
+    "id": "game-concept-comparison-30",
+    "slug": "game-concept-comparison-30",
     "title": "暗黑幻想城市概念图",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -12372,11 +12596,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-30-暗黑幻想城市概念图"
   },
   {
-    "id": "character-design-poster-120-复古旅行海报视觉壬",
-    "slug": "character-design-poster-120-复古旅行海报视觉壬",
+    "id": "character-design-poster-120",
+    "slug": "character-design-poster-120",
     "title": "复古旅行海报视觉壬",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -12427,11 +12652,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-120-复古旅行海报视觉壬"
   },
   {
-    "id": "ui-design-portrait-25-电商落地页界面视觉",
-    "slug": "ui-design-portrait-25-电商落地页界面视觉",
+    "id": "ui-design-portrait-25",
+    "slug": "ui-design-portrait-25",
     "title": "电商落地页界面视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -12482,11 +12708,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-25-电商落地页界面视觉"
   },
   {
-    "id": "product-poster-poster-1-国风城市海报",
-    "slug": "product-poster-poster-1-国风城市海报",
+    "id": "product-poster-poster-1",
+    "slug": "product-poster-poster-1",
     "title": "国风城市海报",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -12537,11 +12764,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "product-poster-poster-1-国风城市海报"
   },
   {
-    "id": "portrait-poster-76-复古旅行海报视觉戊",
-    "slug": "portrait-poster-76-复古旅行海报视觉戊",
+    "id": "portrait-poster-76",
+    "slug": "portrait-poster-76",
     "title": "复古旅行海报视觉戊",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -12592,11 +12820,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-76-复古旅行海报视觉戊"
   },
   {
-    "id": "character-design-ui-125-小红书灵感封面模板",
-    "slug": "character-design-ui-125-小红书灵感封面模板",
+    "id": "character-design-ui-125",
+    "slug": "character-design-ui-125",
     "title": "小红书灵感封面模板",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -12647,11 +12876,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-125-小红书灵感封面模板"
   },
   {
-    "id": "ui-design-portrait-3-复古旅行海报参考乙",
-    "slug": "ui-design-portrait-3-复古旅行海报参考乙",
+    "id": "ui-design-portrait-3",
+    "slug": "ui-design-portrait-3",
     "title": "复古旅行海报参考乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -12702,11 +12932,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-3-复古旅行海报参考乙"
   },
   {
-    "id": "character-design-poster-133-动漫偶像立绘",
-    "slug": "character-design-poster-133-动漫偶像立绘",
+    "id": "character-design-poster-133",
+    "slug": "character-design-poster-133",
     "title": "动漫偶像立绘",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -12757,11 +12988,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-133-动漫偶像立绘"
   },
   {
-    "id": "ui-design-ad-creative-150-电影感人像写真模板辛",
-    "slug": "ui-design-ad-creative-150-电影感人像写真模板辛",
+    "id": "ui-design-ad-creative-150",
+    "slug": "ui-design-ad-creative-150",
     "title": "电影感人像写真模板辛",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -12812,11 +13044,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-150-电影感人像写真模板辛"
   },
   {
-    "id": "character-design-ui-126-可爱吉祥物设计视觉",
-    "slug": "character-design-ui-126-可爱吉祥物设计视觉",
+    "id": "character-design-ui-126",
+    "slug": "character-design-ui-126",
     "title": "可爱吉祥物设计视觉",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -12867,11 +13100,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-126-可爱吉祥物设计视觉"
   },
   {
-    "id": "chinese-illustration-poster-183-复古旅行海报模板己",
-    "slug": "chinese-illustration-poster-183-复古旅行海报模板己",
+    "id": "chinese-illustration-poster-183",
+    "slug": "chinese-illustration-poster-183",
     "title": "复古旅行海报模板己",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -12922,11 +13156,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-183-复古旅行海报模板己"
   },
   {
-    "id": "chinese-illustration-poster-5-国风城市海报构图",
-    "slug": "chinese-illustration-poster-5-国风城市海报构图",
+    "id": "chinese-illustration-poster-5",
+    "slug": "chinese-illustration-poster-5",
     "title": "国风城市海报构图",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -12977,11 +13212,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "chinese-illustration-poster-5-国风城市海报构图"
   },
   {
-    "id": "ui-design-ui-3-极简-web-首页灵感",
-    "slug": "ui-design-ui-3-极简-web-首页灵感",
+    "id": "ui-design-ui-3-web",
+    "slug": "ui-design-ui-3-web",
     "title": "极简 Web 首页灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13032,11 +13268,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-3-极简-web-首页灵感"
   },
   {
-    "id": "portrait-portrait-110-夜景氛围人像灵感",
-    "slug": "portrait-portrait-110-夜景氛围人像灵感",
+    "id": "portrait-portrait-110",
+    "slug": "portrait-portrait-110",
     "title": "夜景氛围人像灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -13087,11 +13324,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-110-夜景氛围人像灵感"
   },
   {
-    "id": "vintage-poster-portrait-82-电影感人像写真视觉己",
-    "slug": "vintage-poster-portrait-82-电影感人像写真视觉己",
+    "id": "vintage-poster-portrait-82",
+    "slug": "vintage-poster-portrait-82",
     "title": "电影感人像写真视觉己",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -13142,11 +13380,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-portrait-82-电影感人像写真视觉己"
   },
   {
-    "id": "product-poster-comparison-83-清新饮品产品海报灵感",
-    "slug": "product-poster-comparison-83-清新饮品产品海报灵感",
+    "id": "product-poster-comparison-83",
+    "slug": "product-poster-comparison-83",
     "title": "清新饮品产品海报灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -13197,11 +13436,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-83-清新饮品产品海报灵感"
   },
   {
-    "id": "ui-design-ui-10-深色数据大屏参考",
-    "slug": "ui-design-ui-10-深色数据大屏参考",
+    "id": "ui-design-ui-10",
+    "slug": "ui-design-ui-10",
     "title": "深色数据大屏参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13252,11 +13492,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-10-深色数据大屏参考"
   },
   {
-    "id": "product-poster-comparison-29-护肤精华广告海报",
-    "slug": "product-poster-comparison-29-护肤精华广告海报",
+    "id": "product-poster-comparison-29",
+    "slug": "product-poster-comparison-29",
     "title": "护肤精华广告海报",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -13307,11 +13548,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-29-护肤精华广告海报"
   },
   {
-    "id": "ui-design-poster-193-复古旅行海报参考甲",
-    "slug": "ui-design-poster-193-复古旅行海报参考甲",
+    "id": "ui-design-poster-193",
+    "slug": "ui-design-poster-193",
     "title": "复古旅行海报参考甲",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13362,11 +13604,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-193-复古旅行海报参考甲"
   },
   {
-    "id": "ui-design-portrait-88-数据看板-ui-设计设计",
-    "slug": "ui-design-portrait-88-数据看板-ui-设计设计",
+    "id": "ui-design-portrait-88-ui",
+    "slug": "ui-design-portrait-88-ui",
     "title": "数据看板 UI 设计设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13417,11 +13660,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-88-数据看板-ui-设计设计"
   },
   {
-    "id": "ui-design-poster-58-移动金融-app-界面灵感",
-    "slug": "ui-design-poster-58-移动金融-app-界面灵感",
+    "id": "ui-design-poster-58-app",
+    "slug": "ui-design-poster-58-app",
     "title": "移动金融 App 界面灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13472,11 +13716,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-58-移动金融-app-界面灵感"
   },
   {
-    "id": "portrait-poster-53-清透半身写真",
-    "slug": "portrait-poster-53-清透半身写真",
+    "id": "portrait-poster-53",
+    "slug": "portrait-poster-53",
     "title": "清透半身写真",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -13527,11 +13772,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-53-清透半身写真"
   },
   {
-    "id": "portrait-portrait-86-电影感人像写真视觉辛",
-    "slug": "portrait-portrait-86-电影感人像写真视觉辛",
+    "id": "portrait-portrait-86",
+    "slug": "portrait-portrait-86",
     "title": "电影感人像写真视觉辛",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -13582,11 +13828,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-86-电影感人像写真视觉辛"
   },
   {
-    "id": "game-concept-comparison-33-复古旅行海报大片庚",
-    "slug": "game-concept-comparison-33-复古旅行海报大片庚",
+    "id": "game-concept-comparison-33",
+    "slug": "game-concept-comparison-33",
     "title": "复古旅行海报大片庚",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -13637,11 +13884,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-33-复古旅行海报大片庚"
   },
   {
-    "id": "game-concept-ui-40-复古旅行海报参考辛",
-    "slug": "game-concept-ui-40-复古旅行海报参考辛",
+    "id": "game-concept-ui-40",
+    "slug": "game-concept-ui-40",
     "title": "复古旅行海报参考辛",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -13692,11 +13940,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-ui-40-复古旅行海报参考辛"
   },
   {
-    "id": "ui-design-poster-54-移动金融-app-界面",
-    "slug": "ui-design-poster-54-移动金融-app-界面",
+    "id": "ui-design-poster-54-app",
+    "slug": "ui-design-poster-54-app",
     "title": "移动金融 App 界面",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13747,11 +13996,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-54-移动金融-app-界面"
   },
   {
-    "id": "chinese-illustration-comparison-57-国风城市海报视觉甲",
-    "slug": "chinese-illustration-comparison-57-国风城市海报视觉甲",
+    "id": "chinese-illustration-comparison-57",
+    "slug": "chinese-illustration-comparison-57",
     "title": "国风城市海报视觉甲",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -13802,11 +14052,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-comparison-57-国风城市海报视觉甲"
   },
   {
-    "id": "ui-design-ui-100-幻想游戏概念图构图",
-    "slug": "ui-design-ui-100-幻想游戏概念图构图",
+    "id": "ui-design-ui-100",
+    "slug": "ui-design-ui-100",
     "title": "幻想游戏概念图构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13857,11 +14108,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-100-幻想游戏概念图构图"
   },
   {
-    "id": "ui-design-ui-8-移动金融-app-界面模板",
-    "slug": "ui-design-ui-8-移动金融-app-界面模板",
+    "id": "ui-design-ui-8-app",
+    "slug": "ui-design-ui-8-app",
     "title": "移动金融 App 界面模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13912,11 +14164,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-8-移动金融-app-界面模板"
   },
   {
-    "id": "ui-design-poster-80-复古旅行海报视觉庚",
-    "slug": "ui-design-poster-80-复古旅行海报视觉庚",
+    "id": "ui-design-poster-80",
+    "slug": "ui-design-poster-80",
     "title": "复古旅行海报视觉庚",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -13967,11 +14220,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-80-复古旅行海报视觉庚"
   },
   {
-    "id": "product-poster-poster-41-自然光产品海报",
-    "slug": "product-poster-poster-41-自然光产品海报",
+    "id": "product-poster-poster-41",
+    "slug": "product-poster-poster-41",
     "title": "自然光产品海报",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -14022,11 +14276,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-41-自然光产品海报"
   },
   {
-    "id": "character-design-character-2-二次元角色设定视觉丙",
-    "slug": "character-design-character-2-二次元角色设定视觉丙",
+    "id": "character-design-character-2",
+    "slug": "character-design-character-2",
     "title": "二次元角色设定视觉丙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -14077,11 +14332,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-2-二次元角色设定视觉丙"
   },
   {
-    "id": "ecommerce-main-image-ecommerce-161-家居产品主图",
-    "slug": "ecommerce-main-image-ecommerce-161-家居产品主图",
+    "id": "ecommerce-main-image-ecommerce-161",
+    "slug": "ecommerce-main-image-ecommerce-161",
     "title": "家居产品主图",
     "description": "适合商品主图、卖点展示和电商详情首图参考。",
     "category": "电商主图",
@@ -14132,11 +14388,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ecommerce-main-image-ecommerce-161-家居产品主图"
   },
   {
-    "id": "ui-design-ui-128-电商落地页界面大片",
-    "slug": "ui-design-ui-128-电商落地页界面大片",
+    "id": "ui-design-ui-128",
+    "slug": "ui-design-ui-128",
     "title": "电商落地页界面大片",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14187,11 +14444,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-128-电商落地页界面大片"
   },
   {
-    "id": "ui-design-portrait-23-电商落地页界面灵感",
-    "slug": "ui-design-portrait-23-电商落地页界面灵感",
+    "id": "ui-design-portrait-23",
+    "slug": "ui-design-portrait-23",
     "title": "电商落地页界面灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14242,11 +14500,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-23-电商落地页界面灵感"
   },
   {
-    "id": "ui-design-ui-123-社交应用界面参考",
-    "slug": "ui-design-ui-123-社交应用界面参考",
+    "id": "ui-design-ui-123",
+    "slug": "ui-design-ui-123",
     "title": "社交应用界面参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14297,11 +14556,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-123-社交应用界面参考"
   },
   {
-    "id": "ui-design-poster-186-移动金融-app-界面视觉",
-    "slug": "ui-design-poster-186-移动金融-app-界面视觉",
+    "id": "ui-design-poster-186-app",
+    "slug": "ui-design-poster-186-app",
     "title": "移动金融 App 界面视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14352,11 +14612,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-186-移动金融-app-界面视觉"
   },
   {
-    "id": "ui-design-portrait-113-数据看板-ui-设计大片",
-    "slug": "ui-design-portrait-113-数据看板-ui-设计大片",
+    "id": "ui-design-portrait-113-ui",
+    "slug": "ui-design-portrait-113-ui",
     "title": "数据看板 UI 设计大片",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14407,11 +14668,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-113-数据看板-ui-设计大片"
   },
   {
-    "id": "portrait-comparison-35-电影感人像写真模板癸",
-    "slug": "portrait-comparison-35-电影感人像写真模板癸",
+    "id": "portrait-comparison-35",
+    "slug": "portrait-comparison-35",
     "title": "电影感人像写真模板癸",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -14462,11 +14724,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-35-电影感人像写真模板癸"
   },
   {
-    "id": "ui-design-poster-134-saas-工作台界面灵感",
-    "slug": "ui-design-poster-134-saas-工作台界面灵感",
+    "id": "ui-design-poster-134-saas",
+    "slug": "ui-design-poster-134-saas",
     "title": "SaaS 工作台界面灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14517,11 +14780,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-134-saas-工作台界面灵感"
   },
   {
-    "id": "portrait-portrait-10-光影艺术肖像灵感",
-    "slug": "portrait-portrait-10-光影艺术肖像灵感",
+    "id": "portrait-portrait-10",
+    "slug": "portrait-portrait-10",
     "title": "光影艺术肖像灵感",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -14572,11 +14836,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-10-光影艺术肖像灵感"
   },
   {
-    "id": "product-poster-comparison-55-商业广告创意图视觉",
-    "slug": "product-poster-comparison-55-商业广告创意图视觉",
+    "id": "product-poster-comparison-55",
+    "slug": "product-poster-comparison-55",
     "title": "商业广告创意图视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -14627,11 +14892,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-55-商业广告创意图视觉"
   },
   {
-    "id": "character-design-comparison-81-国风少年角色",
-    "slug": "character-design-comparison-81-国风少年角色",
+    "id": "character-design-comparison-81",
+    "slug": "character-design-comparison-81",
     "title": "国风少年角色",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -14682,11 +14948,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-comparison-81-国风少年角色"
   },
   {
-    "id": "ui-design-ui-42-ai-数据看板-ui灵感",
-    "slug": "ui-design-ui-42-ai-数据看板-ui灵感",
+    "id": "ui-design-ui-42-ai-ui",
+    "slug": "ui-design-ui-42-ai-ui",
     "title": "AI 数据看板 UI灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14737,11 +15004,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-42-ai-数据看板-ui灵感"
   },
   {
-    "id": "portrait-poster-52-电影感人像写真",
-    "slug": "portrait-poster-52-电影感人像写真",
+    "id": "portrait-poster-52",
+    "slug": "portrait-poster-52",
     "title": "电影感人像写真",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -14792,11 +15060,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-52-电影感人像写真"
   },
   {
-    "id": "game-concept-comparison-31-复古旅行海报大片己",
-    "slug": "game-concept-comparison-31-复古旅行海报大片己",
+    "id": "game-concept-comparison-31",
+    "slug": "game-concept-comparison-31",
     "title": "复古旅行海报大片己",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -14847,11 +15116,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-31-复古旅行海报大片己"
   },
   {
-    "id": "ui-design-ui-127-社交应用界面设计",
-    "slug": "ui-design-ui-127-社交应用界面设计",
+    "id": "ui-design-ui-127",
+    "slug": "ui-design-ui-127",
     "title": "社交应用界面设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -14902,11 +15172,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-127-社交应用界面设计"
   },
   {
-    "id": "portrait-comparison-59-电影感人像写真参考丙",
-    "slug": "portrait-comparison-59-电影感人像写真参考丙",
+    "id": "portrait-comparison-59",
+    "slug": "portrait-comparison-59",
     "title": "电影感人像写真参考丙",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -14957,11 +15228,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-59-电影感人像写真参考丙"
   },
   {
-    "id": "chinese-illustration-portrait-84-国风城市海报灵感戊",
-    "slug": "chinese-illustration-portrait-84-国风城市海报灵感戊",
+    "id": "chinese-illustration-portrait-84",
+    "slug": "chinese-illustration-portrait-84",
     "title": "国风城市海报灵感戊",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -15012,11 +15284,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-portrait-84-国风城市海报灵感戊"
   },
   {
-    "id": "product-poster-comparison-68-高级珠宝宣传图灵感",
-    "slug": "product-poster-comparison-68-高级珠宝宣传图灵感",
+    "id": "product-poster-comparison-68",
+    "slug": "product-poster-comparison-68",
     "title": "高级珠宝宣传图灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -15067,11 +15340,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-68-高级珠宝宣传图灵感"
   },
   {
-    "id": "character-design-ui-101-复古旅行海报参考壬",
-    "slug": "character-design-ui-101-复古旅行海报参考壬",
+    "id": "character-design-ui-101",
+    "slug": "character-design-ui-101",
     "title": "复古旅行海报参考壬",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -15122,11 +15396,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-101-复古旅行海报参考壬"
   },
   {
-    "id": "ui-design-poster-184-健康管理仪表盘视觉",
-    "slug": "ui-design-poster-184-健康管理仪表盘视觉",
+    "id": "ui-design-poster-184",
+    "slug": "ui-design-poster-184",
     "title": "健康管理仪表盘视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15177,11 +15452,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-184-健康管理仪表盘视觉"
   },
   {
-    "id": "ui-design-portrait-4-电影感人像写真方案",
-    "slug": "ui-design-portrait-4-电影感人像写真方案",
+    "id": "ui-design-portrait-4",
+    "slug": "ui-design-portrait-4",
     "title": "电影感人像写真方案",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15232,11 +15508,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-4-电影感人像写真方案"
   },
   {
-    "id": "product-poster-poster-56-复古旅行海报灵感丁",
-    "slug": "product-poster-poster-56-复古旅行海报灵感丁",
+    "id": "product-poster-poster-56",
+    "slug": "product-poster-poster-56",
     "title": "复古旅行海报灵感丁",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -15287,11 +15564,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-56-复古旅行海报灵感丁"
   },
   {
-    "id": "chinese-illustration-portrait-97-电影感人像写真构图乙",
-    "slug": "chinese-illustration-portrait-97-电影感人像写真构图乙",
+    "id": "chinese-illustration-portrait-97",
+    "slug": "chinese-illustration-portrait-97",
     "title": "电影感人像写真构图乙",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -15342,11 +15620,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-portrait-97-电影感人像写真构图乙"
   },
   {
-    "id": "ui-design-portrait-99-saas-工作台界面视觉",
-    "slug": "ui-design-portrait-99-saas-工作台界面视觉",
+    "id": "ui-design-portrait-99-saas",
+    "slug": "ui-design-portrait-99-saas",
     "title": "SaaS 工作台界面视觉",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15397,11 +15676,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-99-saas-工作台界面视觉"
   },
   {
-    "id": "ui-design-portrait-27-电影感人像写真视觉乙",
-    "slug": "ui-design-portrait-27-电影感人像写真视觉乙",
+    "id": "ui-design-portrait-27",
+    "slug": "ui-design-portrait-27",
     "title": "电影感人像写真视觉乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15452,11 +15732,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-27-电影感人像写真视觉乙"
   },
   {
-    "id": "product-poster-poster-69-复古旅行海报灵感癸",
-    "slug": "product-poster-poster-69-复古旅行海报灵感癸",
+    "id": "product-poster-poster-69",
+    "slug": "product-poster-poster-69",
     "title": "复古旅行海报灵感癸",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -15507,11 +15788,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-69-复古旅行海报灵感癸"
   },
   {
-    "id": "ui-design-portrait-8-电影感人像写真灵感乙",
-    "slug": "ui-design-portrait-8-电影感人像写真灵感乙",
+    "id": "ui-design-portrait-8",
+    "slug": "ui-design-portrait-8",
     "title": "电影感人像写真灵感乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15562,11 +15844,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-8-电影感人像写真灵感乙"
   },
   {
-    "id": "chinese-illustration-portrait-100-复古旅行海报参考丁",
-    "slug": "chinese-illustration-portrait-100-复古旅行海报参考丁",
+    "id": "chinese-illustration-portrait-100",
+    "slug": "chinese-illustration-portrait-100",
     "title": "复古旅行海报参考丁",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -15617,11 +15900,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-portrait-100-复古旅行海报参考丁"
   },
   {
-    "id": "product-poster-comparison-48-商业广告创意图灵感",
-    "slug": "product-poster-comparison-48-商业广告创意图灵感",
+    "id": "product-poster-comparison-48",
+    "slug": "product-poster-comparison-48",
     "title": "商业广告创意图灵感",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -15672,11 +15956,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-48-商业广告创意图灵感"
   },
   {
-    "id": "xiaohongshu-cover-poster-182-复古旅行海报模板戊",
-    "slug": "xiaohongshu-cover-poster-182-复古旅行海报模板戊",
+    "id": "xiaohongshu-cover-poster-182",
+    "slug": "xiaohongshu-cover-poster-182",
     "title": "复古旅行海报模板戊",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -15727,11 +16012,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-poster-182-复古旅行海报模板戊"
   },
   {
-    "id": "character-design-ui-110-二次元角色设定灵感戊",
-    "slug": "character-design-ui-110-二次元角色设定灵感戊",
+    "id": "character-design-ui-110",
+    "slug": "character-design-ui-110",
     "title": "二次元角色设定灵感戊",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -15782,11 +16068,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-110-二次元角色设定灵感戊"
   },
   {
-    "id": "ui-design-poster-141-二次元角色设定灵感",
-    "slug": "ui-design-poster-141-二次元角色设定灵感",
+    "id": "ui-design-poster-141",
+    "slug": "ui-design-poster-141",
     "title": "二次元角色设定灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -15837,11 +16124,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-141-二次元角色设定灵感"
   },
   {
-    "id": "portrait-portrait-2-电影感人像写真大片",
-    "slug": "portrait-portrait-2-电影感人像写真大片",
+    "id": "portrait-portrait-2",
+    "slug": "portrait-portrait-2",
     "title": "电影感人像写真大片",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -15892,11 +16180,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-2-电影感人像写真大片"
   },
   {
-    "id": "character-design-ui-124-复古旅行海报设计丙",
-    "slug": "character-design-ui-124-复古旅行海报设计丙",
+    "id": "character-design-ui-124",
+    "slug": "character-design-ui-124",
     "title": "复古旅行海报设计丙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -15947,11 +16236,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-124-复古旅行海报设计丙"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-113-香水护肤产品海报视觉",
-    "slug": "xiaohongshu-cover-ecommerce-113-香水护肤产品海报视觉",
+    "id": "xiaohongshu-cover-ecommerce-113",
+    "slug": "xiaohongshu-cover-ecommerce-113",
     "title": "香水护肤产品海报视觉",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -16002,11 +16292,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-113-香水护肤产品海报视觉"
   },
   {
-    "id": "product-poster-comparison-42-自然光产品海报视觉",
-    "slug": "product-poster-comparison-42-自然光产品海报视觉",
+    "id": "product-poster-comparison-42",
+    "slug": "product-poster-comparison-42",
     "title": "自然光产品海报视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -16057,11 +16348,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-42-自然光产品海报视觉"
   },
   {
-    "id": "character-design-poster-191-二次元角色设定构图",
-    "slug": "character-design-poster-191-二次元角色设定构图",
+    "id": "character-design-poster-191",
+    "slug": "character-design-poster-191",
     "title": "二次元角色设定构图",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -16112,11 +16404,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-191-二次元角色设定构图"
   },
   {
-    "id": "game-concept-comparison-72-小红书灵感封面设计",
-    "slug": "game-concept-comparison-72-小红书灵感封面设计",
+    "id": "game-concept-comparison-72",
+    "slug": "game-concept-comparison-72",
     "title": "小红书灵感封面设计",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -16167,11 +16460,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-comparison-72-小红书灵感封面设计"
   },
   {
-    "id": "ui-design-poster-78-复古旅行海报视觉己",
-    "slug": "ui-design-poster-78-复古旅行海报视觉己",
+    "id": "ui-design-poster-78",
+    "slug": "ui-design-poster-78",
     "title": "复古旅行海报视觉己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16222,11 +16516,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-78-复古旅行海报视觉己"
   },
   {
-    "id": "ui-design-poster-121-复古旅行海报视觉癸",
-    "slug": "ui-design-poster-121-复古旅行海报视觉癸",
+    "id": "ui-design-poster-121",
+    "slug": "ui-design-poster-121",
     "title": "复古旅行海报视觉癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16277,11 +16572,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-121-复古旅行海报视觉癸"
   },
   {
-    "id": "character-design-portrait-21-机甲战士角色图",
-    "slug": "character-design-portrait-21-机甲战士角色图",
+    "id": "character-design-portrait-21",
+    "slug": "character-design-portrait-21",
     "title": "机甲战士角色图",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -16332,11 +16628,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-21-机甲战士角色图"
   },
   {
-    "id": "chinese-illustration-poster-3-国风城市海报灵感",
-    "slug": "chinese-illustration-poster-3-国风城市海报灵感",
+    "id": "chinese-illustration-poster-3",
+    "slug": "chinese-illustration-poster-3",
     "title": "国风城市海报灵感",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -16387,11 +16684,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "chinese-illustration-poster-3-国风城市海报灵感"
   },
   {
-    "id": "ui-design-ad-creative-148-香水护肤产品海报",
-    "slug": "ui-design-ad-creative-148-香水护肤产品海报",
+    "id": "ui-design-ad-creative-148",
+    "slug": "ui-design-ad-creative-148",
     "title": "香水护肤产品海报",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16442,11 +16740,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-148-香水护肤产品海报"
   },
   {
-    "id": "character-design-poster-132-二次元角色设定",
-    "slug": "character-design-poster-132-二次元角色设定",
+    "id": "character-design-poster-132",
+    "slug": "character-design-poster-132",
     "title": "二次元角色设定",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -16497,11 +16796,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-132-二次元角色设定"
   },
   {
-    "id": "product-poster-comparison-82-护肤精华广告海报构图",
-    "slug": "product-poster-comparison-82-护肤精华广告海报构图",
+    "id": "product-poster-comparison-82",
+    "slug": "product-poster-comparison-82",
     "title": "护肤精华广告海报构图",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -16552,11 +16852,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-82-护肤精华广告海报构图"
   },
   {
-    "id": "character-design-character-16-二次元角色设定视觉癸",
-    "slug": "character-design-character-16-二次元角色设定视觉癸",
+    "id": "character-design-character-16",
+    "slug": "character-design-character-16",
     "title": "二次元角色设定视觉癸",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -16607,11 +16908,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-16-二次元角色设定视觉癸"
   },
   {
-    "id": "character-design-ui-114-二次元角色设定灵感庚",
-    "slug": "character-design-ui-114-二次元角色设定灵感庚",
+    "id": "character-design-ui-114",
+    "slug": "character-design-ui-114",
     "title": "二次元角色设定灵感庚",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -16662,11 +16964,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-114-二次元角色设定灵感庚"
   },
   {
-    "id": "ecommerce-main-image-ecommerce-163-护肤品商品主图",
-    "slug": "ecommerce-main-image-ecommerce-163-护肤品商品主图",
+    "id": "ecommerce-main-image-ecommerce-163",
+    "slug": "ecommerce-main-image-ecommerce-163",
     "title": "护肤品商品主图",
     "description": "适合商品主图、卖点展示和电商详情首图参考。",
     "category": "电商主图",
@@ -16717,11 +17020,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ecommerce-main-image-ecommerce-163-护肤品商品主图"
   },
   {
-    "id": "chinese-illustration-ui-25-新中式山水视觉",
-    "slug": "chinese-illustration-ui-25-新中式山水视觉",
+    "id": "chinese-illustration-ui-25",
+    "slug": "chinese-illustration-ui-25",
     "title": "新中式山水视觉",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -16772,11 +17076,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-ui-25-新中式山水视觉"
   },
   {
-    "id": "ui-design-poster-171-电影感人像写真模板",
-    "slug": "ui-design-poster-171-电影感人像写真模板",
+    "id": "ui-design-poster-171",
+    "slug": "ui-design-poster-171",
     "title": "电影感人像写真模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16827,11 +17132,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-171-电影感人像写真模板"
   },
   {
-    "id": "ui-design-ad-creative-172-复古旅行海报大片甲",
-    "slug": "ui-design-ad-creative-172-复古旅行海报大片甲",
+    "id": "ui-design-ad-creative-172",
+    "slug": "ui-design-ad-creative-172",
     "title": "复古旅行海报大片甲",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16882,11 +17188,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-172-复古旅行海报大片甲"
   },
   {
-    "id": "ui-design-ui-38-数据看板-ui-设计场景",
-    "slug": "ui-design-ui-38-数据看板-ui-设计场景",
+    "id": "ui-design-ui-38-ui",
+    "slug": "ui-design-ui-38-ui",
     "title": "数据看板 UI 设计场景",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16937,11 +17244,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-38-数据看板-ui-设计场景"
   },
   {
-    "id": "ui-design-portrait-112-电影感人像写真模板乙",
-    "slug": "ui-design-portrait-112-电影感人像写真模板乙",
+    "id": "ui-design-portrait-112",
+    "slug": "ui-design-portrait-112",
     "title": "电影感人像写真模板乙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -16992,11 +17300,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-112-电影感人像写真模板乙"
   },
   {
-    "id": "xiaohongshu-cover-ecommerce-160-露营攻略封面图灵感",
-    "slug": "xiaohongshu-cover-ecommerce-160-露营攻略封面图灵感",
+    "id": "xiaohongshu-cover-ecommerce-160",
+    "slug": "xiaohongshu-cover-ecommerce-160",
     "title": "露营攻略封面图灵感",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -17047,11 +17356,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ecommerce-160-露营攻略封面图灵感"
   },
   {
-    "id": "ui-design-ui-111-移动金融-app-界面参考",
-    "slug": "ui-design-ui-111-移动金融-app-界面参考",
+    "id": "ui-design-ui-111-app",
+    "slug": "ui-design-ui-111-app",
     "title": "移动金融 App 界面参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17102,11 +17412,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-111-移动金融-app-界面参考"
   },
   {
-    "id": "ui-design-poster-181-复古广告海报灵感",
-    "slug": "ui-design-poster-181-复古广告海报灵感",
+    "id": "ui-design-poster-181",
+    "slug": "ui-design-poster-181",
     "title": "复古广告海报灵感",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17157,11 +17468,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-181-复古广告海报灵感"
   },
   {
-    "id": "product-poster-poster-15-复古旅行海报参考",
-    "slug": "product-poster-poster-15-复古旅行海报参考",
+    "id": "product-poster-poster-15",
+    "slug": "product-poster-poster-15",
     "title": "复古旅行海报参考",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -17212,11 +17524,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-15-复古旅行海报参考"
   },
   {
-    "id": "ui-design-poster-135-深色数据大屏",
-    "slug": "ui-design-poster-135-深色数据大屏",
+    "id": "ui-design-poster-135",
+    "slug": "ui-design-poster-135",
     "title": "深色数据大屏",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17267,11 +17580,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-135-深色数据大屏"
   },
   {
-    "id": "product-poster-poster-68-复古旅行海报灵感壬",
-    "slug": "product-poster-poster-68-复古旅行海报灵感壬",
+    "id": "product-poster-poster-68",
+    "slug": "product-poster-poster-68",
     "title": "复古旅行海报灵感壬",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -17322,11 +17636,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-poster-68-复古旅行海报灵感壬"
   },
   {
-    "id": "chinese-illustration-poster-65-国风城市海报灵感甲",
-    "slug": "chinese-illustration-poster-65-国风城市海报灵感甲",
+    "id": "chinese-illustration-poster-65",
+    "slug": "chinese-illustration-poster-65",
     "title": "国风城市海报灵感甲",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -17377,11 +17692,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-65-国风城市海报灵感甲"
   },
   {
-    "id": "ecommerce-main-image-ecommerce-158-科技产品货架图",
-    "slug": "ecommerce-main-image-ecommerce-158-科技产品货架图",
+    "id": "ecommerce-main-image-ecommerce-158",
+    "slug": "ecommerce-main-image-ecommerce-158",
     "title": "科技产品货架图",
     "description": "适合商品主图、卖点展示和电商详情首图参考。",
     "category": "电商主图",
@@ -17432,11 +17748,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ecommerce-main-image-ecommerce-158-科技产品货架图"
   },
   {
-    "id": "game-concept-poster-42-国风城市海报场景",
-    "slug": "game-concept-poster-42-国风城市海报场景",
+    "id": "game-concept-poster-42",
+    "slug": "game-concept-poster-42",
     "title": "国风城市海报场景",
     "description": "适合游戏场景、世界观设定和概念艺术参考。",
     "category": "游戏概念图",
@@ -17487,11 +17804,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "game-concept-poster-42-国风城市海报场景"
   },
   {
-    "id": "character-design-portrait-5-电影感人像写真版式",
-    "slug": "character-design-portrait-5-电影感人像写真版式",
+    "id": "character-design-portrait-5",
+    "slug": "character-design-portrait-5",
     "title": "电影感人像写真版式",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -17542,11 +17860,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-5-电影感人像写真版式"
   },
   {
-    "id": "vintage-poster-poster-11-复古旅行海报构图",
-    "slug": "vintage-poster-poster-11-复古旅行海报构图",
+    "id": "vintage-poster-poster-11",
+    "slug": "vintage-poster-poster-11",
     "title": "复古旅行海报构图",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -17597,11 +17916,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "vintage-poster-poster-11-复古旅行海报构图"
   },
   {
-    "id": "ui-design-ui-2-深色数据大屏模板",
-    "slug": "ui-design-ui-2-深色数据大屏模板",
+    "id": "ui-design-ui-2",
+    "slug": "ui-design-ui-2",
     "title": "深色数据大屏模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17652,11 +17972,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-2-深色数据大屏模板"
   },
   {
-    "id": "ui-design-poster-194-数据看板-ui-设计模板",
-    "slug": "ui-design-poster-194-数据看板-ui-设计模板",
+    "id": "ui-design-poster-194-ui",
+    "slug": "ui-design-poster-194-ui",
     "title": "数据看板 UI 设计模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17707,11 +18028,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-194-数据看板-ui-设计模板"
   },
   {
-    "id": "ui-design-portrait-14-电影感人像写真灵感己",
-    "slug": "ui-design-portrait-14-电影感人像写真灵感己",
+    "id": "ui-design-portrait-14",
+    "slug": "ui-design-portrait-14",
     "title": "电影感人像写真灵感己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17762,11 +18084,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-14-电影感人像写真灵感己"
   },
   {
-    "id": "portrait-poster-70-复古旅行海报视觉甲",
-    "slug": "portrait-poster-70-复古旅行海报视觉甲",
+    "id": "portrait-poster-70",
+    "slug": "portrait-poster-70",
     "title": "复古旅行海报视觉甲",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -17817,11 +18140,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-70-复古旅行海报视觉甲"
   },
   {
-    "id": "xiaohongshu-cover-poster-59-美妆护肤小红书封面",
-    "slug": "xiaohongshu-cover-poster-59-美妆护肤小红书封面",
+    "id": "xiaohongshu-cover-poster-59",
+    "slug": "xiaohongshu-cover-poster-59",
     "title": "美妆护肤小红书封面",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -17872,11 +18196,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-poster-59-美妆护肤小红书封面"
   },
   {
-    "id": "ui-design-portrait-1-电影感人像写真设计",
-    "slug": "ui-design-portrait-1-电影感人像写真设计",
+    "id": "ui-design-portrait-1",
+    "slug": "ui-design-portrait-1",
     "title": "电影感人像写真设计",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17927,11 +18252,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-1-电影感人像写真设计"
   },
   {
-    "id": "ui-design-poster-172-电影感人像写真参考",
-    "slug": "ui-design-poster-172-电影感人像写真参考",
+    "id": "ui-design-poster-172",
+    "slug": "ui-design-poster-172",
     "title": "电影感人像写真参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -17982,11 +18308,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-poster-172-电影感人像写真参考"
   },
   {
-    "id": "ui-design-ui-92-电商落地页界面参考",
-    "slug": "ui-design-ui-92-电商落地页界面参考",
+    "id": "ui-design-ui-92",
+    "slug": "ui-design-ui-92",
     "title": "电商落地页界面参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -18037,11 +18364,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-92-电商落地页界面参考"
   },
   {
-    "id": "product-poster-comparison-41-极简香水产品海报",
-    "slug": "product-poster-comparison-41-极简香水产品海报",
+    "id": "product-poster-comparison-41",
+    "slug": "product-poster-comparison-41",
     "title": "极简香水产品海报",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -18092,11 +18420,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-41-极简香水产品海报"
   },
   {
-    "id": "ui-design-ui-5-移动金融-app-界面构图",
-    "slug": "ui-design-ui-5-移动金融-app-界面构图",
+    "id": "ui-design-ui-5-app",
+    "slug": "ui-design-ui-5-app",
     "title": "移动金融 App 界面构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -18147,11 +18476,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-5-移动金融-app-界面构图"
   },
   {
-    "id": "product-poster-comparison-23-复古旅行海报大片戊",
-    "slug": "product-poster-comparison-23-复古旅行海报大片戊",
+    "id": "product-poster-comparison-23",
+    "slug": "product-poster-comparison-23",
     "title": "复古旅行海报大片戊",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -18202,11 +18532,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-23-复古旅行海报大片戊"
   },
   {
-    "id": "portrait-ui-105-复古胶片人像",
-    "slug": "portrait-ui-105-复古胶片人像",
+    "id": "portrait-ui-105",
+    "slug": "portrait-ui-105",
     "title": "复古胶片人像",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -18257,11 +18588,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-ui-105-复古胶片人像"
   },
   {
-    "id": "character-design-poster-122-国风城市海报灵感丙",
-    "slug": "character-design-poster-122-国风城市海报灵感丙",
+    "id": "character-design-poster-122",
+    "slug": "character-design-poster-122",
     "title": "国风城市海报灵感丙",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -18312,11 +18644,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-122-国风城市海报灵感丙"
   },
   {
-    "id": "character-design-portrait-87-二次元角色设定参考",
-    "slug": "character-design-portrait-87-二次元角色设定参考",
+    "id": "character-design-portrait-87",
+    "slug": "character-design-portrait-87",
     "title": "二次元角色设定参考",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -18367,11 +18700,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-portrait-87-二次元角色设定参考"
   },
   {
-    "id": "portrait-portrait-11-电影感人像写真灵感丁",
-    "slug": "portrait-portrait-11-电影感人像写真灵感丁",
+    "id": "portrait-portrait-11",
+    "slug": "portrait-portrait-11",
     "title": "电影感人像写真灵感丁",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -18422,11 +18756,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-11-电影感人像写真灵感丁"
   },
   {
-    "id": "product-poster-comparison-67-奢华产品静物视觉",
-    "slug": "product-poster-comparison-67-奢华产品静物视觉",
+    "id": "product-poster-comparison-67",
+    "slug": "product-poster-comparison-67",
     "title": "奢华产品静物视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -18477,11 +18812,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-67-奢华产品静物视觉"
   },
   {
-    "id": "product-poster-comparison-49-美食广告视觉",
-    "slug": "product-poster-comparison-49-美食广告视觉",
+    "id": "product-poster-comparison-49",
+    "slug": "product-poster-comparison-49",
     "title": "美食广告视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -18532,11 +18868,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-49-美食广告视觉"
   },
   {
-    "id": "character-design-character-3-二次元角色设定视觉丁",
-    "slug": "character-design-character-3-二次元角色设定视觉丁",
+    "id": "character-design-character-3",
+    "slug": "character-design-character-3",
     "title": "二次元角色设定视觉丁",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -18587,11 +18924,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-character-3-二次元角色设定视觉丁"
   },
   {
-    "id": "vintage-poster-poster-55-老广告风产品海报",
-    "slug": "vintage-poster-poster-55-老广告风产品海报",
+    "id": "vintage-poster-poster-55",
+    "slug": "vintage-poster-poster-55",
     "title": "老广告风产品海报",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -18642,11 +18980,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-55-老广告风产品海报"
   },
   {
-    "id": "ui-design-character-7-二次元角色设定视觉己",
-    "slug": "ui-design-character-7-二次元角色设定视觉己",
+    "id": "ui-design-character-7",
+    "slug": "ui-design-character-7",
     "title": "二次元角色设定视觉己",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -18697,11 +19036,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-character-7-二次元角色设定视觉己"
   },
   {
-    "id": "portrait-poster-74-电影感人像写真视觉",
-    "slug": "portrait-poster-74-电影感人像写真视觉",
+    "id": "portrait-poster-74",
+    "slug": "portrait-poster-74",
     "title": "电影感人像写真视觉",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -18752,11 +19092,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-poster-74-电影感人像写真视觉"
   },
   {
-    "id": "character-design-ad-creative-166-国风城市海报灵感辛",
-    "slug": "character-design-ad-creative-166-国风城市海报灵感辛",
+    "id": "character-design-ad-creative-166",
+    "slug": "character-design-ad-creative-166",
     "title": "国风城市海报灵感辛",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -18807,11 +19148,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ad-creative-166-国风城市海报灵感辛"
   },
   {
-    "id": "chinese-illustration-comparison-58-电影感人像写真参考乙",
-    "slug": "chinese-illustration-comparison-58-电影感人像写真参考乙",
+    "id": "chinese-illustration-comparison-58",
+    "slug": "chinese-illustration-comparison-58",
     "title": "电影感人像写真参考乙",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -18862,11 +19204,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-comparison-58-电影感人像写真参考乙"
   },
   {
-    "id": "chinese-illustration-poster-33-国风城市海报大片",
-    "slug": "chinese-illustration-poster-33-国风城市海报大片",
+    "id": "chinese-illustration-poster-33",
+    "slug": "chinese-illustration-poster-33",
     "title": "国风城市海报大片",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -18917,11 +19260,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-33-国风城市海报大片"
   },
   {
-    "id": "xiaohongshu-cover-ui-109-小红书灵感封面构图",
-    "slug": "xiaohongshu-cover-ui-109-小红书灵感封面构图",
+    "id": "xiaohongshu-cover-ui-109",
+    "slug": "xiaohongshu-cover-ui-109",
     "title": "小红书灵感封面构图",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -18972,11 +19316,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-ui-109-小红书灵感封面构图"
   },
   {
-    "id": "ui-design-portrait-96-电影感人像写真构图甲",
-    "slug": "ui-design-portrait-96-电影感人像写真构图甲",
+    "id": "ui-design-portrait-96",
+    "slug": "ui-design-portrait-96",
     "title": "电影感人像写真构图甲",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19027,11 +19372,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-96-电影感人像写真构图甲"
   },
   {
-    "id": "ui-design-ui-9-数据看板-ui-设计版式",
-    "slug": "ui-design-ui-9-数据看板-ui-设计版式",
+    "id": "ui-design-ui-9-ui",
+    "slug": "ui-design-ui-9-ui",
     "title": "数据看板 UI 设计版式",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19082,11 +19428,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-9-数据看板-ui-设计版式"
   },
   {
-    "id": "portrait-portrait-116-电影感人像写真模板丁",
-    "slug": "portrait-portrait-116-电影感人像写真模板丁",
+    "id": "portrait-portrait-116",
+    "slug": "portrait-portrait-116",
     "title": "电影感人像写真模板丁",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -19137,11 +19484,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-116-电影感人像写真模板丁"
   },
   {
-    "id": "character-design-ui-120-幻想法师角色",
-    "slug": "character-design-ui-120-幻想法师角色",
+    "id": "character-design-ui-120",
+    "slug": "character-design-ui-120",
     "title": "幻想法师角色",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -19192,11 +19540,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-ui-120-幻想法师角色"
   },
   {
-    "id": "ui-design-portrait-20-复古旅行海报参考丙",
-    "slug": "ui-design-portrait-20-复古旅行海报参考丙",
+    "id": "ui-design-portrait-20",
+    "slug": "ui-design-portrait-20",
     "title": "复古旅行海报参考丙",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19247,11 +19596,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-20-复古旅行海报参考丙"
   },
   {
-    "id": "portrait-portrait-103-电影感人像写真构图戊",
-    "slug": "portrait-portrait-103-电影感人像写真构图戊",
+    "id": "portrait-portrait-103",
+    "slug": "portrait-portrait-103",
     "title": "电影感人像写真构图戊",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -19302,11 +19652,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-portrait-103-电影感人像写真构图戊"
   },
   {
-    "id": "chinese-illustration-poster-24-国风城市海报设计",
-    "slug": "chinese-illustration-poster-24-国风城市海报设计",
+    "id": "chinese-illustration-poster-24",
+    "slug": "chinese-illustration-poster-24",
     "title": "国风城市海报设计",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -19357,11 +19708,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "chinese-illustration-poster-24-国风城市海报设计"
   },
   {
-    "id": "product-poster-comparison-32-高级珠宝宣传图",
-    "slug": "product-poster-comparison-32-高级珠宝宣传图",
+    "id": "product-poster-comparison-32",
+    "slug": "product-poster-comparison-32",
     "title": "高级珠宝宣传图",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -19412,11 +19764,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-32-高级珠宝宣传图"
   },
   {
-    "id": "ui-design-portrait-107-复古旅行海报参考戊",
-    "slug": "ui-design-portrait-107-复古旅行海报参考戊",
+    "id": "ui-design-portrait-107",
+    "slug": "ui-design-portrait-107",
     "title": "复古旅行海报参考戊",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19467,11 +19820,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-107-复古旅行海报参考戊"
   },
   {
-    "id": "xiaohongshu-cover-poster-185-汽车杂志风封面",
-    "slug": "xiaohongshu-cover-poster-185-汽车杂志风封面",
+    "id": "xiaohongshu-cover-poster-185",
+    "slug": "xiaohongshu-cover-poster-185",
     "title": "汽车杂志风封面",
     "description": "适合种草笔记、生活方式内容和社交媒体封面参考。",
     "category": "小红书封面",
@@ -19522,11 +19876,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "xiaohongshu-cover-poster-185-汽车杂志风封面"
   },
   {
-    "id": "product-poster-comparison-36-商业广告创意图",
-    "slug": "product-poster-comparison-36-商业广告创意图",
+    "id": "product-poster-comparison-36",
+    "slug": "product-poster-comparison-36",
     "title": "商业广告创意图",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -19577,11 +19932,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-36-商业广告创意图"
   },
   {
-    "id": "ui-design-ui-118-ai-数据看板-ui构图",
-    "slug": "ui-design-ui-118-ai-数据看板-ui构图",
+    "id": "ui-design-ui-118-ai-ui",
+    "slug": "ui-design-ui-118-ai-ui",
     "title": "AI 数据看板 UI构图",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19632,11 +19988,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-118-ai-数据看板-ui构图"
   },
   {
-    "id": "product-poster-comparison-10-品牌活动主视觉",
-    "slug": "product-poster-comparison-10-品牌活动主视觉",
+    "id": "product-poster-comparison-10",
+    "slug": "product-poster-comparison-10",
     "title": "品牌活动主视觉",
     "description": "适合品牌广告、产品宣传和商业海报创意参考。",
     "category": "产品海报",
@@ -19687,11 +20044,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "product-poster-comparison-10-品牌活动主视觉"
   },
   {
-    "id": "ui-design-ad-creative-112-二次元角色设定灵感癸",
-    "slug": "ui-design-ad-creative-112-二次元角色设定灵感癸",
+    "id": "ui-design-ad-creative-112",
+    "slug": "ui-design-ad-creative-112",
     "title": "二次元角色设定灵感癸",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19742,11 +20100,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ad-creative-112-二次元角色设定灵感癸"
   },
   {
-    "id": "portrait-comparison-54-电影感人像写真参考甲",
-    "slug": "portrait-comparison-54-电影感人像写真参考甲",
+    "id": "portrait-comparison-54",
+    "slug": "portrait-comparison-54",
     "title": "电影感人像写真参考甲",
     "description": "适合头像写真、人物摄影和社交媒体形象参考。",
     "category": "人像写真",
@@ -19797,11 +20156,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "portrait-comparison-54-电影感人像写真参考甲"
   },
   {
-    "id": "vintage-poster-portrait-83-复古广告海报构图",
-    "slug": "vintage-poster-portrait-83-复古广告海报构图",
+    "id": "vintage-poster-portrait-83",
+    "slug": "vintage-poster-portrait-83",
     "title": "复古广告海报构图",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -19852,11 +20212,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-portrait-83-复古广告海报构图"
   },
   {
-    "id": "ui-design-ui-37-社交应用界面模板",
-    "slug": "ui-design-ui-37-社交应用界面模板",
+    "id": "ui-design-ui-37",
+    "slug": "ui-design-ui-37",
     "title": "社交应用界面模板",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -19907,11 +20268,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-ui-37-社交应用界面模板"
   },
   {
-    "id": "character-design-poster-61-ip-形象设定图",
-    "slug": "character-design-poster-61-ip-形象设定图",
+    "id": "character-design-poster-61-ip",
+    "slug": "character-design-poster-61-ip",
     "title": "IP 形象设定图",
     "description": "适合角色立绘、IP 形象和人物设定参考。",
     "category": "角色设定",
@@ -19962,11 +20324,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "character-design-poster-61-ip-形象设定图"
   },
   {
-    "id": "ui-design-portrait-24-数据看板-ui-设计参考",
-    "slug": "ui-design-portrait-24-数据看板-ui-设计参考",
+    "id": "ui-design-portrait-24-ui",
+    "slug": "ui-design-portrait-24-ui",
     "title": "数据看板 UI 设计参考",
     "description": "适合界面概念、仪表盘和产品体验设计参考。",
     "category": "UI 设计",
@@ -20017,11 +20380,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "ui-design-portrait-24-数据看板-ui-设计参考"
   },
   {
-    "id": "vintage-poster-poster-46-怀旧电影宣传图",
-    "slug": "vintage-poster-poster-46-怀旧电影宣传图",
+    "id": "vintage-poster-poster-46",
+    "slug": "vintage-poster-poster-46",
     "title": "怀旧电影宣传图",
     "description": "适合复古广告、旅行海报和怀旧平面设计参考。",
     "category": "复古海报",
@@ -20072,11 +20436,12 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": false
+    "isFeatured": false,
+    "legacySlug": "vintage-poster-poster-46-怀旧电影宣传图"
   },
   {
-    "id": "chinese-illustration-poster-4-国风城市海报视觉",
-    "slug": "chinese-illustration-poster-4-国风城市海报视觉",
+    "id": "chinese-illustration-poster-4",
+    "slug": "chinese-illustration-poster-4",
     "title": "国风城市海报视觉",
     "description": "适合国风插画、东方美学和文化主题视觉参考。",
     "category": "国风插画",
@@ -20127,6 +20492,7 @@
     "license": "CC-BY-4.0",
     "createdAt": "2026-05-15",
     "updatedAt": "2026-05-15",
-    "isFeatured": true
+    "isFeatured": true,
+    "legacySlug": "chinese-illustration-poster-4-国风城市海报视觉"
   }
 ]
